@@ -2,6 +2,7 @@
 #include "bn_sprite_ptr.h"
 #include "bn_sprite_items_circle.h"
 #include "bn_keypad.h"
+#include "bn_random.h"
 #include "bn_regular_bg_items_red.h"
 #include "bn_regular_bg_ptr.h"
 #include "bn_regular_bg_items_main_menu.h"
@@ -11,7 +12,10 @@
 #include "bn_sprite_text_generator.h"
 #include "bn_sprite_font.h"
 #include "bn_sprite_items_common_fixed_8x16_font.h"
+#include "bn_sprite_items_bacon.h"
 
+void randomPosition(bn::sprite_ptr& sprite, bn::random& rng);
+bool timerOff(int& frame, int second);
 enum class SceneType{
     MAIN_MENU,
     GAME,
@@ -47,6 +51,8 @@ SceneType game_play(){
     int half_size = 8;
     int score = 0;
     float fatness = 1.0;
+    bn::random rng;
+
     //FONT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
     bn::sprite_text_generator text_gen(font); //this bullshit created sprites from the text
@@ -55,13 +61,16 @@ SceneType game_play(){
     bn::vector<bn::sprite_ptr,32> text_cont; //text container
     bn::string<32> score_text("Score:0");
     text_gen.generate_top_left(f_point,score_text,text_cont);
+
     //SPRITES
     bn::sprite_ptr sprite = bn::sprite_items::circle.create_sprite(0,0);
     sprite.set_scale(fatness);
     bn::regular_bg_ptr background_re = bn::regular_bg_items::red.create_bg(0,0);
+    bn::sprite_ptr bacon = bn::sprite_items::bacon.create_sprite(0,0);
     //GAME LOGIC
     while(true)
     {   
+        int second = 0;
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
             sprite.set_x(sprite.x() - 1);
         } 
@@ -89,8 +98,13 @@ SceneType game_play(){
 
             text_gen.generate_top_left(f_point,score_text,text_cont);
         }
+
+        if(timerOff(second, 5)){
+            randomPosition(bacon, rng);
+        }
         //UPDATE THE WHOLE GAME
         bn::core::update();
+        
     }
 }
 int main()
@@ -109,4 +123,20 @@ int main()
                 break;
         }
     }
+}
+
+void randomPosition(bn::sprite_ptr& sprite, bn::random& rng){
+    int x = -120 + (rng.get() % 240);
+    int y = -80 + (rng.get() % 160);
+
+    sprite.set_position(x, y);
+}
+
+bool timerOff(int& frame, int second){
+    frame++;
+    if(frame >= second * 60){
+        frame = 0;
+        return true;
+    }
+    return false;
 }

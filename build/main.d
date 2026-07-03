@@ -42,6 +42,11 @@ main.o: /home/osc/Desktop/GameJamGBA/src/main.cpp \
  /home/osc/Projects/butano/butano/include/bn_sprite_palette_item.h \
  /home/osc/Projects/butano/butano/include/bn_color.h \
  /home/osc/Projects/butano/butano/include/bn_keypad.h \
+ /home/osc/Projects/butano/butano/include/bn_random.h \
+ /home/osc/Projects/butano/butano/include/bn_math.h \
+ /home/osc/Projects/butano/butano/include/bn_sin_lut.h \
+ /home/osc/Projects/butano/butano/include/bn_reciprocal_lut.h \
+ /home/osc/Projects/butano/butano/include/bn_rule_of_three_approximation.h \
  /home/osc/Desktop/GameJamGBA/build/bn_regular_bg_items_red.h \
  /home/osc/Projects/butano/butano/include/bn_regular_bg_item.h \
  /home/osc/Projects/butano/butano/include/bn_bg_palette_item.h \
@@ -64,7 +69,8 @@ main.o: /home/osc/Desktop/GameJamGBA/src/main.cpp \
  /home/osc/Projects/butano/butano/include/bn_power_of_two.h \
  /home/osc/Projects/butano/butano/include/bn_utf8_character.h \
  /home/osc/Projects/butano/butano/include/bn_sprite_font.h \
- /home/osc/Desktop/GameJamGBA/build/bn_sprite_items_common_fixed_8x16_font.h
+ /home/osc/Desktop/GameJamGBA/build/bn_sprite_items_common_fixed_8x16_font.h \
+ /home/osc/Desktop/GameJamGBA/build/bn_sprite_items_bacon.h
 /home/osc/Projects/butano/butano/include/bn_core.h:
 /home/osc/Projects/butano/butano/include/bn_span.h:
 /home/osc/Projects/butano/butano/include/bn_array.h:
@@ -108,6 +114,11 @@ main.o: /home/osc/Desktop/GameJamGBA/src/main.cpp \
 /home/osc/Projects/butano/butano/include/bn_sprite_palette_item.h:
 /home/osc/Projects/butano/butano/include/bn_color.h:
 /home/osc/Projects/butano/butano/include/bn_keypad.h:
+/home/osc/Projects/butano/butano/include/bn_random.h:
+/home/osc/Projects/butano/butano/include/bn_math.h:
+/home/osc/Projects/butano/butano/include/bn_sin_lut.h:
+/home/osc/Projects/butano/butano/include/bn_reciprocal_lut.h:
+/home/osc/Projects/butano/butano/include/bn_rule_of_three_approximation.h:
 /home/osc/Desktop/GameJamGBA/build/bn_regular_bg_items_red.h:
 /home/osc/Projects/butano/butano/include/bn_regular_bg_item.h:
 /home/osc/Projects/butano/butano/include/bn_bg_palette_item.h:
@@ -131,3 +142,4 @@ main.o: /home/osc/Desktop/GameJamGBA/src/main.cpp \
 /home/osc/Projects/butano/butano/include/bn_utf8_character.h:
 /home/osc/Projects/butano/butano/include/bn_sprite_font.h:
 /home/osc/Desktop/GameJamGBA/build/bn_sprite_items_common_fixed_8x16_font.h:
+/home/osc/Desktop/GameJamGBA/build/bn_sprite_items_bacon.h:
