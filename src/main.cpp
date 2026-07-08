@@ -71,6 +71,7 @@ SceneType game_play(){
     while(true)
     {   
         int second = 0;
+        //Movement: Left, right, up, right
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
             sprite.set_x(sprite.x() - 1);
         } 
@@ -86,6 +87,7 @@ SceneType game_play(){
         if(bn::keypad::select_held()){
             return SceneType::MAIN_MENU;
         }
+        //Fatness and score manipulation
         if(bn::keypad::a_pressed()){
             score++;
             fatness += 0.025;
@@ -98,7 +100,7 @@ SceneType game_play(){
 
             text_gen.generate_top_left(f_point,score_text,text_cont);
         }
-
+        //Timer 5 seconds for now.
         if(timerOff(second, 5)){
             randomPosition(bacon, rng);
         }
