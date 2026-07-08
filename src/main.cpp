@@ -16,6 +16,13 @@
 
 void randomPosition(bn::sprite_ptr& sprite, bn::random& rng);
 bool timerOff(int& frame, int second);
+void updateScore( 
+    bn::sprite_text_generator &text_gen, 
+    const bn::fixed_point &f_point, 
+    bn::vector<bn::sprite_ptr,32> &text_cont, 
+    bn::string<32> &score_text, 
+    int score
+);
 enum class SceneType{
     MAIN_MENU,
     GAME,
@@ -59,7 +66,7 @@ SceneType game_play(){
     bn::point points(0,0);
     bn::fixed_point f_point(points);
     bn::vector<bn::sprite_ptr,32> text_cont; //text container
-    bn::string<32> score_text("Score:0");
+    bn::string<32> score_text("Score: ");
     text_gen.generate_top_left(f_point,score_text,text_cont);
 
     //SPRITES
@@ -90,15 +97,7 @@ SceneType game_play(){
         //Fatness and score manipulation
         if(bn::keypad::a_pressed()){
             score++;
-            fatness += 0.025;
-            sprite.set_scale(fatness);
-            text_cont.clear();
-
-            score_text.clear();
-            score_text.append("Score: ");
-            score_text.append(bn::to_string<10>(score));
-
-            text_gen.generate_top_left(f_point,score_text,text_cont);
+            updateScore(text_gen, f_point,text_cont,score_text,score);
         }
         //Timer 5 seconds for now.
         if(timerOff(second, 5)){
@@ -141,4 +140,17 @@ bool timerOff(int& frame, int second){
         return true;
     }
     return false;
+}
+
+void updateScore( 
+    bn::sprite_text_generator &text_gen, 
+    const bn::fixed_point &f_point, 
+    bn::vector<bn::sprite_ptr,32> &text_cont, 
+    bn::string<32> &score_text, 
+    int score
+){
+    text_cont.clear();
+    score_text = "Score: ";
+    score_text.append(bn::to_string<10>(score));
+    text_gen.generate_top_left(f_point, score_text, text_cont);
 }
