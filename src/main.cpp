@@ -68,7 +68,7 @@ SceneType game_play(){
     bn::vector<bn::sprite_ptr,32> text_cont; //text container
     bn::string<32> score_text("Score: ");
     text_gen.generate_top_left(f_point,score_text,text_cont);
-
+    int second = 0;
     //SPRITES
     bn::sprite_ptr sprite = bn::sprite_items::circle.create_sprite(0,0);
     sprite.set_scale(fatness);
@@ -77,7 +77,7 @@ SceneType game_play(){
     //GAME LOGIC
     while(true)
     {   
-        int second = 0;
+        
         //Movement: Left, right, up, right
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
             sprite.set_x(sprite.x() - 1);
@@ -99,8 +99,8 @@ SceneType game_play(){
             score++;
             updateScore(text_gen, f_point,text_cont,score_text,score);
         }
-        //Timer 5 seconds for now.
-        if(timerOff(second, 5)){
+        //Timer  seconds for now.
+        if(timerOff(second, 1)){
             randomPosition(bacon, rng);
         }
         //UPDATE THE WHOLE GAME
