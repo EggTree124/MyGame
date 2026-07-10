@@ -1,3 +1,4 @@
+//Components
 #include "bn_core.h"
 #include "bn_sprite_ptr.h"
 #include "bn_sprite_items_circle.h"
@@ -12,7 +13,13 @@
 #include "bn_sprite_text_generator.h"
 #include "bn_sprite_font.h"
 #include "bn_sprite_items_common_fixed_8x16_font.h"
+//SPRITES FOR FOODS: BACON, COW MEAT, FRIED, BANANA, GRAPE
 #include "bn_sprite_items_bacon.h"
+#include "bn_sprite_items_cow_meat.h"
+#include "bn_sprite_items_fried_c.h"
+#include "bn_sprite_items_banana.h"
+#include "bn_sprite_items_grape.h"
+
 //Functions for the game cores
 void randomPosition(bn::sprite_ptr& sprite, bn::random& rng);
 bool timerOff(int& frame, int second);
@@ -24,11 +31,14 @@ void updateScore(
     int score
 );
 void movement(bn::sprite_ptr &sprite, int &half_size);
+
+//Scenes for the game.
 enum class SceneType{
     MAIN_MENU,
     GAME,
     DEATH
 };
+
 
 //Main Menu Mechanism
 SceneType play_menu(){
@@ -43,6 +53,7 @@ SceneType play_menu(){
         bn::core::update();
     }
 }
+//End of Main Menu Mechanism
 
 //Death Screen Mechanism
 SceneType death(){
@@ -57,7 +68,9 @@ SceneType death(){
         bn::core::update();
     }
 }
+//END OF Death Screen Mechanism
 
+//Game core
 SceneType game_play(){
     int half_size = 8;
     int score = 0;
@@ -75,12 +88,22 @@ SceneType game_play(){
     bn::vector<bn::sprite_ptr,32> text_cont; //text container
     bn::string<32> score_text("Score: ");
     text_gen.generate_top_left(f_point,score_text,text_cont);
+    //End of Starting Text
+
+    //Frame
     int second = 0;
-    //SPRITES
+    //End of frame
+
+    //Initialize Sprite
     bn::sprite_ptr sprite = bn::sprite_items::circle.create_sprite(0,0);
     sprite.set_scale(fatness);
     bn::regular_bg_ptr background_re = bn::regular_bg_items::red.create_bg(0,0);
-    bn::sprite_ptr bacon = bn::sprite_items::bacon.create_sprite(x,y);
+    //End of sprite initialization
+
+    //RNG for the sprites
+    bn::vector<bn::sprite_ptr, 50> active_sprites;
+    bn::random sprite_gen;
+
     //GAME LOGIC
     while(true)
     {   
@@ -92,16 +115,43 @@ SceneType game_play(){
         if(bn::keypad::a_pressed()){
             score++;
             updateScore(text_gen, f_point,text_cont,score_text,score);
+            bn::fixed rand_x = sprite_gen.get_int(240) - 120;
+            bn::fixed rand_y = sprite_gen.get_int(160) - 80;
+
+            // Pick a random sprite out of 3 options
+            int sprite_choice = sprite_gen.get_int(5);
+            
+            switch (sprite_choice) {
+                case 0:
+                    active_sprites.push_back(bn::sprite_items::bacon.create_sprite(rand_x, rand_y));
+                    break;
+                case 1:
+                    active_sprites.push_back(bn::sprite_items::banana.create_sprite(rand_x, rand_y));
+                    break;
+                case 2:
+                    active_sprites.push_back(bn::sprite_items::cow_meat.create_sprite(rand_x, rand_y));
+                    break;
+                case 3:
+                    active_sprites.push_back(bn::sprite_items::fried_c.create_sprite(rand_x, rand_y));
+                    break;
+                case 4:
+                    active_sprites.push_back(bn::sprite_items::grape.create_sprite(rand_x, rand_y));
+                    break;
+            }
         }
         //Timer.
         if(timerOff(second, 10)){
-            randomPosition(bacon, rng);
+            //randomPosition(bacon, rng);
         }
         //UPDATE THE WHOLE GAME
         bn::core::update();
         
     }
+    //end of game core
 }
+
+
+//The engine
 int main()
 {
     bn::core::init();

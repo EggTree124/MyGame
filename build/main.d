@@ -70,7 +70,11 @@ main.o: C:/Users/Osc/Desktop/MyGame/src/main.cpp \
  C:/Users/Osc/butano/butano/include/bn_utf8_character.h \
  C:/Users/Osc/butano/butano/include/bn_sprite_font.h \
  C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_common_fixed_8x16_font.h \
- C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_bacon.h
+ C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_bacon.h \
+ C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_cow_meat.h \
+ C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_fried_c.h \
+ C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_banana.h \
+ C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_grape.h
 C:/Users/Osc/butano/butano/include/bn_core.h:
 C:/Users/Osc/butano/butano/include/bn_span.h:
 C:/Users/Osc/butano/butano/include/bn_array.h:
@@ -143,3 +147,7 @@ C:/Users/Osc/butano/butano/include/bn_utf8_character.h:
 C:/Users/Osc/butano/butano/include/bn_sprite_font.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_common_fixed_8x16_font.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_bacon.h:
+C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_cow_meat.h:
+C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_fried_c.h:
+C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_banana.h:
+C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_grape.h:
