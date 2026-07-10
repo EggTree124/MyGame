@@ -35,15 +35,16 @@ TARGET      	:=  $(notdir $(CURDIR))
 BUILD       	:=  build
 
 # --- OS Detection ---
-ifeq ($(OS),Windows_NT)
-	LIBBUTANO   :=  C:/Users/Osc/butano/butano
-    PYTHON      :=  python
+ifneq ($(wildcard C:/Users/Osc/butano/butano/*),)
+    # Windows 11 Setup
+    LIBBUTANO   :=  C:/Users/Osc/butano/butano
+    PYTHON      :=  python3
+    export DEVKITPRO := /c/devkitPro
 else
-    # Linux / CachyOS paths
+    # CachyOS Setup
     LIBBUTANO   :=  /home/osc/Projects/butano/butano
     PYTHON      :=  python3
 endif
-
 SOURCES     	:=  src
 INCLUDES    	:=  include
 DATA        	:=

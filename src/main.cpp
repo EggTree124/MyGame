@@ -64,6 +64,9 @@ SceneType game_play(){
     float fatness = 1.0;
     bn::random rng;
 
+    int x = -120 + (rng.get() % 240);
+    int y = -80 + (rng.get() % 160);
+
     //FONT AND STARTING TEXT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
     bn::sprite_text_generator text_gen(font); //this bullshit created sprites from the text
@@ -77,7 +80,7 @@ SceneType game_play(){
     bn::sprite_ptr sprite = bn::sprite_items::circle.create_sprite(0,0);
     sprite.set_scale(fatness);
     bn::regular_bg_ptr background_re = bn::regular_bg_items::red.create_bg(0,0);
-    bn::sprite_ptr bacon = bn::sprite_items::bacon.create_sprite(0,0);
+    bn::sprite_ptr bacon = bn::sprite_items::bacon.create_sprite(x,y);
     //GAME LOGIC
     while(true)
     {   
@@ -91,7 +94,7 @@ SceneType game_play(){
             updateScore(text_gen, f_point,text_cont,score_text,score);
         }
         //Timer.
-        if(timerOff(second, 1)){
+        if(timerOff(second, 10)){
             randomPosition(bacon, rng);
         }
         //UPDATE THE WHOLE GAME
