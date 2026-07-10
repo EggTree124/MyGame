@@ -23,6 +23,7 @@ void updateScore(
     bn::string<32> &score_text, 
     int score
 );
+void movement(bn::sprite_ptr &sprite, int &half_size);
 enum class SceneType{
     MAIN_MENU,
     GAME,
@@ -77,20 +78,7 @@ SceneType game_play(){
     //GAME LOGIC
     while(true)
     {   
-        
-        //Movement: Left, right, up, right
-        if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
-            sprite.set_x(sprite.x() - 1);
-        } 
-        if(bn::keypad::right_held() && sprite.x() < 120 - half_size){
-            sprite.set_x(sprite.x() + 1);   
-        } 
-        if(bn::keypad::up_held() && sprite.y() > -80 + half_size){
-            sprite.set_y(sprite.y()-1);
-        }
-        if(bn::keypad::down_held() && sprite.y() < 80 - half_size){
-            sprite.set_y(sprite.y()+1);
-        }
+        movement(sprite, half_size);
         if(bn::keypad::select_held()){
             return SceneType::MAIN_MENU;
         }
@@ -153,4 +141,20 @@ void updateScore(
     score_text = "Score: ";
     score_text.append(bn::to_string<10>(score));
     text_gen.generate_top_left(f_point, score_text, text_cont);
+}
+
+void movement(bn::sprite_ptr &sprite, int &half_size){
+     //Movement: Left, right, up, right
+        if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
+            sprite.set_x(sprite.x() - 1);
+        } 
+        if(bn::keypad::right_held() && sprite.x() < 120 - half_size){
+            sprite.set_x(sprite.x() + 1);   
+        } 
+        if(bn::keypad::up_held() && sprite.y() > -80 + half_size){
+            sprite.set_y(sprite.y()-1);
+        }
+        if(bn::keypad::down_held() && sprite.y() < 80 - half_size){
+            sprite.set_y(sprite.y()+1);
+        }
 }
