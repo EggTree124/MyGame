@@ -24,8 +24,6 @@ void updateScore(
     int score
 );
 void movement(bn::sprite_ptr &sprite, int &half_size);
-void main_menu_proc();
-void death_proc();
 enum class SceneType{
     MAIN_MENU,
     GAME,
@@ -35,7 +33,12 @@ enum class SceneType{
 SceneType play_menu(){
     bn::regular_bg_ptr main = bn::regular_bg_items::main_menu.create_bg(0,0);
     while(true){
-
+        if(bn::keypad::start_pressed()){
+            return SceneType::GAME;
+        }
+        if(bn::keypad::select_pressed()){
+            bn::core::reset();
+        }
         bn::core::update();
     }
 }
@@ -85,7 +88,7 @@ SceneType game_play(){
             score++;
             updateScore(text_gen, f_point,text_cont,score_text,score);
         }
-        //Timer for 1 second(s) for now.
+        //Timer 1 seconds for now.
         if(timerOff(second, 1)){
             randomPosition(bacon, rng);
         }
