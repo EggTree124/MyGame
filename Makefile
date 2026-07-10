@@ -33,8 +33,17 @@
 #---------------------------------------------------------------------------------------------------------------------
 TARGET      	:=  $(notdir $(CURDIR))
 BUILD       	:=  build
-LIBBUTANO   	:=  /home/osc/Projects/butano/butano
-PYTHON      	:=  python
+
+# --- OS Detection ---
+ifeq ($(OS),Windows_NT)
+	LIBBUTANO   :=  C:/Users/Osc/butano/butano
+    PYTHON      :=  python
+else
+    # Linux / CachyOS paths
+    LIBBUTANO   :=  /home/osc/Projects/butano/butano
+    PYTHON      :=  python3
+endif
+
 SOURCES     	:=  src
 INCLUDES    	:=  include
 DATA        	:=

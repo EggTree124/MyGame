@@ -2,14 +2,29 @@
     "version": 4,
     "configurations": [
         {
-            "name": "devkitARM",
+            "name": "CachyOS (Linux)",
             "compilerPath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-g++",
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/build/**",
-                "/home/osc/Projects/butano/butano/include/**"
+                "/home/osc/Projects/butano/butano/include/**",
+                "/home/osc/Projects/butano/butano/hw/include/**"
             ],
-            "cppStandard": "c++20"
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-arm"
+        },
+        {
+            "name": "Windows",
+            "compilerPath": "C:/devkitPro/devkitARM/bin/arm-none-eabi-g++.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build/**",
+                "C:/Users/Osc/butano/butano/include/**",
+                "C:/Users/Osc/butano/butano/hw/include/**",
+                "C:/devkitPro/devkitARM/arm-none-eabi/include/**"
+            ],
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-gcc-arm"
         }
     ]
 }

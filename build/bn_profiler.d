@@ -1,11 +1,11 @@
-bn_profiler.o: /home/osc/Projects/butano/butano/src/bn_profiler.cpp \
- /home/osc/Projects/butano/butano/include/bn_profiler.h \
- /home/osc/Projects/butano/butano/include/bn_config_doxygen.h \
- /home/osc/Projects/butano/butano/include/bn_common.h \
- /home/osc/Projects/butano/butano/include/../hw/include/bn_hw_common.h \
- /home/osc/Projects/butano/butano/include/bn_config_profiler.h
-/home/osc/Projects/butano/butano/include/bn_profiler.h:
-/home/osc/Projects/butano/butano/include/bn_config_doxygen.h:
-/home/osc/Projects/butano/butano/include/bn_common.h:
-/home/osc/Projects/butano/butano/include/../hw/include/bn_hw_common.h:
-/home/osc/Projects/butano/butano/include/bn_config_profiler.h:
+bn_profiler.o: C:/Users/Osc/butano/butano/src/bn_profiler.cpp \
+ C:/Users/Osc/butano/butano/include/bn_profiler.h \
+ C:/Users/Osc/butano/butano/include/bn_config_doxygen.h \
+ C:/Users/Osc/butano/butano/include/bn_common.h \
+ C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h \
+ C:/Users/Osc/butano/butano/include/bn_config_profiler.h
+C:/Users/Osc/butano/butano/include/bn_profiler.h:
+C:/Users/Osc/butano/butano/include/bn_config_doxygen.h:
+C:/Users/Osc/butano/butano/include/bn_common.h:
+C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h:
+C:/Users/Osc/butano/butano/include/bn_config_profiler.h:
