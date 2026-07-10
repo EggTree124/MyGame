@@ -13,7 +13,7 @@
 #include "bn_sprite_font.h"
 #include "bn_sprite_items_common_fixed_8x16_font.h"
 #include "bn_sprite_items_bacon.h"
-
+//Functions for the game cores
 void randomPosition(bn::sprite_ptr& sprite, bn::random& rng);
 bool timerOff(int& frame, int second);
 void updateScore( 
@@ -30,6 +30,7 @@ enum class SceneType{
     DEATH
 };
 
+//Main Menu Mechanism
 SceneType play_menu(){
     bn::regular_bg_ptr main = bn::regular_bg_items::main_menu.create_bg(0,0);
     while(true){
@@ -43,6 +44,7 @@ SceneType play_menu(){
     }
 }
 
+//Death Screen Mechanism
 SceneType death(){
     bn::regular_bg_ptr death = bn::regular_bg_items::ds.create_bg(0,0);
     while(true){
@@ -62,7 +64,7 @@ SceneType game_play(){
     float fatness = 1.0;
     bn::random rng;
 
-    //FONT
+    //FONT AND STARTING TEXT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
     bn::sprite_text_generator text_gen(font); //this bullshit created sprites from the text
     bn::point points(0,0);
@@ -88,7 +90,7 @@ SceneType game_play(){
             score++;
             updateScore(text_gen, f_point,text_cont,score_text,score);
         }
-        //Timer 1 seconds for now.
+        //Timer.
         if(timerOff(second, 1)){
             randomPosition(bacon, rng);
         }
@@ -100,6 +102,7 @@ SceneType game_play(){
 int main()
 {
     bn::core::init();
+    //Start with the main menu
     SceneType current_scene = SceneType::MAIN_MENU;
     while(true){
         switch(current_scene){
@@ -116,6 +119,7 @@ int main()
 }
 
 void randomPosition(bn::sprite_ptr& sprite, bn::random& rng){
+    //Random x and Y position of each sprite generated and chosen.
     int x = -120 + (rng.get() % 240);
     int y = -80 + (rng.get() % 160);
 
@@ -145,7 +149,7 @@ void updateScore(
 }
 
 void movement(bn::sprite_ptr &sprite, int &half_size){
-     //Movement: Left, right, up, right. The half size is needed so that the sprite wont go off bound
+     //Movement: Left, right, up, right. The half size is needed so that the sprite wont go off bound.
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
             sprite.set_x(sprite.x() - 1);
         } 
