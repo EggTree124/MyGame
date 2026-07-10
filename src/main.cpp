@@ -145,7 +145,7 @@ void updateScore(
 }
 
 void movement(bn::sprite_ptr &sprite, int &half_size){
-     //Movement: Left, right, up, right
+     //Movement: Left, right, up, right. The half size is needed so that the sprite wont go off bound
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
             sprite.set_x(sprite.x() - 1);
         } 

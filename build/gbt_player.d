@@ -1,8 +1,8 @@
 gbt_player.o: \
- C:/Users/Osc/butano/butano/hw/3rd_party/gbt-player/src/gbt_player.c \
- C:/Users/Osc/butano/butano/hw/3rd_party/gbt-player/include/gbt_hardware.h \
- C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/gbt-player/include/gbt_player.h
-C:/Users/Osc/butano/butano/hw/3rd_party/gbt-player/include/gbt_hardware.h:
-C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/gbt-player/include/gbt_player.h:
+ /home/osc/Projects/butano/butano/hw/3rd_party/gbt-player/src/gbt_player.c \
+ /home/osc/Projects/butano/butano/hw/3rd_party/gbt-player/src/../include/gbt_hardware.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/gbt-player/src/../include/../../../include/bn_hw_common.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/gbt-player/src/../include/gbt_player.h
+/home/osc/Projects/butano/butano/hw/3rd_party/gbt-player/src/../include/gbt_hardware.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/gbt-player/src/../include/../../../include/bn_hw_common.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/gbt-player/src/../include/gbt_player.h:
