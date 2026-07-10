@@ -13,6 +13,8 @@
 #include "bn_sprite_text_generator.h"
 #include "bn_sprite_font.h"
 #include "bn_sprite_items_common_fixed_8x16_font.h"
+#include "bn_vector.h"
+
 //SPRITES FOR FOODS: BACON, COW MEAT, FRIED, BANANA, GRAPE
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -31,7 +33,7 @@ void updateScore(
     int score
 );
 void movement(bn::sprite_ptr &sprite, int &half_size);
-
+void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 50>& Sprites);
 //Scenes for the game.
 enum class SceneType{
     MAIN_MENU,
@@ -115,29 +117,7 @@ SceneType game_play(){
         if(bn::keypad::a_pressed()){
             score++;
             updateScore(text_gen, f_point,text_cont,score_text,score);
-            bn::fixed rand_x = sprite_gen.get_int(240) - 120;
-            bn::fixed rand_y = sprite_gen.get_int(160) - 80;
-
-            // Pick a random sprite out of 3 options
-            int sprite_choice = sprite_gen.get_int(5);
-            
-            switch (sprite_choice) {
-                case 0:
-                    active_sprites.push_back(bn::sprite_items::bacon.create_sprite(rand_x, rand_y));
-                    break;
-                case 1:
-                    active_sprites.push_back(bn::sprite_items::banana.create_sprite(rand_x, rand_y));
-                    break;
-                case 2:
-                    active_sprites.push_back(bn::sprite_items::cow_meat.create_sprite(rand_x, rand_y));
-                    break;
-                case 3:
-                    active_sprites.push_back(bn::sprite_items::fried_c.create_sprite(rand_x, rand_y));
-                    break;
-                case 4:
-                    active_sprites.push_back(bn::sprite_items::grape.create_sprite(rand_x, rand_y));
-                    break;
-            }
+            random_sprite(sprite_gen, active_sprites);
         }
         //Timer.
         if(timerOff(second, 10)){
@@ -215,4 +195,30 @@ void movement(bn::sprite_ptr &sprite, int &half_size){
         if(bn::keypad::down_held() && sprite.y() < 80 - half_size){
             sprite.set_y(sprite.y()+1);
         }
+}
+
+void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 50>& Sprites){
+    bn::fixed rand_x = sprite_gen.get_int(240) - 120;
+    bn::fixed rand_y = sprite_gen.get_int(160) - 80;
+
+    // Pick a random sprite out of 3 options
+    int sprite_choice = sprite_gen.get_int(5);
+    
+    switch (sprite_choice) {
+        case 0:
+            Sprites.push_back(bn::sprite_items::bacon.create_sprite(rand_x, rand_y));
+            break;
+        case 1:
+            Sprites.push_back(bn::sprite_items::banana.create_sprite(rand_x, rand_y));
+            break;
+        case 2:
+            Sprites.push_back(bn::sprite_items::cow_meat.create_sprite(rand_x, rand_y));
+            break;
+        case 3:
+            Sprites.push_back(bn::sprite_items::fried_c.create_sprite(rand_x, rand_y));
+            break;
+        case 4:
+            Sprites.push_back(bn::sprite_items::grape.create_sprite(rand_x, rand_y));
+            break;
+    }
 }
