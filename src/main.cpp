@@ -120,6 +120,10 @@ SceneType game_play(){
         if(timerOff(second, 1)){
             random_sprite(sprite_gen, active_sprites);
         }
+
+        for(bn::sprite_ptr &chosen_sprite : active_sprites){
+            chosen_sprite.set_y(chosen_sprite.y()+1);
+        }
         //UPDATE THE WHOLE GAME
         bn::core::update();
         
