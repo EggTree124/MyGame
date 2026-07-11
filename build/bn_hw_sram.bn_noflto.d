@@ -1,48 +1,48 @@
 bn_hw_sram.bn_noflto.o: \
- /home/osc/Projects/butano/butano/hw/src/bn_hw_sram.bn_noflto.cpp \
- /home/osc/Projects/butano/butano/hw/src/../include/bn_hw_sram.h \
- /home/osc/Projects/butano/butano/hw/src/../include/bn_hw_tonc.h \
- /home/osc/Projects/butano/butano/include/bn_common.h \
- /home/osc/Projects/butano/butano/include/../hw/include/bn_hw_common.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h \
- /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h \
- /home/osc/Projects/butano/butano/hw/src/../include/../3rd_party/agbabi/include/agbabi.h \
- /home/osc/Projects/butano/butano/include/bn_config_sram.h \
- /home/osc/Projects/butano/butano/include/bn_sram_wait_state.h \
- /home/osc/Projects/butano/butano/include/bn_common.h \
- /home/osc/Projects/butano/butano/hw/src/../include/bn_hw_tonc.h
-/home/osc/Projects/butano/butano/hw/src/../include/bn_hw_sram.h:
-/home/osc/Projects/butano/butano/hw/src/../include/bn_hw_tonc.h:
-/home/osc/Projects/butano/butano/include/bn_common.h:
-/home/osc/Projects/butano/butano/include/../hw/include/bn_hw_common.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h:
-/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h:
-/home/osc/Projects/butano/butano/hw/src/../include/../3rd_party/agbabi/include/agbabi.h:
-/home/osc/Projects/butano/butano/include/bn_config_sram.h:
-/home/osc/Projects/butano/butano/include/bn_sram_wait_state.h:
-/home/osc/Projects/butano/butano/include/bn_common.h:
-/home/osc/Projects/butano/butano/hw/src/../include/bn_hw_tonc.h:
+ C:/Users/Osc/butano/butano/hw/src/bn_hw_sram.bn_noflto.cpp \
+ C:/Users/Osc/butano/butano/hw/include/bn_hw_sram.h \
+ C:/Users/Osc/butano/butano/hw/include/bn_hw_tonc.h \
+ C:/Users/Osc/butano/butano/include/bn_common.h \
+ C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h \
+ C:/Users/Osc/butano/butano/hw/3rd_party/agbabi/include/agbabi.h \
+ C:/Users/Osc/butano/butano/include/bn_config_sram.h \
+ C:/Users/Osc/butano/butano/include/bn_sram_wait_state.h \
+ C:/Users/Osc/butano/butano/include/bn_common.h \
+ C:/Users/Osc/butano/butano/hw/include/bn_hw_tonc.h
+C:/Users/Osc/butano/butano/hw/include/bn_hw_sram.h:
+C:/Users/Osc/butano/butano/hw/include/bn_hw_tonc.h:
+C:/Users/Osc/butano/butano/include/bn_common.h:
+C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h:
+C:/Users/Osc/butano/butano/hw/3rd_party/agbabi/include/agbabi.h:
+C:/Users/Osc/butano/butano/include/bn_config_sram.h:
+C:/Users/Osc/butano/butano/include/bn_sram_wait_state.h:
+C:/Users/Osc/butano/butano/include/bn_common.h:
+C:/Users/Osc/butano/butano/hw/include/bn_hw_tonc.h:
