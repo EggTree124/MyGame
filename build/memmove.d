@@ -1,1 +1,2 @@
-memmove.o: C:/Users/Osc/butano/butano/hw/3rd_party/agbabi/src/memmove.s
+memmove.o: \
+ /home/osc/Projects/butano/butano/hw/3rd_party/agbabi/src/memmove.s

@@ -1,78 +1,78 @@
 bn_hw_palettes.bn_iwram.o: \
- C:/Users/Osc/butano/butano/hw/src/bn_hw_palettes.bn_iwram.cpp \
- C:/Users/Osc/butano/butano/hw/include/bn_hw_palettes.h \
- C:/Users/Osc/butano/butano/include/bn_color.h \
- C:/Users/Osc/butano/butano/include/bn_assert.h \
- C:/Users/Osc/butano/butano/include/bn_config_assert.h \
- C:/Users/Osc/butano/butano/include/bn_version.h \
- C:/Users/Osc/butano/butano/include/bn_common.h \
- C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h \
- C:/Users/Osc/butano/butano/include/bn_config_doxygen.h \
- C:/Users/Osc/butano/butano/include/bn_sstream.h \
- C:/Users/Osc/butano/butano/include/bn_fixed_fwd.h \
- C:/Users/Osc/butano/butano/include/bn_string_fwd.h \
- C:/Users/Osc/butano/butano/include/bn_istring_base.h \
- C:/Users/Osc/butano/butano/include/bn_algorithm.h \
- C:/Users/Osc/butano/butano/include/bn_functional.h \
- C:/Users/Osc/butano/butano/include/bn_alignment.h \
- C:/Users/Osc/butano/butano/include/bn_type_traits.h \
- C:/Users/Osc/butano/butano/include/bn_assert_callback_type.h \
- C:/Users/Osc/butano/butano/hw/include/bn_hw_dma.h \
- C:/Users/Osc/butano/butano/hw/include/bn_hw_tonc.h \
- C:/Users/Osc/butano/butano/include/bn_common.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h \
- C:/Users/Osc/butano/butano/hw/include/bn_hw_memory.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/agbabi/include/aeabi.h \
- C:/Users/Osc/butano/butano/hw/3rd_party/agbabi/include/agbabi.h \
- C:/Users/Osc/butano/butano/include/bn_algorithm.h
-C:/Users/Osc/butano/butano/hw/include/bn_hw_palettes.h:
-C:/Users/Osc/butano/butano/include/bn_color.h:
-C:/Users/Osc/butano/butano/include/bn_assert.h:
-C:/Users/Osc/butano/butano/include/bn_config_assert.h:
-C:/Users/Osc/butano/butano/include/bn_version.h:
-C:/Users/Osc/butano/butano/include/bn_common.h:
-C:/Users/Osc/butano/butano/hw/include/bn_hw_common.h:
-C:/Users/Osc/butano/butano/include/bn_config_doxygen.h:
-C:/Users/Osc/butano/butano/include/bn_sstream.h:
-C:/Users/Osc/butano/butano/include/bn_fixed_fwd.h:
-C:/Users/Osc/butano/butano/include/bn_string_fwd.h:
-C:/Users/Osc/butano/butano/include/bn_istring_base.h:
-C:/Users/Osc/butano/butano/include/bn_algorithm.h:
-C:/Users/Osc/butano/butano/include/bn_functional.h:
-C:/Users/Osc/butano/butano/include/bn_alignment.h:
-C:/Users/Osc/butano/butano/include/bn_type_traits.h:
-C:/Users/Osc/butano/butano/include/bn_assert_callback_type.h:
-C:/Users/Osc/butano/butano/hw/include/bn_hw_dma.h:
-C:/Users/Osc/butano/butano/hw/include/bn_hw_tonc.h:
-C:/Users/Osc/butano/butano/include/bn_common.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h:
-C:/Users/Osc/butano/butano/hw/include/bn_hw_memory.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/agbabi/include/aeabi.h:
-C:/Users/Osc/butano/butano/hw/3rd_party/agbabi/include/agbabi.h:
-C:/Users/Osc/butano/butano/include/bn_algorithm.h:
+ /home/osc/Projects/butano/butano/hw/src/bn_hw_palettes.bn_iwram.cpp \
+ /home/osc/Projects/butano/butano/hw/src/../include/bn_hw_palettes.h \
+ /home/osc/Projects/butano/butano/include/bn_color.h \
+ /home/osc/Projects/butano/butano/include/bn_assert.h \
+ /home/osc/Projects/butano/butano/include/bn_config_assert.h \
+ /home/osc/Projects/butano/butano/include/bn_version.h \
+ /home/osc/Projects/butano/butano/include/bn_common.h \
+ /home/osc/Projects/butano/butano/include/../hw/include/bn_hw_common.h \
+ /home/osc/Projects/butano/butano/include/bn_config_doxygen.h \
+ /home/osc/Projects/butano/butano/include/bn_sstream.h \
+ /home/osc/Projects/butano/butano/include/bn_fixed_fwd.h \
+ /home/osc/Projects/butano/butano/include/bn_string_fwd.h \
+ /home/osc/Projects/butano/butano/include/bn_istring_base.h \
+ /home/osc/Projects/butano/butano/include/bn_algorithm.h \
+ /home/osc/Projects/butano/butano/include/bn_functional.h \
+ /home/osc/Projects/butano/butano/include/bn_alignment.h \
+ /home/osc/Projects/butano/butano/include/bn_type_traits.h \
+ /home/osc/Projects/butano/butano/include/bn_assert_callback_type.h \
+ /home/osc/Projects/butano/butano/hw/src/../include/bn_hw_dma.h \
+ /home/osc/Projects/butano/butano/hw/src/../include/bn_hw_tonc.h \
+ /home/osc/Projects/butano/butano/include/bn_common.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h \
+ /home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h \
+ /home/osc/Projects/butano/butano/hw/src/../include/bn_hw_memory.h \
+ /home/osc/Projects/butano/butano/hw/src/../include/../3rd_party/agbabi/include/aeabi.h \
+ /home/osc/Projects/butano/butano/hw/src/../include/../3rd_party/agbabi/include/agbabi.h \
+ /home/osc/Projects/butano/butano/include/bn_algorithm.h
+/home/osc/Projects/butano/butano/hw/src/../include/bn_hw_palettes.h:
+/home/osc/Projects/butano/butano/include/bn_color.h:
+/home/osc/Projects/butano/butano/include/bn_assert.h:
+/home/osc/Projects/butano/butano/include/bn_config_assert.h:
+/home/osc/Projects/butano/butano/include/bn_version.h:
+/home/osc/Projects/butano/butano/include/bn_common.h:
+/home/osc/Projects/butano/butano/include/../hw/include/bn_hw_common.h:
+/home/osc/Projects/butano/butano/include/bn_config_doxygen.h:
+/home/osc/Projects/butano/butano/include/bn_sstream.h:
+/home/osc/Projects/butano/butano/include/bn_fixed_fwd.h:
+/home/osc/Projects/butano/butano/include/bn_string_fwd.h:
+/home/osc/Projects/butano/butano/include/bn_istring_base.h:
+/home/osc/Projects/butano/butano/include/bn_algorithm.h:
+/home/osc/Projects/butano/butano/include/bn_functional.h:
+/home/osc/Projects/butano/butano/include/bn_alignment.h:
+/home/osc/Projects/butano/butano/include/bn_type_traits.h:
+/home/osc/Projects/butano/butano/include/bn_assert_callback_type.h:
+/home/osc/Projects/butano/butano/hw/src/../include/bn_hw_dma.h:
+/home/osc/Projects/butano/butano/hw/src/../include/bn_hw_tonc.h:
+/home/osc/Projects/butano/butano/include/bn_common.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_types.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memmap.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_memdef.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_bios.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_core.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_input.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_irq.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_math.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_oam.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h:
+/home/osc/Projects/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h:
+/home/osc/Projects/butano/butano/hw/src/../include/bn_hw_memory.h:
+/home/osc/Projects/butano/butano/hw/src/../include/../3rd_party/agbabi/include/aeabi.h:
+/home/osc/Projects/butano/butano/hw/src/../include/../3rd_party/agbabi/include/agbabi.h:
+/home/osc/Projects/butano/butano/include/bn_algorithm.h:
