@@ -23,7 +23,6 @@
 #include "bn_sprite_items_grape.h"
 
 //Functions for the game cores
-void randomPosition(bn::sprite_ptr& sprite, bn::random& rng);
 bool timerOff(int& frame, int second);
 void updateScore( 
     bn::sprite_text_generator &text_gen, 
@@ -33,7 +32,7 @@ void updateScore(
     int score
 );
 void movement(bn::sprite_ptr &sprite, int &half_size);
-void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 50>& Sprites);
+void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 5>& Sprites);
 //Scenes for the game.
 enum class SceneType{
     MAIN_MENU,
@@ -79,8 +78,6 @@ SceneType game_play(){
     float fatness = 1.0;
     bn::random rng;
 
-    int x = -120 + (rng.get() % 240);
-    int y = -80 + (rng.get() % 160);
 
     //FONT AND STARTING TEXT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
@@ -103,7 +100,7 @@ SceneType game_play(){
     //End of sprite initialization
 
     //RNG for the sprites
-    bn::vector<bn::sprite_ptr, 50> active_sprites;
+    bn::vector<bn::sprite_ptr, 5> active_sprites;
     bn::random sprite_gen;
 
     //GAME LOGIC
@@ -117,11 +114,11 @@ SceneType game_play(){
         if(bn::keypad::a_pressed()){
             score++;
             updateScore(text_gen, f_point,text_cont,score_text,score);
-            random_sprite(sprite_gen, active_sprites);
+            
         }
         //Timer.
-        if(timerOff(second, 10)){
-            //randomPosition(bacon, rng);
+        if(timerOff(second, 1)){
+            random_sprite(sprite_gen, active_sprites);
         }
         //UPDATE THE WHOLE GAME
         bn::core::update();
@@ -129,7 +126,6 @@ SceneType game_play(){
     }
     //end of game core
 }
-
 
 //The engine
 int main()
@@ -151,13 +147,6 @@ int main()
     }
 }
 
-void randomPosition(bn::sprite_ptr& sprite, bn::random& rng){
-    //Random x and Y position of each sprite generated and chosen.
-    int x = -120 + (rng.get() % 240);
-    int y = -80 + (rng.get() % 160);
-
-    sprite.set_position(x, y);
-}
 
 bool timerOff(int& frame, int second){
     frame++;
@@ -197,11 +186,14 @@ void movement(bn::sprite_ptr &sprite, int &half_size){
         }
 }
 
-void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 50>& Sprites){
+void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 5>& Sprites){
+    if(Sprites.full()){
+        Sprites.clear();
+    }
     bn::fixed rand_x = sprite_gen.get_int(240) - 120;
     bn::fixed rand_y = sprite_gen.get_int(160) - 80;
 
-    // Pick a random sprite out of 3 options
+    // Pick a random sprite out of 5 options
     int sprite_choice = sprite_gen.get_int(5);
     
     switch (sprite_choice) {
