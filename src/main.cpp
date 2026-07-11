@@ -147,7 +147,7 @@ int main()
     }
 }
 
-
+//Implementation of functions
 bool timerOff(int& frame, int second){
     frame++;
     if(frame >= second * 60){
