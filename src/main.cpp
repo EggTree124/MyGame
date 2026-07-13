@@ -195,7 +195,7 @@ void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 5>& Sprite
         Sprites.clear();
     }
     bn::fixed rand_x = sprite_gen.get_int(240) - 120;
-    bn::fixed rand_y = sprite_gen.get_int(160) - 80;
+    bn::fixed rand_y = -80;
 
     // Pick a random sprite out of 5 rm -rf build && make -j$(nproc)options
     int sprite_choice = sprite_gen.get_int(5);
