@@ -32,7 +32,7 @@ void updateScore(
     int score
 );
 void movement(bn::sprite_ptr &sprite, int &half_size);
-void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 5>& Sprites);
+void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprites);
 //Scenes for the game.
 enum class SceneType{
     MAIN_MENU,
@@ -100,7 +100,7 @@ SceneType game_play(){
     //End of sprite initialization
 
     //RNG for the sprites
-    bn::vector<bn::sprite_ptr, 5> active_sprites;
+    bn::vector<bn::sprite_ptr, 6> active_sprites;
     bn::random sprite_gen;
 
     //GAME LOGIC
@@ -121,9 +121,20 @@ SceneType game_play(){
             random_sprite(sprite_gen, active_sprites);
         }
 
-        for(bn::sprite_ptr &chosen_sprite : active_sprites){
-            chosen_sprite.set_y(chosen_sprite.y()+1);
-        }
+        auto it = active_sprites.begin();
+        while(it != active_sprites.end())
+        {
+            // Move the food sprite down
+            it->set_y(it->y() + 1);
+            if(it->y() > 80 + 32)
+            {
+                it = active_sprites.erase(it); // Remove off-screen sprite safely
+            }
+            else
+            {
+                ++it; // Move to the next sprite
+            }
+}
         //UPDATE THE WHOLE GAME
         bn::core::update();
         
@@ -190,7 +201,7 @@ void movement(bn::sprite_ptr &sprite, int &half_size){
         }
 }
 
-void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 5>& Sprites){
+void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprites){
     if(Sprites.full()){
         Sprites.clear();
     }
