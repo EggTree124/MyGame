@@ -84,7 +84,8 @@ SceneType game_play(){
     bn::sprite_text_generator text_gen(font); //this bullshit created sprites from the text
     bn::point points(0,0);
     bn::fixed_point f_point(points);
-    bn::vector<bn::sprite_ptr,32> text_cont; //text container
+    bn::vector<bn::sprite_ptr,32> text_cont;
+     //text container
     bn::string<32> score_text("Score: ");
     text_gen.generate_top_left(f_point,score_text,text_cont);
     //End of Starting Text
@@ -188,16 +189,16 @@ void updateScore(
 void movement(bn::sprite_ptr &sprite, int &half_size){
      //Movement: Left, right, up, right. The half size is needed so that the sprite wont go off bound.
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
-            sprite.set_x(sprite.x() - 1);
+            sprite.set_x(sprite.x() - 2);
         } 
         if(bn::keypad::right_held() && sprite.x() < 120 - half_size){
-            sprite.set_x(sprite.x() + 1);   
+            sprite.set_x(sprite.x() + 2);   
         } 
         if(bn::keypad::up_held() && sprite.y() > -80 + half_size){
-            sprite.set_y(sprite.y()-1);
+            sprite.set_y(sprite.y()- 2);
         }
         if(bn::keypad::down_held() && sprite.y() < 80 - half_size){
-            sprite.set_y(sprite.y()+1);
+            sprite.set_y(sprite.y()+ 2);
         }
 }
 

@@ -1,6 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
-C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
+/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
                               (__sync_synchronize_none)
 
 Merging object attributes
@@ -8,19 +8,19 @@ Merging object attributes
 
 Discarded input sections
 
- .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
- .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
- .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
- .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
- .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
- .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
- .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
- .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
- .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .text          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .data          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .bss           0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .text          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
+ .data          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
+ .bss           0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
+ .text          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .data          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .bss           0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .rodata.all_implied_fbits
-                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+                0x00000000       0x24 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .data.__dso_handle
-                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+                0x00000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .text          0x00000000        0x0 bn_audio_soundbank.bin.o
  .data          0x00000000        0x0 bn_audio_soundbank.bin.o
  .bss           0x00000000        0x0 bn_audio_soundbank.bin.o
@@ -5277,8 +5277,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0xdc bn_profiler.o
  .debug_aranges
                 0x00000000       0x18 bn_profiler.o
- .debug_line    0x00000000      0x237 bn_profiler.o
- .debug_str     0x00000000      0x49d bn_profiler.o
+ .debug_line    0x00000000      0x24f bn_profiler.o
+ .debug_str     0x00000000      0x4a0 bn_profiler.o
  .comment       0x00000000       0x19 bn_profiler.o
  .group         0x00000000        0xc bn_regular_bg_animate_actions.o
  .group         0x00000000        0xc bn_regular_bg_animate_actions.o
@@ -5376,8 +5376,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x108 bn_regular_bg_animate_actions.o
  .debug_ranges  0x00000000      0x720 bn_regular_bg_animate_actions.o
- .debug_line    0x00000000     0x1f87 bn_regular_bg_animate_actions.o
- .debug_str     0x00000000     0x9ecc bn_regular_bg_animate_actions.o
+ .debug_line    0x00000000     0x1fa7 bn_regular_bg_animate_actions.o
+ .debug_str     0x00000000     0x9ecf bn_regular_bg_animate_actions.o
  .comment       0x00000000       0x19 bn_regular_bg_animate_actions.o
  .debug_frame   0x00000000      0x3d4 bn_regular_bg_animate_actions.o
  .group         0x00000000        0xc bn_sprite_affine_mats_manager.o
@@ -5642,249 +5642,10 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x138 bn_sprite_animate_actions.o
  .debug_ranges  0x00000000      0x818 bn_sprite_animate_actions.o
- .debug_line    0x00000000     0x2430 bn_sprite_animate_actions.o
- .debug_str     0x00000000     0x8a8d bn_sprite_animate_actions.o
+ .debug_line    0x00000000     0x2450 bn_sprite_animate_actions.o
+ .debug_str     0x00000000     0x8a90 bn_sprite_animate_actions.o
  .comment       0x00000000       0x19 bn_sprite_animate_actions.o
  .debug_frame   0x00000000      0x494 bn_sprite_animate_actions.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_text_generator.o
- .text          0x00000000        0x0 bn_sprite_text_generator.o
- .data          0x00000000        0x0 bn_sprite_text_generator.o
- .bss           0x00000000        0x0 bn_sprite_text_generator.o
- .text._ZN2bn21sprite_text_generator14release_cameraEv
-                0x00000000       0x30 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA16_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA15_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA22_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA24_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA28_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA25_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_text_generator.o
- .text._ZN2bn21sprite_text_generator16set_palette_itemERKNS_19sprite_palette_itemE
-                0x00000000       0x3c bn_sprite_text_generator.o
- .rodata._ZN2bn21sprite_text_generatorC2ERKNS_11sprite_fontERKNS_19sprite_palette_itemE.str1.4
-                0x00000000       0x16 bn_sprite_text_generator.o
- .text._ZN2bn21sprite_text_generatorC2ERKNS_11sprite_fontERKNS_19sprite_palette_itemE
-                0x00000000       0x64 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA22_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_text_generator.o
- .rodata._ZN2bn21sprite_text_generator15set_bg_priorityEi.str1.4
-                0x00000000       0x66 bn_sprite_text_generator.o
- .text._ZN2bn21sprite_text_generator15set_bg_priorityEi
-                0x00000000       0x3c bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA18_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_text_generator.o
- .rodata._ZN2bn21sprite_text_generator11set_z_orderEi.str1.4
-                0x00000000       0x66 bn_sprite_text_generator.o
- .text._ZN2bn21sprite_text_generator11set_z_orderEi
-                0x00000000       0x4c bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA20_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA39_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIA15_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_text_generator.o
- .text._ZN2bn12_GLOBAL__N_1L22_build_sprite_optionalILNS_11sprite_sizeE1EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000      0x17c bn_sprite_text_generator.o
- .text._ZN2bn12_GLOBAL__N_1L22_build_sprite_optionalILNS_11sprite_sizeE2EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000      0x17c bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator8generateERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000       0x38 bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator8generateENS_7fixed_tILi12EEES2_RKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000       0x40 bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator8generateERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000       0x40 bn_sprite_text_generator.o
- .rodata._ZN2bn12_GLOBAL__N_1L9_generateILb1EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE.str1.4
-                0x00000000       0x35 bn_sprite_text_generator.o
- .text._ZN2bn12_GLOBAL__N_1L9_generateILb1EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000     0x1438 bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator17generate_optionalERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000       0x40 bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator17generate_optionalENS_7fixed_tILi12EEES2_RKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000       0x40 bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator17generate_optionalERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000       0x38 bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator26generate_top_left_optionalERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x00000000       0x48 bn_sprite_text_generator.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .group         0x00000000        0xc bn_sprite_tiles_manager.o
- .text          0x00000000        0x0 bn_sprite_tiles_manager.o
- .data          0x00000000        0x0 bn_sprite_tiles_manager.o
- .bss           0x00000000        0x0 bn_sprite_tiles_manager.o
- .text._ZN2bn13ostringstream11append_argsIiJA4_ciEEEvRKT_DpRKT0_.isra.0
-                0x00000000       0x24 bn_sprite_tiles_manager.o
- .text._ZN2bn12sprite_tiles16used_tiles_countEv
-                0x00000000       0x18 bn_sprite_tiles_manager.o
- .text._ZN2bn12sprite_tiles21available_tiles_countEv
-                0x00000000       0x10 bn_sprite_tiles_manager.o
- .text._ZN2bn12sprite_tiles16used_items_countEv
-                0x00000000       0x14 bn_sprite_tiles_manager.o
- .text._ZN2bn12sprite_tiles21available_items_countEv
-                0x00000000       0x10 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptrC2ERKS0_
-                0x00000000       0x18 bn_sprite_tiles_manager.o
- .text._ZNK2bn16sprite_tiles_ptr11compressionEv
-                0x00000000       0x18 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager16used_tiles_countEv
-                0x00000000       0x18 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager21available_tiles_countEv
-                0x00000000       0x10 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager16used_items_countEv
-                0x00000000       0x14 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager21available_items_countEv
-                0x00000000       0x10 bn_sprite_tiles_manager.o
- .text._ZN2bn12sprite_tiles10log_statusEv
-                0x00000000        0xc bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager15increase_usagesEi
-                0x00000000       0x14 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager10start_tileEi
-                0x00000000       0x14 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager11tiles_countEi
-                0x00000000       0x14 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager11compressionEi
-                0x00000000       0x14 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA25_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA54_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIJA25_ciA4_ctEEEvPKcS5_S5_iDpRKT_
-                0x00000000       0x64 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIJA58_ciA4_ciEEEvPKcS5_S5_iDpRKT_
-                0x00000000       0x58 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA19_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA22_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA27_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA37_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIJA22_ciA4_ciEEEvPKcS5_S5_iDpRKT_
-                0x00000000       0x58 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIJA41_cA34_cN2bn11string_viewEEEEvPKcS7_S7_iDpRKT_
-                0x00000000       0x58 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIJA46_ciA4_ciEEEvPKcS5_S5_iDpRKT_
-                0x00000000       0x58 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA17_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA53_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA15_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .rodata._ZN2bn20sprite_tiles_manager16reload_tiles_refEi.str1.4
-                0x00000000       0x25 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager16reload_tiles_refEi
-                0x00000000       0x80 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr16reload_tiles_refEv
-                0x00000000       0x84 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA16_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptraSERKS0_
-                0x00000000       0x3c bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager4findERKNS_4spanIKNS_4tileEEENS_16compression_typeE
-                0x00000000       0x18 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager19allocate_first_halfEb
-                0x00000000      0x1dc bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA15_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA39_ciEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr4findERKNS_17sprite_tiles_itemE
-                0x00000000       0x70 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item10find_tilesEv
-                0x00000000       0x10 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item10find_tilesEi
-                0x00000000       0xb4 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr4findERKNS_17sprite_tiles_itemEi
-                0x00000000       0xbc bn_sprite_tiles_manager.o
- .rodata._ZNK2bn16sprite_tiles_ptr4vramEv.str1.4
-                0x00000000       0x1b bn_sprite_tiles_manager.o
- .text._ZNK2bn16sprite_tiles_ptr4vramEv
-                0x00000000       0x88 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager9tiles_refEi
-                0x00000000       0x2c bn_sprite_tiles_manager.o
- .text._ZNK2bn16sprite_tiles_ptr9tiles_refEv
-                0x00000000       0x30 bn_sprite_tiles_manager.o
- .rodata._ZNK2bn17sprite_tiles_item10decompressENS_4spanINS_4tileEEE.str1.4
-                0x00000000       0x96 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item10decompressENS_4spanINS_4tileEEE
-                0x00000000      0x140 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA26_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager17allocate_optionalEiNS_8bpp_modeE
-                0x00000000       0x88 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr17allocate_optionalEiNS_8bpp_modeE
-                0x00000000       0x24 bn_sprite_tiles_manager.o
- .rodata._ZN2bn20sprite_tiles_manager13set_tiles_refEiRKNS_4spanIKNS_4tileEEENS_16compression_typeE.str1.4
-                0x00000000       0x45 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager13set_tiles_refEiRKNS_4spanIKNS_4tileEEENS_16compression_typeE
-                0x00000000      0x1f8 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr13set_tiles_refERKNS_17sprite_tiles_itemE
-                0x00000000       0x64 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr13set_tiles_refERKNS_17sprite_tiles_itemEi
-                0x00000000       0xb0 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager15create_optionalERKNS_4spanIKNS_4tileEEENS_16compression_typeE
-                0x00000000       0x38 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr15create_optionalERKNS_17sprite_tiles_itemE
-                0x00000000       0x78 bn_sprite_tiles_manager.o
- .text._ZN2bn16sprite_tiles_ptr15create_optionalERKNS_17sprite_tiles_itemEi
-                0x00000000       0xbc bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item21create_tiles_optionalEi
-                0x00000000       0xb8 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item25create_new_tiles_optionalEi
-                0x00000000       0xb8 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item12create_tilesEi
-                0x00000000       0xa8 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item16create_new_tilesEi
-                0x00000000       0xa8 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item12create_tilesEv
-                0x00000000       0x6c bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item16create_new_tilesEv
-                0x00000000       0x6c bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item21create_tiles_optionalEv
-                0x00000000       0xa8 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item25create_new_tiles_optionalEv
-                0x00000000       0xa8 bn_sprite_tiles_manager.o
  .text          0x00000000        0x0 bn_sprites_manager.bn_iwram.o
  .data          0x00000000        0x0 bn_sprites_manager.bn_iwram.o
  .bss           0x00000000        0x0 bn_sprites_manager.bn_iwram.o
@@ -6121,8 +5882,6 @@ Discarded input sections
                 0x00000000       0xc4 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager10reload_allEv
                 0x00000000       0x24 bn_sprites_manager.o
- .text._ZN3_bn6assert9show_argsIA54_cEEvPKcS4_S4_iRKT_
-                0x00000000       0x48 bn_sprites_manager.o
  .rodata._ZN2bn14sprite_builder18set_window_enabledEb.str1.4
                 0x00000000       0x13 bn_sprites_manager.o
  .text._ZN2bn14sprite_builder18set_window_enabledEb
@@ -6201,8 +5960,6 @@ Discarded input sections
                 0x00000000       0x14 bn_sprites_manager.o
  .text._ZNK2bn10sprite_ptr5tilesEv
                 0x00000000       0x18 bn_sprites_manager.o
- .text._ZN3_bn6assert9show_argsIA27_chEEvPKcS4_S4_iRKT_RKT0_
-                0x00000000       0x54 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager20set_double_size_modeEPvNS_23sprite_double_size_modeE
                 0x00000000       0x94 bn_sprites_manager.o
  .text._ZN2bn10sprite_ptr20set_horizontal_shearENS_7fixed_tILi12EEE
@@ -6503,6 +6260,249 @@ Discarded input sections
                 0x00000000      0x134 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager11set_z_orderEPvi
                 0x00000000      0x134 bn_sprites_manager.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_text_generator.o
+ .text          0x00000000        0x0 bn_sprite_text_generator.o
+ .data          0x00000000        0x0 bn_sprite_text_generator.o
+ .bss           0x00000000        0x0 bn_sprite_text_generator.o
+ .text._ZN2bn21sprite_text_generator14release_cameraEv
+                0x00000000       0x30 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA16_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA15_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA54_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA22_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA24_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA28_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA25_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_text_generator.o
+ .text._ZN2bn21sprite_text_generator16set_palette_itemERKNS_19sprite_palette_itemE
+                0x00000000       0x3c bn_sprite_text_generator.o
+ .rodata._ZN2bn21sprite_text_generatorC2ERKNS_11sprite_fontERKNS_19sprite_palette_itemE.str1.4
+                0x00000000       0x16 bn_sprite_text_generator.o
+ .text._ZN2bn21sprite_text_generatorC2ERKNS_11sprite_fontERKNS_19sprite_palette_itemE
+                0x00000000       0x64 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA22_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_text_generator.o
+ .rodata._ZN2bn21sprite_text_generator15set_bg_priorityEi.str1.4
+                0x00000000       0x66 bn_sprite_text_generator.o
+ .text._ZN2bn21sprite_text_generator15set_bg_priorityEi
+                0x00000000       0x3c bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA18_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_text_generator.o
+ .rodata._ZN2bn21sprite_text_generator11set_z_orderEi.str1.4
+                0x00000000       0x66 bn_sprite_text_generator.o
+ .text._ZN2bn21sprite_text_generator11set_z_orderEi
+                0x00000000       0x4c bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA20_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA39_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIA15_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_text_generator.o
+ .text._ZN2bn12_GLOBAL__N_1L22_build_sprite_optionalILNS_11sprite_sizeE1EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000      0x17c bn_sprite_text_generator.o
+ .text._ZN2bn12_GLOBAL__N_1L22_build_sprite_optionalILNS_11sprite_sizeE2EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000      0x17c bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator8generateERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000       0x38 bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator8generateENS_7fixed_tILi12EEES2_RKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000       0x40 bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator8generateERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000       0x40 bn_sprite_text_generator.o
+ .rodata._ZN2bn12_GLOBAL__N_1L9_generateILb1EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE.str1.4
+                0x00000000       0x35 bn_sprite_text_generator.o
+ .text._ZN2bn12_GLOBAL__N_1L9_generateILb1EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000     0x1438 bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator17generate_optionalERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000       0x40 bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator17generate_optionalENS_7fixed_tILi12EEES2_RKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000       0x40 bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator17generate_optionalERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000       0x38 bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator26generate_top_left_optionalERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x00000000       0x48 bn_sprite_text_generator.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .group         0x00000000        0xc bn_sprite_tiles_manager.o
+ .text          0x00000000        0x0 bn_sprite_tiles_manager.o
+ .data          0x00000000        0x0 bn_sprite_tiles_manager.o
+ .bss           0x00000000        0x0 bn_sprite_tiles_manager.o
+ .text._ZN2bn13ostringstream11append_argsIiJA4_ciEEEvRKT_DpRKT0_.isra.0
+                0x00000000       0x24 bn_sprite_tiles_manager.o
+ .text._ZN2bn12sprite_tiles16used_tiles_countEv
+                0x00000000       0x18 bn_sprite_tiles_manager.o
+ .text._ZN2bn12sprite_tiles21available_tiles_countEv
+                0x00000000       0x10 bn_sprite_tiles_manager.o
+ .text._ZN2bn12sprite_tiles16used_items_countEv
+                0x00000000       0x14 bn_sprite_tiles_manager.o
+ .text._ZN2bn12sprite_tiles21available_items_countEv
+                0x00000000       0x10 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptrC2ERKS0_
+                0x00000000       0x18 bn_sprite_tiles_manager.o
+ .text._ZNK2bn16sprite_tiles_ptr11compressionEv
+                0x00000000       0x18 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager16used_tiles_countEv
+                0x00000000       0x18 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager21available_tiles_countEv
+                0x00000000       0x10 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager16used_items_countEv
+                0x00000000       0x14 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager21available_items_countEv
+                0x00000000       0x10 bn_sprite_tiles_manager.o
+ .text._ZN2bn12sprite_tiles10log_statusEv
+                0x00000000        0xc bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager15increase_usagesEi
+                0x00000000       0x14 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager10start_tileEi
+                0x00000000       0x14 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager11tiles_countEi
+                0x00000000       0x14 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager11compressionEi
+                0x00000000       0x14 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA25_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA54_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIJA25_ciA4_ctEEEvPKcS5_S5_iDpRKT_
+                0x00000000       0x64 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIJA58_ciA4_ciEEEvPKcS5_S5_iDpRKT_
+                0x00000000       0x58 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA27_chEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA19_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA22_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA27_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA37_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIJA22_ciA4_ciEEEvPKcS5_S5_iDpRKT_
+                0x00000000       0x58 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIJA41_cA34_cN2bn11string_viewEEEEvPKcS7_S7_iDpRKT_
+                0x00000000       0x58 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIJA46_ciA4_ciEEEvPKcS5_S5_iDpRKT_
+                0x00000000       0x58 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA17_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA53_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA15_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .rodata._ZN2bn20sprite_tiles_manager16reload_tiles_refEi.str1.4
+                0x00000000       0x25 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager16reload_tiles_refEi
+                0x00000000       0x80 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr16reload_tiles_refEv
+                0x00000000       0x84 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA16_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptraSERKS0_
+                0x00000000       0x3c bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager4findERKNS_4spanIKNS_4tileEEENS_16compression_typeE
+                0x00000000       0x18 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager19allocate_first_halfEb
+                0x00000000      0x1dc bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA15_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA39_ciEEvPKcS4_S4_iRKT_RKT0_
+                0x00000000       0x54 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr4findERKNS_17sprite_tiles_itemE
+                0x00000000       0x70 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item10find_tilesEv
+                0x00000000       0x10 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item10find_tilesEi
+                0x00000000       0xb4 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr4findERKNS_17sprite_tiles_itemEi
+                0x00000000       0xbc bn_sprite_tiles_manager.o
+ .rodata._ZNK2bn16sprite_tiles_ptr4vramEv.str1.4
+                0x00000000       0x1b bn_sprite_tiles_manager.o
+ .text._ZNK2bn16sprite_tiles_ptr4vramEv
+                0x00000000       0x88 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager9tiles_refEi
+                0x00000000       0x2c bn_sprite_tiles_manager.o
+ .text._ZNK2bn16sprite_tiles_ptr9tiles_refEv
+                0x00000000       0x30 bn_sprite_tiles_manager.o
+ .rodata._ZNK2bn17sprite_tiles_item10decompressENS_4spanINS_4tileEEE.str1.4
+                0x00000000       0x96 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item10decompressENS_4spanINS_4tileEEE
+                0x00000000      0x140 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIA26_cEEvPKcS4_S4_iRKT_
+                0x00000000       0x48 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager17allocate_optionalEiNS_8bpp_modeE
+                0x00000000       0x88 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr17allocate_optionalEiNS_8bpp_modeE
+                0x00000000       0x24 bn_sprite_tiles_manager.o
+ .rodata._ZN2bn20sprite_tiles_manager13set_tiles_refEiRKNS_4spanIKNS_4tileEEENS_16compression_typeE.str1.4
+                0x00000000       0x45 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager13set_tiles_refEiRKNS_4spanIKNS_4tileEEENS_16compression_typeE
+                0x00000000      0x1f8 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr13set_tiles_refERKNS_17sprite_tiles_itemE
+                0x00000000       0x64 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr13set_tiles_refERKNS_17sprite_tiles_itemEi
+                0x00000000       0xb0 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager15create_optionalERKNS_4spanIKNS_4tileEEENS_16compression_typeE
+                0x00000000       0x38 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr15create_optionalERKNS_17sprite_tiles_itemE
+                0x00000000       0x78 bn_sprite_tiles_manager.o
+ .text._ZN2bn16sprite_tiles_ptr15create_optionalERKNS_17sprite_tiles_itemEi
+                0x00000000       0xbc bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item21create_tiles_optionalEi
+                0x00000000       0xb8 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item25create_new_tiles_optionalEi
+                0x00000000       0xb8 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item12create_tilesEi
+                0x00000000       0xa8 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item16create_new_tilesEi
+                0x00000000       0xa8 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item12create_tilesEv
+                0x00000000       0x6c bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item16create_new_tilesEv
+                0x00000000       0x6c bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item21create_tiles_optionalEv
+                0x00000000       0xa8 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item25create_new_tiles_optionalEv
+                0x00000000       0xa8 bn_sprite_tiles_manager.o
  .group         0x00000000        0xc bn_sstream.o
  .group         0x00000000        0xc bn_sstream.o
  .group         0x00000000        0xc bn_sstream.o
@@ -6856,8 +6856,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x20 bn_hw_cstring.o
  .debug_ranges  0x00000000       0x40 bn_hw_cstring.o
- .debug_line    0x00000000      0x331 bn_hw_cstring.o
- .debug_str     0x00000000      0x4d3 bn_hw_cstring.o
+ .debug_line    0x00000000      0x349 bn_hw_cstring.o
+ .debug_str     0x00000000      0x4d6 bn_hw_cstring.o
  .comment       0x00000000       0x19 bn_hw_cstring.o
  .debug_frame   0x00000000       0x2c bn_hw_cstring.o
  .group         0x00000000        0xc bn_hw_dmg_audio.o
@@ -6933,8 +6933,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x20 bn_hw_sram.bn_ewram.o
  .debug_ranges  0x00000000       0x10 bn_hw_sram.bn_ewram.o
- .debug_line    0x00000000      0x2b8 bn_hw_sram.bn_ewram.o
- .debug_str     0x00000000      0x503 bn_hw_sram.bn_ewram.o
+ .debug_line    0x00000000      0x2dd bn_hw_sram.bn_ewram.o
+ .debug_str     0x00000000      0x506 bn_hw_sram.bn_ewram.o
  .comment       0x00000000       0x19 bn_hw_sram.bn_ewram.o
  .debug_frame   0x00000000       0x20 bn_hw_sram.bn_ewram.o
  .text          0x00000000        0x0 bn_hw_sram.bn_noflto.o
@@ -6986,8 +6986,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x20 tonc_core.bn_iwram.o
  .debug_ranges  0x00000000       0x50 tonc_core.bn_iwram.o
- .debug_line    0x00000000      0x2a7 tonc_core.bn_iwram.o
- .debug_str     0x00000000      0x20c tonc_core.bn_iwram.o
+ .debug_line    0x00000000      0x2b7 tonc_core.bn_iwram.o
+ .debug_str     0x00000000      0x20f tonc_core.bn_iwram.o
  .comment       0x00000000       0x19 tonc_core.bn_iwram.o
  .debug_frame   0x00000000       0x44 tonc_core.bn_iwram.o
  .text          0x00000000        0x0 tonc_sbmp16.o
@@ -7040,8 +7040,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x70 tonc_schr4c.o
  .debug_ranges  0x00000000      0x2f8 tonc_schr4c.o
- .debug_line    0x00000000      0xd7d tonc_schr4c.o
- .debug_str     0x00000000      0x354 tonc_schr4c.o
+ .debug_line    0x00000000      0xd8d tonc_schr4c.o
+ .debug_str     0x00000000      0x357 tonc_schr4c.o
  .comment       0x00000000       0x19 tonc_schr4c.o
  .debug_frame   0x00000000      0x174 tonc_schr4c.o
  .text          0x00000000        0x0 tonc_schr4r.o
@@ -7071,8 +7071,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x60 tonc_schr4r.o
  .debug_ranges  0x00000000      0x208 tonc_schr4r.o
- .debug_line    0x00000000      0xd1e tonc_schr4r.o
- .debug_str     0x00000000      0x305 tonc_schr4r.o
+ .debug_line    0x00000000      0xd2e tonc_schr4r.o
+ .debug_str     0x00000000      0x308 tonc_schr4r.o
  .comment       0x00000000       0x19 tonc_schr4r.o
  .debug_frame   0x00000000      0x134 tonc_schr4r.o
  .text          0x00000000        0x0 tonc_surface.o
@@ -7090,8 +7090,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x28 tonc_surface.o
  .debug_ranges  0x00000000       0x80 tonc_surface.o
- .debug_line    0x00000000      0x3f4 tonc_surface.o
- .debug_str     0x00000000      0x28e tonc_surface.o
+ .debug_line    0x00000000      0x406 tonc_surface.o
+ .debug_str     0x00000000      0x291 tonc_surface.o
  .comment       0x00000000       0x19 tonc_surface.o
  .debug_frame   0x00000000       0x50 tonc_surface.o
  .text          0x00000000        0x0 bmp16_drawg_b1cs.o
@@ -7139,8 +7139,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x20 coroutine.o
  .debug_ranges  0x00000000       0x10 coroutine.o
- .debug_line    0x00000000       0xfd coroutine.o
- .debug_str     0x00000000      0x19a coroutine.o
+ .debug_line    0x00000000      0x110 coroutine.o
+ .debug_str     0x00000000      0x19d coroutine.o
  .comment       0x00000000       0x19 coroutine.o
  .debug_frame   0x00000000       0x28 coroutine.o
  .text          0x00000000        0x0 rtc.o
@@ -7166,8 +7166,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x50 rtc.o
  .debug_ranges  0x00000000      0x248 rtc.o
- .debug_line    0x00000000      0xbb7 rtc.o
- .debug_str     0x00000000      0x2ae rtc.o
+ .debug_line    0x00000000      0xbca rtc.o
+ .debug_str     0x00000000      0x2b1 rtc.o
  .comment       0x00000000       0x19 rtc.o
  .debug_frame   0x00000000       0xf8 rtc.o
  .text          0x00000000        0x0 effect.o
@@ -7177,6 +7177,9 @@ Discarded input sections
                 0x00000000       0x40 effect.o
  .text.mmEffectRate
                 0x00000000       0x34 effect.o
+ .text          0x00000000        0x0 mas_arm.o
+ .data          0x00000000        0x0 mas_arm.o
+ .bss           0x00000000        0x0 mas_arm.o
  .text          0x00000000        0x0 mas.o
  .data          0x00000000        0x0 mas.o
  .bss           0x00000000        0x0 mas.o
@@ -7188,9 +7191,6 @@ Discarded input sections
                 0x00000000        0xc mas.o
  .text.mmPlayModule
                 0x00000000       0x10 mas.o
- .text          0x00000000        0x0 mas_arm.o
- .data          0x00000000        0x0 mas_arm.o
- .bss           0x00000000        0x0 mas_arm.o
  .text          0x00000000        0x0 main_gba.o
  .data          0x00000000        0x0 main_gba.o
  .bss           0x00000000        0x0 main_gba.o
@@ -7256,12 +7256,12 @@ Discarded input sections
  .data          0x00000000        0x0 tonc_nocash.o
  .bss           0x00000000        0x0 tonc_nocash.o
  .ewram         0x00000000       0x5c tonc_nocash.o
- .debug_line    0x00000000       0x9f tonc_nocash.o
+ .debug_line    0x00000000       0xa5 tonc_nocash.o
  .debug_info    0x00000000       0x3a tonc_nocash.o
  .debug_abbrev  0x00000000       0x26 tonc_nocash.o
  .debug_aranges
                 0x00000000       0x28 tonc_nocash.o
- .debug_str     0x00000000       0x8d tonc_nocash.o
+ .debug_str     0x00000000       0x90 tonc_nocash.o
  .debug_ranges  0x00000000       0x20 tonc_nocash.o
  .text          0x00000000        0x0 verdana9.o
  .data          0x00000000        0x0 verdana9.o
@@ -7276,12 +7276,12 @@ Discarded input sections
  .bss           0x00000000        0x0 atan2.o
  .iwram.__agbabi_atan2
                 0x00000000       0xd4 atan2.o
- .debug_line    0x00000000       0x9f atan2.o
+ .debug_line    0x00000000       0xa5 atan2.o
  .debug_info    0x00000000       0x24 atan2.o
  .debug_abbrev  0x00000000       0x14 atan2.o
  .debug_aranges
                 0x00000000       0x20 atan2.o
- .debug_str     0x00000000       0x6b atan2.o
+ .debug_str     0x00000000       0x6e atan2.o
  .text          0x00000000        0x0 coroutine_asm.o
  .data          0x00000000        0x0 coroutine_asm.o
  .bss           0x00000000        0x0 coroutine_asm.o
@@ -7291,12 +7291,12 @@ Discarded input sections
                 0x00000000       0x1c coroutine_asm.o
  .iwram.__agbabi_coro_pop
                 0x00000000       0x34 coroutine_asm.o
- .debug_line    0x00000000       0xac coroutine_asm.o
+ .debug_line    0x00000000       0xb2 coroutine_asm.o
  .debug_info    0x00000000       0x22 coroutine_asm.o
  .debug_abbrev  0x00000000       0x12 coroutine_asm.o
  .debug_aranges
                 0x00000000       0x30 coroutine_asm.o
- .debug_str     0x00000000       0x73 coroutine_asm.o
+ .debug_str     0x00000000       0x76 coroutine_asm.o
  .debug_ranges  0x00000000       0x28 coroutine_asm.o
  .text          0x00000000        0x0 fiq_memcpy.o
  .data          0x00000000        0x0 fiq_memcpy.o
@@ -7305,12 +7305,12 @@ Discarded input sections
                 0x00000000       0x70 fiq_memcpy.o
  .iwram.__agbabi_fiq_memcpy4x4
                 0x00000000       0x54 fiq_memcpy.o
- .debug_line    0x00000000       0xaf fiq_memcpy.o
+ .debug_line    0x00000000       0xb5 fiq_memcpy.o
  .debug_info    0x00000000       0x22 fiq_memcpy.o
  .debug_abbrev  0x00000000       0x12 fiq_memcpy.o
  .debug_aranges
                 0x00000000       0x28 fiq_memcpy.o
- .debug_str     0x00000000       0x70 fiq_memcpy.o
+ .debug_str     0x00000000       0x73 fiq_memcpy.o
  .debug_ranges  0x00000000       0x20 fiq_memcpy.o
  .text          0x00000000        0x0 memcpy.o
  .data          0x00000000        0x0 memcpy.o
@@ -7339,12 +7339,12 @@ Discarded input sections
  .bss           0x00000000        0x0 stdgba_ldiv.o
  .iwram._stdgba_ldiv
                 0x00000000      0xc58 stdgba_ldiv.o
- .debug_line    0x00000000      0x3c8 stdgba_ldiv.o
+ .debug_line    0x00000000      0x3ce stdgba_ldiv.o
  .debug_info    0x00000000       0x3e stdgba_ldiv.o
  .debug_abbrev  0x00000000       0x28 stdgba_ldiv.o
  .debug_aranges
                 0x00000000       0x20 stdgba_ldiv.o
- .debug_str     0x00000000       0x92 stdgba_ldiv.o
+ .debug_str     0x00000000       0x95 stdgba_ldiv.o
  .text          0x00000000        0x0 stdgba_lmul.o
  .data          0x00000000        0x0 stdgba_lmul.o
  .bss           0x00000000        0x0 stdgba_lmul.o
@@ -7358,22 +7358,22 @@ Discarded input sections
  .data          0x00000000        0x0 clz.o
  .bss           0x00000000        0x0 clz.o
  .iwram         0x00000000      0x148 clz.o
- .debug_line    0x00000000       0x81 clz.o
+ .debug_line    0x00000000       0x87 clz.o
  .debug_info    0x00000000       0x24 clz.o
  .debug_abbrev  0x00000000       0x14 clz.o
  .debug_aranges
                 0x00000000       0x20 clz.o
- .debug_str     0x00000000       0x6d clz.o
+ .debug_str     0x00000000       0x70 clz.o
  .text          0x00000000        0x0 sqrt32.o
  .data          0x00000000        0x0 sqrt32.o
  .bss           0x00000000        0x0 sqrt32.o
  .iwram         0x00000000       0xec sqrt32.o
- .debug_line    0x00000000       0xaa sqrt32.o
+ .debug_line    0x00000000       0xb0 sqrt32.o
  .debug_info    0x00000000       0x24 sqrt32.o
  .debug_abbrev  0x00000000       0x14 sqrt32.o
  .debug_aranges
                 0x00000000       0x20 sqrt32.o
- .debug_str     0x00000000       0x70 sqrt32.o
+ .debug_str     0x00000000       0x73 sqrt32.o
  .text          0x00000000        0x0 lz77.o
  .data          0x00000000        0x0 lz77.o
  .bss           0x00000000        0x0 lz77.o
@@ -7382,25 +7382,25 @@ Discarded input sections
  .bss           0x00000000        0x0 running_length.o
  .text          0x00000000        0x0 mixer_asm.o
  .data          0x00000000        0x0 mixer_asm.o
- .text          0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
- .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
- .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
- .debug_line    0x00000000       0x4a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
+ .text          0x00000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
+ .data          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
+ .bss           0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
+ .debug_line    0x00000000       0x4a /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
  .debug_line_str
-                0x00000000       0xcd C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
- .debug_info    0x00000000       0x31 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
- .debug_abbrev  0x00000000       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
+                0x00000000       0xcd /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
+ .debug_info    0x00000000       0x31 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
+ .debug_abbrev  0x00000000       0x28 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
  .debug_aranges
-                0x00000000       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
- .debug_str     0x00000000       0xf3 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
- .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
- .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
- .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+                0x00000000       0x20 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
+ .debug_str     0x00000000       0xf3 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
+ .text          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+ .data          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+ .bss           0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
  .rodata.all_implied_fbits
-                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
- .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
- .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
- .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
+                0x00000000       0x24 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+ .text          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
+ .data          0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
+ .bss           0x00000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
 
 Memory Configuration
 
@@ -7424,7 +7424,7 @@ Linker script and memory map
 
 .crt0           0x08000000      0x210
  *(.crt0)
- .crt0          0x08000000      0x210 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .crt0          0x08000000      0x210 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
                 0x08000000                _start
                 0x080000c4                __boot_method
                 0x080000c5                __slave_number
@@ -7433,9 +7433,9 @@ Linker script and memory map
 
 .init           0x08000210        0xc
  *(SORT_NONE(.init))
- .init          0x08000210        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
+ .init          0x08000210        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
                 0x08000210                _init
- .init          0x08000214        0x8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
+ .init          0x08000214        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
 
 .plt            0x0800021c        0x0
  *(.plt)
@@ -7444,9 +7444,9 @@ Linker script and memory map
 .text           0x08000220    0x17700
  *(EXCLUDE_FILE(*.iwram*) .text*)
  .text.__do_global_dtors_aux
-                0x08000220       0x2c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+                0x08000220       0x2c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .text.frame_dummy
-                0x0800024c       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+                0x0800024c       0x24 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .text._Z9play_menuv
                 0x08000270       0x3c main.o
                 0x08000270                play_menu()
@@ -8236,298 +8236,298 @@ Linker script and memory map
  .text._ZN2bn26sprite_affine_mats_manager14dettach_spriteEiRNS_24intrusive_list_node_typeE
                 0x0800c228       0x4c bn_sprite_affine_mats_manager.o
                 0x0800c228                bn::sprite_affine_mats_manager::dettach_sprite(int, bn::intrusive_list_node_type&)
- .text._ZN2bn12_GLOBAL__N_1L14_setup_builderERKNS_21sprite_text_generatorERNS_14sprite_builderE
-                0x0800c274       0x68 bn_sprite_text_generator.o
- .text._ZN2bn12_GLOBAL__N_1L22_fix_top_left_positionEiRNS_7ivectorINS_10sprite_ptrEEE.isra.0
-                0x0800c2dc       0x80 bn_sprite_text_generator.o
- .text._ZN2bn21sprite_text_generator5_initEv
-                0x0800c35c      0x1b4 bn_sprite_text_generator.o
-                0x0800c35c                bn::sprite_text_generator::_init()
- .text._ZN2bn21sprite_text_generatorC2ERKNS_11sprite_fontE
-                0x0800c510       0x38 bn_sprite_text_generator.o
-                0x0800c510                bn::sprite_text_generator::sprite_text_generator(bn::sprite_font const&)
-                0x0800c510                bn::sprite_text_generator::sprite_text_generator(bn::sprite_font const&)
- .text._ZN3_bn6assert9show_argsIA54_cEEvPKcS4_S4_iRKT_
-                0x0800c548       0x48 bn_sprite_text_generator.o
-                0x0800c548                void _bn::assert::show_args<char [54]>(char const*, char const*, char const*, int, char const (&) [54])
- .text._ZNK2bn17sprite_tiles_item18graphics_tiles_refEi.part.0
-                0x0800c590       0x24 bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIJA25_ciA4_ctEEEvPKcS5_S5_iDpRKT_
-                0x0800c5b4       0x64 bn_sprite_text_generator.o
-                0x0800c5b4                void _bn::assert::show_args<char [25], int, char [4], unsigned short>(char const*, char const*, char const*, int, char const (&) [25], int const&, char const (&) [4], unsigned short const&)
- .text._ZN2bn8optionalINS_16sprite_tiles_ptrEEdeEv.part.0
-                0x0800c618       0x28 bn_sprite_text_generator.o
- .text._ZN2bn8optionalINS_4spanINS_4tileEEEEptEv.part.0
-                0x0800c640       0x28 bn_sprite_text_generator.o
- .text._ZN2bn14utf8_characterC2ERKc
-                0x0800c668      0x140 bn_sprite_text_generator.o
-                0x0800c668                bn::utf8_character::utf8_character(char const&)
-                0x0800c668                bn::utf8_character::utf8_character(char const&)
- .text._ZN2bn12_GLOBAL__N_1L15_graphics_indexEcRKNS_23utf8_characters_map_refEPKcRi.part.0
-                0x0800c7a8       0x8c bn_sprite_text_generator.o
- .text._ZN3_bn6assert9show_argsIJA20_ccA9_cN2bn11string_viewEA2_cEEEvPKcS8_S8_iDpRKT_
-                0x0800c834       0x6c bn_sprite_text_generator.o
-                0x0800c834                void _bn::assert::show_args<char [20], char, char [9], bn::string_view, char [2]>(char const*, char const*, char const*, int, char const (&) [20], char const&, char const (&) [9], bn::string_view const&, char const (&) [2])
- .text._ZNK2bn21sprite_text_generator5widthERKNS_11string_viewE
-                0x0800c8a0      0x240 bn_sprite_text_generator.o
-                0x0800c8a0                bn::sprite_text_generator::width(bn::string_view const&) const
- .text._ZN3_bn6assert9show_argsIA55_cEEvPKcS4_S4_iRKT_
-                0x0800cae0       0x48 bn_sprite_text_generator.o
-                0x0800cae0                void _bn::assert::show_args<char [55]>(char const*, char const*, char const*, int, char const (&) [55])
- .text._ZN2bn12_GLOBAL__N_1L20_build_sprite_assertILNS_11sprite_sizeE1EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
-                0x0800cb28      0x17c bn_sprite_text_generator.o
- .text._ZN2bn12_GLOBAL__N_1L20_build_sprite_assertILNS_11sprite_sizeE2EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
-                0x0800cca4      0x17c bn_sprite_text_generator.o
- .text._ZN2bn12_GLOBAL__N_1L9_generateILb0EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE.isra.0
-                0x0800ce20     0x1164 bn_sprite_text_generator.o
- .text._ZNK2bn21sprite_text_generator17generate_top_leftERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
-                0x0800df84       0x44 bn_sprite_text_generator.o
-                0x0800df84                bn::sprite_text_generator::generate_top_left(bn::fixed_point_t<12> const&, bn::string_view const&, bn::ivector<bn::sprite_ptr>&) const
- .text._ZNK2bn16sprite_tiles_ptr2idEv
-                0x0800dfc8       0x18 bn_sprite_tiles_manager.o
-                0x0800dfc8                bn::sprite_tiles_ptr::id() const
- .text._ZNK2bn16sprite_tiles_ptr11tiles_countEv
-                0x0800dfe0       0x18 bn_sprite_tiles_manager.o
-                0x0800dfe0                bn::sprite_tiles_ptr::tiles_count() const
- .text._ZN2bn20sprite_tiles_manager10log_statusEv
-                0x0800dff8      0x1ec bn_sprite_tiles_manager.o
-                0x0800dff8                bn::sprite_tiles_manager::log_status()
- .text._ZN2bn20sprite_tiles_manager19commit_uncompressedEb
-                0x0800e1e4       0xc4 bn_sprite_tiles_manager.o
-                0x0800e1e4                bn::sprite_tiles_manager::commit_uncompressed(bool)
- .text._ZNK2bn17sprite_tiles_item18graphics_tiles_refEv.part.0
-                0x0800e2a8       0x24 bn_sprite_tiles_manager.o
- .text._ZNK2bn17sprite_tiles_item18graphics_tiles_refEi.part.0
-                0x0800e2cc       0x24 bn_sprite_tiles_manager.o
- .text._ZN3_bn6assert9show_argsIA27_chEEvPKcS4_S4_iRKT_RKT0_
-                0x0800e2f0       0x54 bn_sprite_tiles_manager.o
-                0x0800e2f0                void _bn::assert::show_args<char [27], unsigned char>(char const*, char const*, char const*, int, char const (&) [27], unsigned char const&)
- .text._ZN3_bn6assert9show_argsIJA44_cPKN2bn4tileEA4_cS6_EEEvPKcS9_S9_iDpRKT_
-                0x0800e344       0x64 bn_sprite_tiles_manager.o
-                0x0800e344                void _bn::assert::show_args<char [44], bn::tile const*, char [4], bn::tile const*>(char const*, char const*, char const*, int, char const (&) [44], bn::tile const* const&, char const (&) [4], bn::tile const* const&)
- .text._ZN3_bn6assert9show_argsIJA46_ciA4_cjEEEvPKcS5_S5_iDpRKT_
-                0x0800e3a8       0x64 bn_sprite_tiles_manager.o
-                0x0800e3a8                void _bn::assert::show_args<char [46], int, char [4], unsigned int>(char const*, char const*, char const*, int, char const (&) [46], int const&, char const (&) [4], unsigned int const&)
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_hw_commitEPKNS_4tileENS_16compression_typeEii
-                0x0800e40c       0x88 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager17commit_compressedEv
-                0x0800e494       0x5c bn_sprite_tiles_manager.o
-                0x0800e494                bn::sprite_tiles_manager::commit_compressed()
- .text._ZN3_bn6assert9show_argsIJA28_cA15_cPKN2bn4tileEA16_ciA34_cNS4_11string_viewEEEEvPKcSC_SC_iDpRKT_
-                0x0800e4f0       0x7c bn_sprite_tiles_manager.o
-                0x0800e4f0                void _bn::assert::show_args<char [28], char [15], bn::tile const*, char [16], int, char [34], bn::string_view>(char const*, char const*, char const*, int, char const (&) [28], char const (&) [15], bn::tile const* const&, char const (&) [16], int const&, char const (&) [34], bn::string_view const&)
- .text._ZN3_bn6assert9show_argsIJA44_ciA34_cN2bn11string_viewEEEEvPKcS7_S7_iDpRKT_
-                0x0800e56c       0x64 bn_sprite_tiles_manager.o
-                0x0800e56c                void _bn::assert::show_args<char [44], int, char [34], bn::string_view>(char const*, char const*, char const*, int, char const (&) [44], int const&, char const (&) [34], bn::string_view const&)
- .text._ZN2bn7ivectorItE9push_backEOt.part.0
-                0x0800e5d0       0x28 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager4initEv
-                0x0800e5f8      0x160 bn_sprite_tiles_manager.o
-                0x0800e5f8                bn::sprite_tiles_manager::init()
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L17_insert_free_itemEi
-                0x0800e758       0xf0 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L16_erase_free_itemEi
-                0x0800e848       0xfc bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L21_erase_to_commit_itemEiRNS1_9item_typeE.part.0
-                0x0800e944       0xac bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager15decrease_usagesEi
-                0x0800e9f0      0x148 bn_sprite_tiles_manager.o
-                0x0800e9f0                bn::sprite_tiles_manager::decrease_usages(int)
- .text._ZN2bn16sprite_tiles_ptrD2Ev
-                0x0800eb38       0x18 bn_sprite_tiles_manager.o
-                0x0800eb38                bn::sprite_tiles_ptr::~sprite_tiles_ptr()
-                0x0800eb38                bn::sprite_tiles_ptr::~sprite_tiles_ptr()
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_find_implEPKNS_4tileENS_16compression_typeEi
-                0x0800eb50      0x2d0 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager4vramEi
-                0x0800ee20       0x3c bn_sprite_tiles_manager.o
-                0x0800ee20                bn::sprite_tiles_manager::vram(int)
- .text._ZN2bn16sprite_tiles_ptr4vramEv
-                0x0800ee5c       0x14 bn_sprite_tiles_manager.o
-                0x0800ee5c                bn::sprite_tiles_ptr::vram()
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L21_erase_items_map_itemEPKNS_4tileE
-                0x0800ee70      0x208 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L12_create_itemEiPKNS_4tileENS_16compression_typeEib
-                0x0800f078      0x204 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L14_allocate_implEi
-                0x0800f27c      0x110 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager8allocateEiNS_8bpp_modeE
-                0x0800f38c       0xc0 bn_sprite_tiles_manager.o
-                0x0800f38c                bn::sprite_tiles_manager::allocate(int, bn::bpp_mode)
- .text._ZN2bn16sprite_tiles_ptr8allocateEiNS_8bpp_modeE
-                0x0800f44c       0x18 bn_sprite_tiles_manager.o
-                0x0800f44c                bn::sprite_tiles_ptr::allocate(int, bn::bpp_mode)
- .text._ZN2bn20sprite_tiles_manager6updateEv
-                0x0800f464      0x19c bn_sprite_tiles_manager.o
-                0x0800f464                bn::sprite_tiles_manager::update()
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L12_create_implEPKNS_4tileENS_16compression_typeEi
-                0x0800f600      0x204 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L22_insert_items_map_itemEPKNS_4tileEi
-                0x0800f804       0xc0 bn_sprite_tiles_manager.o
- .text._ZN2bn20sprite_tiles_manager6createERKNS_4spanIKNS_4tileEEENS_16compression_typeE
-                0x0800f8c4       0x90 bn_sprite_tiles_manager.o
-                0x0800f8c4                bn::sprite_tiles_manager::create(bn::span<bn::tile const> const&, bn::compression_type)
- .text._ZN2bn16sprite_tiles_ptr6createERKNS_17sprite_tiles_itemE
-                0x0800f954       0x6c bn_sprite_tiles_manager.o
-                0x0800f954                bn::sprite_tiles_ptr::create(bn::sprite_tiles_item const&)
- .text._ZN2bn16sprite_tiles_ptr6createERKNS_17sprite_tiles_itemEi
-                0x0800f9c0       0xb0 bn_sprite_tiles_manager.o
-                0x0800f9c0                bn::sprite_tiles_ptr::create(bn::sprite_tiles_item const&, int)
  .text._ZN2bn15sprites_manager12_GLOBAL__N_1L32_always_update_indexes_to_commitERKNS_20sprites_manager_itemE
-                0x0800fa70       0x4c bn_sprites_manager.o
+                0x0800c274       0x4c bn_sprites_manager.o
  .text._ZN2bn13ostringstream11append_argsIiJA4_ciEEEvRKT_DpRKT0_.isra.0
-                0x0800fabc       0x24 bn_sprites_manager.o
+                0x0800c2c0       0x24 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager12_GLOBAL__N_1L23_update_item_dimensionsERNS_20sprites_manager_itemE
-                0x0800fae0       0xc0 bn_sprites_manager.o
+                0x0800c2e4       0xc0 bn_sprites_manager.o
  .text._ZNK2bn10sprite_ptr1xEv
-                0x0800fba0        0x8 bn_sprites_manager.o
-                0x0800fba0                bn::sprite_ptr::x() const
+                0x0800c3a4        0x8 bn_sprites_manager.o
+                0x0800c3a4                bn::sprite_ptr::x() const
  .text._ZN2bn10sprite_ptr5set_xENS_7fixed_tILi12EEE
-                0x0800fba8       0x48 bn_sprites_manager.o
-                0x0800fba8                bn::sprite_ptr::set_x(bn::fixed_t<12>)
+                0x0800c3ac       0x48 bn_sprites_manager.o
+                0x0800c3ac                bn::sprite_ptr::set_x(bn::fixed_t<12>)
  .text._ZNK2bn10sprite_ptr1yEv
-                0x0800fbf0        0x8 bn_sprites_manager.o
-                0x0800fbf0                bn::sprite_ptr::y() const
+                0x0800c3f4        0x8 bn_sprites_manager.o
+                0x0800c3f4                bn::sprite_ptr::y() const
  .text._ZN2bn10sprite_ptr5set_yENS_7fixed_tILi12EEE
-                0x0800fbf8       0x48 bn_sprites_manager.o
-                0x0800fbf8                bn::sprite_ptr::set_y(bn::fixed_t<12>)
+                0x0800c3fc       0x48 bn_sprites_manager.o
+                0x0800c3fc                bn::sprite_ptr::set_y(bn::fixed_t<12>)
  .text._ZNK2bn10sprite_ptr8positionEv
-                0x0800fc40        0x8 bn_sprites_manager.o
-                0x0800fc40                bn::sprite_ptr::position() const
+                0x0800c444        0x8 bn_sprites_manager.o
+                0x0800c444                bn::sprite_ptr::position() const
  .text._ZN2bn10sprite_ptr12set_positionENS_7fixed_tILi12EEES2_
-                0x0800fc48       0x70 bn_sprites_manager.o
-                0x0800fc48                bn::sprite_ptr::set_position(bn::fixed_t<12>, bn::fixed_t<12>)
+                0x0800c44c       0x70 bn_sprites_manager.o
+                0x0800c44c                bn::sprite_ptr::set_position(bn::fixed_t<12>, bn::fixed_t<12>)
  .text._ZN2bn15sprites_manager4initEv
-                0x0800fcb8       0xd4 bn_sprites_manager.o
-                0x0800fcb8                bn::sprites_manager::init()
+                0x0800c4bc       0xd4 bn_sprites_manager.o
+                0x0800c4bc                bn::sprites_manager::init()
  .text._ZN2bn15sprites_manager5hw_idEPv
-                0x0800fd8c        0x8 bn_sprites_manager.o
-                0x0800fd8c                bn::sprites_manager::hw_id(void*)
+                0x0800c590        0x8 bn_sprites_manager.o
+                0x0800c590                bn::sprites_manager::hw_id(void*)
  .text._ZN2bn15sprites_manager5shapeEPv
-                0x0800fd94        0x8 bn_sprites_manager.o
-                0x0800fd94                bn::sprites_manager::shape(void*)
+                0x0800c598        0x8 bn_sprites_manager.o
+                0x0800c598                bn::sprites_manager::shape(void*)
  .text._ZN2bn15sprites_manager4sizeEPv
-                0x0800fd9c        0x8 bn_sprites_manager.o
-                0x0800fd9c                bn::sprites_manager::size(void*)
+                0x0800c5a0        0x8 bn_sprites_manager.o
+                0x0800c5a0                bn::sprites_manager::size(void*)
  .text._ZN2bn15sprites_manager10shape_sizeEPv
-                0x0800fda4       0x14 bn_sprites_manager.o
-                0x0800fda4                bn::sprites_manager::shape_size(void*)
+                0x0800c5a8       0x14 bn_sprites_manager.o
+                0x0800c5a8                bn::sprites_manager::shape_size(void*)
  .text._ZN2bn15sprites_manager11hw_positionEPv
-                0x0800fdb8        0x4 bn_sprites_manager.o
-                0x0800fdb8                bn::sprites_manager::hw_position(void*)
+                0x0800c5bc        0x4 bn_sprites_manager.o
+                0x0800c5bc                bn::sprites_manager::hw_position(void*)
  .text._ZN2bn15sprites_manager9view_modeEPv
-                0x0800fdbc        0xc bn_sprites_manager.o
-                0x0800fdbc                bn::sprites_manager::view_mode(void*)
+                0x0800c5c0        0xc bn_sprites_manager.o
+                0x0800c5c0                bn::sprites_manager::view_mode(void*)
  .text._ZN2bn15sprites_manager10affine_matEPv
-                0x0800fdc8        0x4 bn_sprites_manager.o
-                0x0800fdc8                bn::sprites_manager::affine_mat(void*)
+                0x0800c5cc        0x4 bn_sprites_manager.o
+                0x0800c5cc                bn::sprites_manager::affine_mat(void*)
  .text._ZN2bn15sprites_manager22reserved_handles_countEv
-                0x0800fdcc       0x10 bn_sprites_manager.o
-                0x0800fdcc                bn::sprites_manager::reserved_handles_count()
+                0x0800c5d0       0x10 bn_sprites_manager.o
+                0x0800c5d0                bn::sprites_manager::reserved_handles_count()
  .text._ZN2bn15sprites_manager39fill_hblank_effect_horizontal_positionsEPviPKNS_7fixed_tILi12EEEPt
-                0x0800fddc       0x4c bn_sprites_manager.o
-                0x0800fddc                bn::sprites_manager::fill_hblank_effect_horizontal_positions(void*, int, bn::fixed_t<12> const*, unsigned short*)
+                0x0800c5e0       0x4c bn_sprites_manager.o
+                0x0800c5e0                bn::sprites_manager::fill_hblank_effect_horizontal_positions(void*, int, bn::fixed_t<12> const*, unsigned short*)
  .text._ZN2bn15sprites_manager37fill_hblank_effect_vertical_positionsEPviPKNS_7fixed_tILi12EEEPt
-                0x0800fe28       0x4c bn_sprites_manager.o
-                0x0800fe28                bn::sprites_manager::fill_hblank_effect_vertical_positions(void*, int, bn::fixed_t<12> const*, unsigned short*)
+                0x0800c62c       0x4c bn_sprites_manager.o
+                0x0800c62c                bn::sprites_manager::fill_hblank_effect_vertical_positions(void*, int, bn::fixed_t<12> const*, unsigned short*)
  .text._ZN2bn15sprites_manager35fill_hblank_effect_first_attributesEiNS_12sprite_shapeENS_8bpp_modeEiPKNS_23sprite_first_attributesEPt
-                0x0800fe74       0xc8 bn_sprites_manager.o
-                0x0800fe74                bn::sprites_manager::fill_hblank_effect_first_attributes(int, bn::sprite_shape, bn::bpp_mode, int, bn::sprite_first_attributes const*, unsigned short*)
+                0x0800c678       0xc8 bn_sprites_manager.o
+                0x0800c678                bn::sprites_manager::fill_hblank_effect_first_attributes(int, bn::sprite_shape, bn::bpp_mode, int, bn::sprite_first_attributes const*, unsigned short*)
  .text._ZN2bn15sprites_manager44fill_hblank_effect_regular_second_attributesEPviNS_11sprite_sizeEPKNS_32sprite_regular_second_attributesEPt
-                0x0800ff3c       0x60 bn_sprites_manager.o
-                0x0800ff3c                bn::sprites_manager::fill_hblank_effect_regular_second_attributes(void*, int, bn::sprite_size, bn::sprite_regular_second_attributes const*, unsigned short*)
+                0x0800c740       0x60 bn_sprites_manager.o
+                0x0800c740                bn::sprites_manager::fill_hblank_effect_regular_second_attributes(void*, int, bn::sprite_size, bn::sprite_regular_second_attributes const*, unsigned short*)
  .text._ZN2bn15sprites_manager43fill_hblank_effect_affine_second_attributesEPviNS_11sprite_sizeEPKNS_31sprite_affine_second_attributesEPt
-                0x0800ff9c       0x58 bn_sprites_manager.o
-                0x0800ff9c                bn::sprites_manager::fill_hblank_effect_affine_second_attributes(void*, int, bn::sprite_size, bn::sprite_affine_second_attributes const*, unsigned short*)
+                0x0800c7a0       0x58 bn_sprites_manager.o
+                0x0800c7a0                bn::sprites_manager::fill_hblank_effect_affine_second_attributes(void*, int, bn::sprite_size, bn::sprite_affine_second_attributes const*, unsigned short*)
  .text._ZN2bn15sprites_manager14update_camerasEv
-                0x0800fff4       0x20 bn_sprites_manager.o
-                0x0800fff4                bn::sprites_manager::update_cameras()
+                0x0800c7f8       0x20 bn_sprites_manager.o
+                0x0800c7f8                bn::sprites_manager::update_cameras()
  .text._ZN2bn15sprites_manager23update_auto_double_sizeEPv
-                0x08010014       0x2c bn_sprites_manager.o
-                0x08010014                bn::sprites_manager::update_auto_double_size(void*)
+                0x0800c818       0x2c bn_sprites_manager.o
+                0x0800c818                bn::sprites_manager::update_auto_double_size(void*)
  .text._ZN2bn15sprites_manager6commitEb
-                0x08010040       0xa4 bn_sprites_manager.o
-                0x08010040                bn::sprites_manager::commit(bool)
+                0x0800c844       0xa4 bn_sprites_manager.o
+                0x0800c844                bn::sprites_manager::commit(bool)
+ .text._ZN3_bn6assert9show_argsIA54_cEEvPKcS4_S4_iRKT_
+                0x0800c8e8       0x48 bn_sprites_manager.o
+                0x0800c8e8                void _bn::assert::show_args<char [54]>(char const*, char const*, char const*, int, char const (&) [54])
  .text._ZN2bn14sprite_builder20set_blending_enabledEb
-                0x080100e4       0x3c bn_sprites_manager.o
-                0x080100e4                bn::sprite_builder::set_blending_enabled(bool)
+                0x0800c930       0x3c bn_sprites_manager.o
+                0x0800c930                bn::sprite_builder::set_blending_enabled(bool)
  .text._ZNK2bn10sprite_ptr10dimensionsEv
-                0x08010120       0x68 bn_sprites_manager.o
-                0x08010120                bn::sprite_ptr::dimensions() const
+                0x0800c96c       0x68 bn_sprites_manager.o
+                0x0800c96c                bn::sprite_ptr::dimensions() const
  .text._ZNK2bn17sprite_shape_size6heightEv.isra.0
-                0x08010188       0xcc bn_sprites_manager.o
+                0x0800c9d4       0xcc bn_sprites_manager.o
  .text._ZNK2bn17sprite_shape_size5widthEv.isra.0
-                0x08010254       0xc8 bn_sprites_manager.o
+                0x0800caa0       0xc8 bn_sprites_manager.o
  .text._ZN2bn8optionalINS_18sprite_palette_ptrEEdeEv.part.0
-                0x0801031c       0x28 bn_sprites_manager.o
+                0x0800cb68       0x28 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager12_GLOBAL__N_1L18_remove_affine_matERNS_20sprites_manager_itemE
-                0x08010344       0xc4 bn_sprites_manager.o
+                0x0800cb90       0xc4 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager42remove_identity_affine_mat_when_not_neededEPv
-                0x08010408        0xc bn_sprites_manager.o
-                0x08010408                bn::sprites_manager::remove_identity_affine_mat_when_not_needed(void*)
+                0x0800cc54        0xc bn_sprites_manager.o
+                0x0800cc54                bn::sprites_manager::remove_identity_affine_mat_when_not_needed(void*)
  .text._ZN2bn8optionalINS_16sprite_tiles_ptrEEptEv.part.0
-                0x08010414       0x28 bn_sprites_manager.o
+                0x0800cc60       0x28 bn_sprites_manager.o
  .text._ZNK2bn8optionalINS_16sprite_tiles_ptrEEdeEv.part.0
-                0x0801043c       0x28 bn_sprites_manager.o
+                0x0800cc88       0x28 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager7paletteEPv
-                0x08010464       0x14 bn_sprites_manager.o
-                0x08010464                bn::sprites_manager::palette(void*)
+                0x0800ccb0       0x14 bn_sprites_manager.o
+                0x0800ccb0                bn::sprites_manager::palette(void*)
+ .text._ZN3_bn6assert9show_argsIA27_chEEvPKcS4_S4_iRKT_RKT0_
+                0x0800ccc4       0x54 bn_sprites_manager.o
+                0x0800ccc4                void _bn::assert::show_args<char [27], unsigned char>(char const*, char const*, char const*, int, char const (&) [27], unsigned char const&)
  .text._ZN2bn20sprites_manager_item13_builder_initERKNS_14sprite_builderE
-                0x08010478      0x320 bn_sprites_manager.o
-                0x08010478                bn::sprites_manager_item::_builder_init(bn::sprite_builder const&)
+                0x0800cd18      0x320 bn_sprites_manager.o
+                0x0800cd18                bn::sprites_manager_item::_builder_init(bn::sprite_builder const&)
  .text._ZNK2bn20sprites_manager_item15new_double_sizeEi.part.0
-                0x08010798       0x30 bn_sprites_manager.o
+                0x0800d038       0x30 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager12_GLOBAL__N_1L18_assign_affine_matEbRNS_20sprites_manager_itemEONS_21sprite_affine_mat_ptrE
-                0x080107c8      0x110 bn_sprites_manager.o
+                0x0800d068      0x110 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager18set_new_affine_matEPvRNS_21affine_mat_attributesE
-                0x080108d8       0x84 bn_sprites_manager.o
-                0x080108d8                bn::sprites_manager::set_new_affine_mat(void*, bn::affine_mat_attributes&)
+                0x0800d178       0x84 bn_sprites_manager.o
+                0x0800d178                bn::sprites_manager::set_new_affine_mat(void*, bn::affine_mat_attributes&)
  .text._ZN2bn14sprite_builder11set_z_orderEi
-                0x0801095c       0x48 bn_sprites_manager.o
-                0x0801095c                bn::sprite_builder::set_z_order(int)
+                0x0800d1fc       0x48 bn_sprites_manager.o
+                0x0800d1fc                bn::sprite_builder::set_z_order(int)
  .text._ZN2bn10sprite_ptr9set_scaleENS_7fixed_tILi12EEE
-                0x080109a4       0xbc bn_sprites_manager.o
-                0x080109a4                bn::sprite_ptr::set_scale(bn::fixed_t<12>)
+                0x0800d244       0xbc bn_sprites_manager.o
+                0x0800d244                bn::sprite_ptr::set_scale(bn::fixed_t<12>)
  .text._ZN2bn14sprite_builderC2ERKNS_17sprite_shape_sizeENS_16sprite_tiles_ptrENS_18sprite_palette_ptrE
-                0x08010a60      0x26c bn_sprites_manager.o
-                0x08010a60                bn::sprite_builder::sprite_builder(bn::sprite_shape_size const&, bn::sprite_tiles_ptr, bn::sprite_palette_ptr)
-                0x08010a60                bn::sprite_builder::sprite_builder(bn::sprite_shape_size const&, bn::sprite_tiles_ptr, bn::sprite_palette_ptr)
+                0x0800d300      0x26c bn_sprites_manager.o
+                0x0800d300                bn::sprite_builder::sprite_builder(bn::sprite_shape_size const&, bn::sprite_tiles_ptr, bn::sprite_palette_ptr)
+                0x0800d300                bn::sprite_builder::sprite_builder(bn::sprite_shape_size const&, bn::sprite_tiles_ptr, bn::sprite_palette_ptr)
  .text._ZN2bn14sprite_builder15set_bg_priorityEi
-                0x08010ccc       0x38 bn_sprites_manager.o
-                0x08010ccc                bn::sprite_builder::set_bg_priority(int)
+                0x0800d56c       0x38 bn_sprites_manager.o
+                0x0800d56c                bn::sprite_builder::set_bg_priority(int)
  .text._ZN2bn15sprites_manager6updateEv
-                0x08010d04      0x13c bn_sprites_manager.o
-                0x08010d04                bn::sprites_manager::update()
+                0x0800d5a4      0x13c bn_sprites_manager.o
+                0x0800d5a4                bn::sprites_manager::update()
  .text._ZN3_bn6assert9show_argsIJA27_ciA4_ciEEEvPKcS5_S5_iDpRKT_
-                0x08010e40       0x58 bn_sprites_manager.o
-                0x08010e40                void _bn::assert::show_args<char [27], int, char [4], int>(char const*, char const*, char const*, int, char const (&) [27], int const&, char const (&) [4], int const&)
+                0x0800d6e0       0x58 bn_sprites_manager.o
+                0x0800d6e0                void _bn::assert::show_args<char [27], int, char [4], int>(char const*, char const*, char const*, int, char const (&) [27], int const&, char const (&) [4], int const&)
  .text._ZN2bn15sprites_manager35fill_hblank_effect_third_attributesENS_17sprite_shape_sizeEPKNS_23sprite_third_attributesEPt
-                0x08010e98      0x2c0 bn_sprites_manager.o
-                0x08010e98                bn::sprites_manager::fill_hblank_effect_third_attributes(bn::sprite_shape_size, bn::sprite_third_attributes const*, unsigned short*)
+                0x0800d738      0x2c0 bn_sprites_manager.o
+                0x0800d738                bn::sprites_manager::fill_hblank_effect_third_attributes(bn::sprite_shape_size, bn::sprite_third_attributes const*, unsigned short*)
  .text._ZN2bn14sorted_sprites6sorter6insertERNS_20sprites_manager_itemE
-                0x08011158      0x184 bn_sprites_manager.o
-                0x08011158                bn::sorted_sprites::sorter::insert(bn::sprites_manager_item&)
+                0x0800d9f8      0x184 bn_sprites_manager.o
+                0x0800d9f8                bn::sorted_sprites::sorter::insert(bn::sprites_manager_item&)
  .text._ZN2bn15sprites_manager6createERKNS_13fixed_point_tILi12EEERKNS_17sprite_shape_sizeEONS_16sprite_tiles_ptrEONS_18sprite_palette_ptrE
-                0x080112dc      0x1cc bn_sprites_manager.o
-                0x080112dc                bn::sprites_manager::create(bn::fixed_point_t<12> const&, bn::sprite_shape_size const&, bn::sprite_tiles_ptr&&, bn::sprite_palette_ptr&&)
+                0x0800db7c      0x1cc bn_sprites_manager.o
+                0x0800db7c                bn::sprites_manager::create(bn::fixed_point_t<12> const&, bn::sprite_shape_size const&, bn::sprite_tiles_ptr&&, bn::sprite_palette_ptr&&)
  .text._ZNK2bn11sprite_item13create_spriteENS_7fixed_tILi12EEES2_
-                0x080114a8       0x44 bn_sprites_manager.o
-                0x080114a8                bn::sprite_item::create_sprite(bn::fixed_t<12>, bn::fixed_t<12>) const
+                0x0800dd48       0x44 bn_sprites_manager.o
+                0x0800dd48                bn::sprite_item::create_sprite(bn::fixed_t<12>, bn::fixed_t<12>) const
  .text._ZN2bn15sprites_manager6createEONS_14sprite_builderE
-                0x080114ec      0x1f8 bn_sprites_manager.o
-                0x080114ec                bn::sprites_manager::create(bn::sprite_builder&&)
+                0x0800dd8c      0x1f8 bn_sprites_manager.o
+                0x0800dd8c                bn::sprites_manager::create(bn::sprite_builder&&)
  .text._ZN2bn10sprite_ptr6createEONS_14sprite_builderE
-                0x080116e4       0x14 bn_sprites_manager.o
-                0x080116e4                bn::sprite_ptr::create(bn::sprite_builder&&)
+                0x0800df84       0x14 bn_sprites_manager.o
+                0x0800df84                bn::sprite_ptr::create(bn::sprite_builder&&)
  .text._ZN2bn14intrusive_listINS_20sprites_manager_itemEE5eraseENS2_14const_iteratorE.part.0
-                0x080116f8       0x28 bn_sprites_manager.o
+                0x0800df98       0x28 bn_sprites_manager.o
  .text._ZN2bn15sprites_manager15decrease_usagesEPv
-                0x08011720      0x164 bn_sprites_manager.o
-                0x08011720                bn::sprites_manager::decrease_usages(void*)
+                0x0800dfc0      0x164 bn_sprites_manager.o
+                0x0800dfc0                bn::sprites_manager::decrease_usages(void*)
  .text._ZN2bn10sprite_ptrD2Ev
-                0x08011884       0x18 bn_sprites_manager.o
-                0x08011884                bn::sprite_ptr::~sprite_ptr()
-                0x08011884                bn::sprite_ptr::~sprite_ptr()
+                0x0800e124       0x18 bn_sprites_manager.o
+                0x0800e124                bn::sprite_ptr::~sprite_ptr()
+                0x0800e124                bn::sprite_ptr::~sprite_ptr()
+ .text._ZN2bn12_GLOBAL__N_1L14_setup_builderERKNS_21sprite_text_generatorERNS_14sprite_builderE
+                0x0800e13c       0x68 bn_sprite_text_generator.o
+ .text._ZN2bn12_GLOBAL__N_1L22_fix_top_left_positionEiRNS_7ivectorINS_10sprite_ptrEEE.isra.0
+                0x0800e1a4       0x80 bn_sprite_text_generator.o
+ .text._ZN2bn21sprite_text_generator5_initEv
+                0x0800e224      0x1b4 bn_sprite_text_generator.o
+                0x0800e224                bn::sprite_text_generator::_init()
+ .text._ZN2bn21sprite_text_generatorC2ERKNS_11sprite_fontE
+                0x0800e3d8       0x38 bn_sprite_text_generator.o
+                0x0800e3d8                bn::sprite_text_generator::sprite_text_generator(bn::sprite_font const&)
+                0x0800e3d8                bn::sprite_text_generator::sprite_text_generator(bn::sprite_font const&)
+ .text._ZNK2bn17sprite_tiles_item18graphics_tiles_refEi.part.0
+                0x0800e410       0x24 bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIJA25_ciA4_ctEEEvPKcS5_S5_iDpRKT_
+                0x0800e434       0x64 bn_sprite_text_generator.o
+                0x0800e434                void _bn::assert::show_args<char [25], int, char [4], unsigned short>(char const*, char const*, char const*, int, char const (&) [25], int const&, char const (&) [4], unsigned short const&)
+ .text._ZN2bn8optionalINS_16sprite_tiles_ptrEEdeEv.part.0
+                0x0800e498       0x28 bn_sprite_text_generator.o
+ .text._ZN2bn8optionalINS_4spanINS_4tileEEEEptEv.part.0
+                0x0800e4c0       0x28 bn_sprite_text_generator.o
+ .text._ZN2bn14utf8_characterC2ERKc
+                0x0800e4e8      0x140 bn_sprite_text_generator.o
+                0x0800e4e8                bn::utf8_character::utf8_character(char const&)
+                0x0800e4e8                bn::utf8_character::utf8_character(char const&)
+ .text._ZN2bn12_GLOBAL__N_1L15_graphics_indexEcRKNS_23utf8_characters_map_refEPKcRi.part.0
+                0x0800e628       0x8c bn_sprite_text_generator.o
+ .text._ZN3_bn6assert9show_argsIJA20_ccA9_cN2bn11string_viewEA2_cEEEvPKcS8_S8_iDpRKT_
+                0x0800e6b4       0x6c bn_sprite_text_generator.o
+                0x0800e6b4                void _bn::assert::show_args<char [20], char, char [9], bn::string_view, char [2]>(char const*, char const*, char const*, int, char const (&) [20], char const&, char const (&) [9], bn::string_view const&, char const (&) [2])
+ .text._ZNK2bn21sprite_text_generator5widthERKNS_11string_viewE
+                0x0800e720      0x240 bn_sprite_text_generator.o
+                0x0800e720                bn::sprite_text_generator::width(bn::string_view const&) const
+ .text._ZN3_bn6assert9show_argsIA55_cEEvPKcS4_S4_iRKT_
+                0x0800e960       0x48 bn_sprite_text_generator.o
+                0x0800e960                void _bn::assert::show_args<char [55]>(char const*, char const*, char const*, int, char const (&) [55])
+ .text._ZN2bn12_GLOBAL__N_1L20_build_sprite_assertILNS_11sprite_sizeE1EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
+                0x0800e9a8      0x17c bn_sprite_text_generator.o
+ .text._ZN2bn12_GLOBAL__N_1L20_build_sprite_assertILNS_11sprite_sizeE2EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE
+                0x0800eb24      0x17c bn_sprite_text_generator.o
+ .text._ZN2bn12_GLOBAL__N_1L9_generateILb0EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE.isra.0
+                0x0800eca0     0x1164 bn_sprite_text_generator.o
+ .text._ZNK2bn21sprite_text_generator17generate_top_leftERKNS_13fixed_point_tILi12EEERKNS_11string_viewERNS_7ivectorINS_10sprite_ptrEEE
+                0x0800fe04       0x44 bn_sprite_text_generator.o
+                0x0800fe04                bn::sprite_text_generator::generate_top_left(bn::fixed_point_t<12> const&, bn::string_view const&, bn::ivector<bn::sprite_ptr>&) const
+ .text._ZNK2bn16sprite_tiles_ptr2idEv
+                0x0800fe48       0x18 bn_sprite_tiles_manager.o
+                0x0800fe48                bn::sprite_tiles_ptr::id() const
+ .text._ZNK2bn16sprite_tiles_ptr11tiles_countEv
+                0x0800fe60       0x18 bn_sprite_tiles_manager.o
+                0x0800fe60                bn::sprite_tiles_ptr::tiles_count() const
+ .text._ZN2bn20sprite_tiles_manager10log_statusEv
+                0x0800fe78      0x1ec bn_sprite_tiles_manager.o
+                0x0800fe78                bn::sprite_tiles_manager::log_status()
+ .text._ZN2bn20sprite_tiles_manager19commit_uncompressedEb
+                0x08010064       0xc4 bn_sprite_tiles_manager.o
+                0x08010064                bn::sprite_tiles_manager::commit_uncompressed(bool)
+ .text._ZNK2bn17sprite_tiles_item18graphics_tiles_refEv.part.0
+                0x08010128       0x24 bn_sprite_tiles_manager.o
+ .text._ZNK2bn17sprite_tiles_item18graphics_tiles_refEi.part.0
+                0x0801014c       0x24 bn_sprite_tiles_manager.o
+ .text._ZN3_bn6assert9show_argsIJA44_cPKN2bn4tileEA4_cS6_EEEvPKcS9_S9_iDpRKT_
+                0x08010170       0x64 bn_sprite_tiles_manager.o
+                0x08010170                void _bn::assert::show_args<char [44], bn::tile const*, char [4], bn::tile const*>(char const*, char const*, char const*, int, char const (&) [44], bn::tile const* const&, char const (&) [4], bn::tile const* const&)
+ .text._ZN3_bn6assert9show_argsIJA46_ciA4_cjEEEvPKcS5_S5_iDpRKT_
+                0x080101d4       0x64 bn_sprite_tiles_manager.o
+                0x080101d4                void _bn::assert::show_args<char [46], int, char [4], unsigned int>(char const*, char const*, char const*, int, char const (&) [46], int const&, char const (&) [4], unsigned int const&)
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_hw_commitEPKNS_4tileENS_16compression_typeEii
+                0x08010238       0x88 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager17commit_compressedEv
+                0x080102c0       0x5c bn_sprite_tiles_manager.o
+                0x080102c0                bn::sprite_tiles_manager::commit_compressed()
+ .text._ZN3_bn6assert9show_argsIJA28_cA15_cPKN2bn4tileEA16_ciA34_cNS4_11string_viewEEEEvPKcSC_SC_iDpRKT_
+                0x0801031c       0x7c bn_sprite_tiles_manager.o
+                0x0801031c                void _bn::assert::show_args<char [28], char [15], bn::tile const*, char [16], int, char [34], bn::string_view>(char const*, char const*, char const*, int, char const (&) [28], char const (&) [15], bn::tile const* const&, char const (&) [16], int const&, char const (&) [34], bn::string_view const&)
+ .text._ZN3_bn6assert9show_argsIJA44_ciA34_cN2bn11string_viewEEEEvPKcS7_S7_iDpRKT_
+                0x08010398       0x64 bn_sprite_tiles_manager.o
+                0x08010398                void _bn::assert::show_args<char [44], int, char [34], bn::string_view>(char const*, char const*, char const*, int, char const (&) [44], int const&, char const (&) [34], bn::string_view const&)
+ .text._ZN2bn7ivectorItE9push_backEOt.part.0
+                0x080103fc       0x28 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager4initEv
+                0x08010424      0x160 bn_sprite_tiles_manager.o
+                0x08010424                bn::sprite_tiles_manager::init()
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L17_insert_free_itemEi
+                0x08010584       0xf0 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L16_erase_free_itemEi
+                0x08010674       0xfc bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L21_erase_to_commit_itemEiRNS1_9item_typeE.part.0
+                0x08010770       0xac bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager15decrease_usagesEi
+                0x0801081c      0x148 bn_sprite_tiles_manager.o
+                0x0801081c                bn::sprite_tiles_manager::decrease_usages(int)
+ .text._ZN2bn16sprite_tiles_ptrD2Ev
+                0x08010964       0x18 bn_sprite_tiles_manager.o
+                0x08010964                bn::sprite_tiles_ptr::~sprite_tiles_ptr()
+                0x08010964                bn::sprite_tiles_ptr::~sprite_tiles_ptr()
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_find_implEPKNS_4tileENS_16compression_typeEi
+                0x0801097c      0x2d0 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager4vramEi
+                0x08010c4c       0x3c bn_sprite_tiles_manager.o
+                0x08010c4c                bn::sprite_tiles_manager::vram(int)
+ .text._ZN2bn16sprite_tiles_ptr4vramEv
+                0x08010c88       0x14 bn_sprite_tiles_manager.o
+                0x08010c88                bn::sprite_tiles_ptr::vram()
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L21_erase_items_map_itemEPKNS_4tileE
+                0x08010c9c      0x208 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L12_create_itemEiPKNS_4tileENS_16compression_typeEib
+                0x08010ea4      0x204 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L14_allocate_implEi
+                0x080110a8      0x110 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager8allocateEiNS_8bpp_modeE
+                0x080111b8       0xc0 bn_sprite_tiles_manager.o
+                0x080111b8                bn::sprite_tiles_manager::allocate(int, bn::bpp_mode)
+ .text._ZN2bn16sprite_tiles_ptr8allocateEiNS_8bpp_modeE
+                0x08011278       0x18 bn_sprite_tiles_manager.o
+                0x08011278                bn::sprite_tiles_ptr::allocate(int, bn::bpp_mode)
+ .text._ZN2bn20sprite_tiles_manager6updateEv
+                0x08011290      0x19c bn_sprite_tiles_manager.o
+                0x08011290                bn::sprite_tiles_manager::update()
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L12_create_implEPKNS_4tileENS_16compression_typeEi
+                0x0801142c      0x204 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L22_insert_items_map_itemEPKNS_4tileEi
+                0x08011630       0xc0 bn_sprite_tiles_manager.o
+ .text._ZN2bn20sprite_tiles_manager6createERKNS_4spanIKNS_4tileEEENS_16compression_typeE
+                0x080116f0       0x90 bn_sprite_tiles_manager.o
+                0x080116f0                bn::sprite_tiles_manager::create(bn::span<bn::tile const> const&, bn::compression_type)
+ .text._ZN2bn16sprite_tiles_ptr6createERKNS_17sprite_tiles_itemE
+                0x08011780       0x6c bn_sprite_tiles_manager.o
+                0x08011780                bn::sprite_tiles_ptr::create(bn::sprite_tiles_item const&)
+ .text._ZN2bn16sprite_tiles_ptr6createERKNS_17sprite_tiles_itemEi
+                0x080117ec       0xb0 bn_sprite_tiles_manager.o
+                0x080117ec                bn::sprite_tiles_ptr::create(bn::sprite_tiles_item const&, int)
  .text._ZN2bn13ostringstreamC2ERNS_12istring_baseE
                 0x0801189c        0x8 bn_sstream.o
                 0x0801189c                bn::ostringstream::ostringstream(bn::istring_base&)
@@ -8860,86 +8860,86 @@ Linker script and memory map
  .text.mmUpdateEffects
                 0x08014444       0x90 effect.o
                 0x08014444                mmUpdateEffects
- .text.mpp_resetchannels
-                0x080144d4       0x80 mas.o
- .text.mpph_VolumeSlide.isra.0
-                0x08014554       0x90 mas.o
- .text.mpph_PitchSlide_Up.isra.0
-                0x080145e4       0x3c mas.o
- .text.mpp_setposition
-                0x08014620       0xac mas.o
- .text.mppe_DoVibrato
-                0x080146cc       0x90 mas.o
- .text.mpph_FastForward
-                0x0801475c       0x80 mas.o
- .text.mppe_glis_backdoor.part.0.isra.0
-                0x080147dc       0xac mas.o
- .text.mmSetEventHandler
-                0x08014888        0xc mas.o
-                0x08014888                mmSetEventHandler
- .text.mmPause  0x08014894       0x4c mas.o
-                0x08014894                mmPause
- .text.mmResume
-                0x080148e0       0x14 mas.o
-                0x080148e0                mmResume
- .text.mmJinglePause
-                0x080148f4       0x54 mas.o
-                0x080148f4                mmJinglePause
- .text.mmJingleResume
-                0x08014948       0x14 mas.o
-                0x08014948                mmJingleResume
- .text.mmActive
-                0x0801495c        0xc mas.o
-                0x0801495c                mmActive
- .text.mmJingleActive
-                0x08014968        0xc mas.o
-                0x08014968                mmJingleActive
- .text.mmSetModuleVolume
-                0x08014974       0x14 mas.o
-                0x08014974                mmSetModuleVolume
- .text.mmSetJingleVolume
-                0x08014988       0x14 mas.o
-                0x08014988                mmSetJingleVolume
- .text.mmStop   0x0801499c       0x34 mas.o
-                0x0801499c                mmStop
- .text.mmJingleStop
-                0x080149d0       0x2c mas.o
-                0x080149d0                mmJingleStop
- .text.mmGetPosition
-                0x080149fc        0xc mas.o
-                0x080149fc                mmGetPosition
- .text.mmSetModuleTempo
-                0x08014a08       0x54 mas.o
-                0x08014a08                mmSetModuleTempo
- .text.mmPlayMAS
-                0x08014a5c      0x104 mas.o
-                0x08014a5c                mmPlayMAS
- .text.mmJingleStart
-                0x08014b60       0x30 mas.o
-                0x08014b60                mmJingleStart
- .text.mmStart  0x08014b90       0x30 mas.o
-                0x08014b90                mmStart
- .text.mmSetModulePitch
-                0x08014bc0       0x20 mas.o
-                0x08014bc0                mmSetModulePitch
- .text.mpp_Process_VolumeCommand
-                0x08014be0      0x348 mas.o
-                0x08014be0                mpp_Process_VolumeCommand
- .text.mmSetPositionEx
-                0x08014f28       0x24 mas.o
-                0x08014f28                mmSetPositionEx
- .text.mpp_Process_Effect
-                0x08014f4c      0x750 mas.o
-                0x08014f4c                mpp_Process_Effect
- .text.mpp_Update_ACHN_notest
-                0x0801569c      0x4d4 mas.o
-                0x0801569c                mpp_Update_ACHN_notest
- .text.mppUpdateSub
-                0x08015b70       0x64 mas.o
-                0x08015b70                mppUpdateSub
  .text.mmUpdateChannel_TN
-                0x08015bd4       0xbc mas_arm.o
-                0x08015bd4                mmUpdateChannel_TN
+                0x080144d4       0xbc mas_arm.o
+                0x080144d4                mmUpdateChannel_TN
+ .text.mpp_resetchannels
+                0x08014590       0x80 mas.o
+ .text.mpph_VolumeSlide.isra.0
+                0x08014610       0x90 mas.o
+ .text.mpph_PitchSlide_Up.isra.0
+                0x080146a0       0x3c mas.o
+ .text.mpp_setposition
+                0x080146dc       0xac mas.o
+ .text.mppe_DoVibrato
+                0x08014788       0x90 mas.o
+ .text.mpph_FastForward
+                0x08014818       0x80 mas.o
+ .text.mppe_glis_backdoor.part.0.isra.0
+                0x08014898       0xac mas.o
+ .text.mmSetEventHandler
+                0x08014944        0xc mas.o
+                0x08014944                mmSetEventHandler
+ .text.mmPause  0x08014950       0x4c mas.o
+                0x08014950                mmPause
+ .text.mmResume
+                0x0801499c       0x14 mas.o
+                0x0801499c                mmResume
+ .text.mmJinglePause
+                0x080149b0       0x54 mas.o
+                0x080149b0                mmJinglePause
+ .text.mmJingleResume
+                0x08014a04       0x14 mas.o
+                0x08014a04                mmJingleResume
+ .text.mmActive
+                0x08014a18        0xc mas.o
+                0x08014a18                mmActive
+ .text.mmJingleActive
+                0x08014a24        0xc mas.o
+                0x08014a24                mmJingleActive
+ .text.mmSetModuleVolume
+                0x08014a30       0x14 mas.o
+                0x08014a30                mmSetModuleVolume
+ .text.mmSetJingleVolume
+                0x08014a44       0x14 mas.o
+                0x08014a44                mmSetJingleVolume
+ .text.mmStop   0x08014a58       0x34 mas.o
+                0x08014a58                mmStop
+ .text.mmJingleStop
+                0x08014a8c       0x2c mas.o
+                0x08014a8c                mmJingleStop
+ .text.mmGetPosition
+                0x08014ab8        0xc mas.o
+                0x08014ab8                mmGetPosition
+ .text.mmSetModuleTempo
+                0x08014ac4       0x54 mas.o
+                0x08014ac4                mmSetModuleTempo
+ .text.mmPlayMAS
+                0x08014b18      0x104 mas.o
+                0x08014b18                mmPlayMAS
+ .text.mmJingleStart
+                0x08014c1c       0x30 mas.o
+                0x08014c1c                mmJingleStart
+ .text.mmStart  0x08014c4c       0x30 mas.o
+                0x08014c4c                mmStart
+ .text.mmSetModulePitch
+                0x08014c7c       0x20 mas.o
+                0x08014c7c                mmSetModulePitch
+ .text.mpp_Process_VolumeCommand
+                0x08014c9c      0x348 mas.o
+                0x08014c9c                mpp_Process_VolumeCommand
+ .text.mmSetPositionEx
+                0x08014fe4       0x24 mas.o
+                0x08014fe4                mmSetPositionEx
+ .text.mpp_Process_Effect
+                0x08015008      0x750 mas.o
+                0x08015008                mpp_Process_Effect
+ .text.mpp_Update_ACHN_notest
+                0x08015758      0x4d4 mas.o
+                0x08015758                mpp_Update_ACHN_notest
+ .text.mppUpdateSub
+                0x08015c2c       0x64 mas.o
+                0x08015c2c                mppUpdateSub
  .text.mmInit   0x08015c90       0xa8 main_gba.o
                 0x08015c90                mmInit
  .text.mmEnd    0x08015d38       0x2c main_gba.o
@@ -9136,13 +9136,13 @@ Linker script and memory map
  .v4_bx         0x08017920        0x0 linker stubs
 
 .iplt           0x08017920        0x0
- .iplt          0x08017920        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .iplt          0x08017920        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
 
 .fini           0x08017920        0xc
  *(.fini)
- .fini          0x08017920        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
+ .fini          0x08017920        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
                 0x08017920                _fini
- .fini          0x08017924        0x8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
+ .fini          0x08017924        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
                 0x0801792c                        . = ALIGN (0x4)
 
 .rodata         0x0801792c    0x13378
@@ -9178,10 +9178,10 @@ Linker script and memory map
                 0x0802570c                red_bn_gfxPal
  .rodata        0x0802572c       0x40 main.o
  .rodata        0x0802576c        0x8 bn_core.o
- .rodata        0x08025774        0x6 bn_sprite_text_generator.o
- *fill*         0x0802577a        0x2 ff
- .rodata        0x0802577c       0x10 bn_sprite_tiles_manager.o
- .rodata        0x0802578c       0x28 bn_sprites_manager.o
+ .rodata        0x08025774       0x28 bn_sprites_manager.o
+ .rodata        0x0802579c        0x6 bn_sprite_text_generator.o
+ *fill*         0x080257a2        0x2 ff
+ .rodata        0x080257a4       0x10 bn_sprite_tiles_manager.o
  .rodata        0x080257b4        0xa mas.o
  *fill*         0x080257be        0x2 ff
  .rodata        0x080257c0       0x90 gbt_player.o
@@ -9434,154 +9434,154 @@ Linker script and memory map
  .rodata._ZN2bn26sprite_affine_mats_manager14dettach_spriteEiRNS_24intrusive_list_node_typeE.str1.4
                 0x08028c40        0x0 bn_sprite_affine_mats_manager.o
                                  0x22 (size before relaxing)
- .rodata._ZN2bn21sprite_text_generator5_initEv.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x44 (size before relaxing)
- .rodata._ZNK2bn17sprite_tiles_item18graphics_tiles_refEi.part.0.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x62 (size before relaxing)
- .rodata._ZN2bn8optionalINS_16sprite_tiles_ptrEEdeEv.part.0.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x32 (size before relaxing)
- .rodata._ZN2bn8optionalINS_4spanINS_4tileEEEEptEv.part.0.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                  0xb (size before relaxing)
- .rodata._ZN2bn14utf8_characterC2ERKc.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x3c (size before relaxing)
- .rodata._ZN2bn12_GLOBAL__N_1L15_graphics_indexEcRKNS_23utf8_characters_map_refEPKcRi.part.0.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x44 (size before relaxing)
- .rodata._ZN2bn21sprite_text_generator16set_palette_itemERKNS_19sprite_palette_itemE.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x75 (size before relaxing)
- .rodata._ZNK2bn21sprite_text_generator5widthERKNS_11string_viewE.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x2c (size before relaxing)
- .rodata._ZN2bn12_GLOBAL__N_1L20_build_sprite_assertILNS_11sprite_sizeE1EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0x77 (size before relaxing)
- .rodata._ZN2bn12_GLOBAL__N_1L9_generateILb0EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE.isra.0.str1.4
-                0x08028c40        0x0 bn_sprite_text_generator.o
-                                 0xc7 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager10log_statusEv.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x94 (size before relaxing)
- .rodata._ZNK2bn17sprite_tiles_item18graphics_tiles_refEv.part.0.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x66 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_hw_commitEPKNS_4tileENS_16compression_typeEii.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x43 (size before relaxing)
- .rodata._ZN2bn7ivectorItE9push_backEOt.part.0.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x27 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L17_insert_free_itemEi.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x41 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L16_erase_free_itemEi.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x40 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_find_implEPKNS_4tileENS_16compression_typeEi.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0xd2 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager19allocate_first_halfEb.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x61 (size before relaxing)
- .rodata._ZN2bn16sprite_tiles_ptr4findERKNS_17sprite_tiles_itemE.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x3f (size before relaxing)
- .rodata._ZNK2bn17sprite_tiles_item10find_tilesEi.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x51 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L21_erase_items_map_itemEPKNS_4tileE.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x3a (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L12_create_itemEiPKNS_4tileENS_16compression_typeEib.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x35 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager17allocate_optionalEiNS_8bpp_modeE.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x62 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager8allocateEiNS_8bpp_modeE.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x38 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager6createERKNS_4spanIKNS_4tileEEENS_16compression_typeE.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x44 (size before relaxing)
- .rodata.str1.4
-                0x08028c40        0x0 bn_sprite_tiles_manager.o
-                                 0x25 (size before relaxing)
- .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L19_status_log_messageE
-                0x08028c40        0x8 bn_sprite_tiles_manager.o
  .rodata._ZN2bn14sprite_builder20set_blending_enabledEb.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x6a (size before relaxing)
  .rodata._ZN2bn15sprites_manager20set_blending_enabledEPvb.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x17 (size before relaxing)
  .rodata._ZNK2bn10sprite_ptr10dimensionsEv.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x4d (size before relaxing)
  .rodata._ZNK2bn17sprite_shape_size6heightEv.isra.0.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x40 (size before relaxing)
  .rodata._ZNK2bn17sprite_shape_size5widthEv.isra.0.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                   0x6 (size before relaxing)
  .rodata._ZN2bn8optionalINS_18sprite_palette_ptrEEdeEv.part.0.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x32 (size before relaxing)
  .rodata._ZN2bn8optionalINS_16sprite_tiles_ptrEEptEv.part.0.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                   0xb (size before relaxing)
  .rodata._ZN2bn20sprites_manager_item13_builder_initERKNS_14sprite_builderE.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x47 (size before relaxing)
  .rodata._ZN2bn15sprites_manager22set_bg_sorting_enabledEb.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x45 (size before relaxing)
  .rodata._ZN2bn14sprite_builder11set_z_orderEi.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x66 (size before relaxing)
  .rodata._ZN2bn14sprite_builder20set_horizontal_scaleENS_7fixed_tILi12EEE.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x67 (size before relaxing)
  .rodata._ZN2bn14sprite_builder9set_scaleENS_7fixed_tILi12EEES2_.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                   0xa (size before relaxing)
  .rodata._ZN2bn14sprite_builder9set_scaleENS_7fixed_tILi12EEE.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x1c (size before relaxing)
  .rodata._ZN2bn14sprite_builderC2ERKNS_17sprite_shape_sizeENS_16sprite_tiles_ptrENS_18sprite_palette_ptrE.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x6e (size before relaxing)
  .rodata._ZN2bn14sprite_builder15set_bg_priorityEi.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x66 (size before relaxing)
  .rodata._ZN2bn15sprites_manager6updateEv.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x2f (size before relaxing)
  .rodata._ZN2bn15sprites_manager35fill_hblank_effect_third_attributesENS_17sprite_shape_sizeEPKNS_23sprite_third_attributesEPt.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x93 (size before relaxing)
  .rodata._ZN2bn5ipoolINS_14sorted_sprites5layerEE6createIJRNS_8sort_keyEEEERS2_DpOT_.part.0.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x21 (size before relaxing)
  .rodata._ZN2bn14sorted_sprites6sorter6insertERNS_20sprites_manager_itemE.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x2d (size before relaxing)
  .rodata._ZN2bn15sprites_manager6createERKNS_13fixed_point_tILi12EEERKNS_17sprite_shape_sizeEONS_16sprite_tiles_ptrEONS_18sprite_palette_ptrE.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x1f (size before relaxing)
  .rodata._ZN2bn14intrusive_listINS_20sprites_manager_itemEE5eraseENS2_14const_iteratorE.part.0.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x2a (size before relaxing)
  .rodata._ZN2bn15sprites_manager15set_bg_priorityEPvi.str1.4
-                0x08028c48        0x0 bn_sprites_manager.o
+                0x08028c40        0x0 bn_sprites_manager.o
                                  0x29 (size before relaxing)
  .rodata._ZN2bn2hw7sprites12_GLOBAL__N_1L10_obj_sizesE
-                0x08028c48       0x18 bn_sprites_manager.o
+                0x08028c40       0x18 bn_sprites_manager.o
+ .rodata._ZN2bn21sprite_text_generator5_initEv.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x44 (size before relaxing)
+ .rodata._ZNK2bn17sprite_tiles_item18graphics_tiles_refEi.part.0.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x62 (size before relaxing)
+ .rodata._ZN2bn8optionalINS_16sprite_tiles_ptrEEdeEv.part.0.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x32 (size before relaxing)
+ .rodata._ZN2bn8optionalINS_4spanINS_4tileEEEEptEv.part.0.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                  0xb (size before relaxing)
+ .rodata._ZN2bn14utf8_characterC2ERKc.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x3c (size before relaxing)
+ .rodata._ZN2bn12_GLOBAL__N_1L15_graphics_indexEcRKNS_23utf8_characters_map_refEPKcRi.part.0.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x44 (size before relaxing)
+ .rodata._ZN2bn21sprite_text_generator16set_palette_itemERKNS_19sprite_palette_itemE.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x75 (size before relaxing)
+ .rodata._ZNK2bn21sprite_text_generator5widthERKNS_11string_viewE.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x2c (size before relaxing)
+ .rodata._ZN2bn12_GLOBAL__N_1L20_build_sprite_assertILNS_11sprite_sizeE1EEEPNS_4tileERKNS_21sprite_text_generatorERKNS_18sprite_palette_ptrERKNS_13fixed_point_tILi12EEERNS_7ivectorINS_10sprite_ptrEEE.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0x77 (size before relaxing)
+ .rodata._ZN2bn12_GLOBAL__N_1L9_generateILb0EEEbRKNS_21sprite_text_generatorERKNS_13fixed_point_tILi12EEERKNS_11string_viewERKNS_23utf8_characters_map_refEiibRNS_7ivectorINS_10sprite_ptrEEE.isra.0.str1.4
+                0x08028c58        0x0 bn_sprite_text_generator.o
+                                 0xc7 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager10log_statusEv.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x94 (size before relaxing)
+ .rodata._ZNK2bn17sprite_tiles_item18graphics_tiles_refEv.part.0.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x66 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_hw_commitEPKNS_4tileENS_16compression_typeEii.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x43 (size before relaxing)
+ .rodata._ZN2bn7ivectorItE9push_backEOt.part.0.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x27 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L17_insert_free_itemEi.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x41 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L16_erase_free_itemEi.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x40 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L10_find_implEPKNS_4tileENS_16compression_typeEi.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0xd2 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager19allocate_first_halfEb.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x61 (size before relaxing)
+ .rodata._ZN2bn16sprite_tiles_ptr4findERKNS_17sprite_tiles_itemE.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x3f (size before relaxing)
+ .rodata._ZNK2bn17sprite_tiles_item10find_tilesEi.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x51 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L21_erase_items_map_itemEPKNS_4tileE.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x3a (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L12_create_itemEiPKNS_4tileENS_16compression_typeEib.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x35 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager17allocate_optionalEiNS_8bpp_modeE.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x62 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager8allocateEiNS_8bpp_modeE.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x38 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager6createERKNS_4spanIKNS_4tileEEENS_16compression_typeE.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x44 (size before relaxing)
+ .rodata.str1.4
+                0x08028c58        0x0 bn_sprite_tiles_manager.o
+                                 0x25 (size before relaxing)
+ .rodata._ZN2bn20sprite_tiles_manager12_GLOBAL__N_1L19_status_log_messageE
+                0x08028c58        0x8 bn_sprite_tiles_manager.o
  .rodata._ZN3_bn6assert9show_argsIJA16_ciA4_ciEEEvPKcS5_S5_iDpRKT_.str1.4
                 0x08028c60        0x0 bn_sstream.o
                                  0x43 (size before relaxing)
@@ -9685,32 +9685,32 @@ Linker script and memory map
                 0x0802a190       0x14 tonc_sbmp16.o
                 0x0802a190                m3_surface
  .rodata.srf.0  0x0802a1a4       0x14 tte_main.o
- .rodata.mpp_Process_Effect.str1.4
-                0x0802a1b8        0x0 mas.o
-                                 0x3b (size before relaxing)
- .rodata.mpp_Process_Effect
-                0x0802a1b8       0xbc mas.o
- .rodata.mpp_TABLE_FineSineData
-                0x0802a274      0x100 mas.o
- .rodata.mpp_TABLE_FineLinearSlideDownTable
-                0x0802a374       0x20 mas.o
- .rodata.mpp_TABLE_FineLinearSlideUpTable
-                0x0802a394       0x20 mas.o
- .rodata.mpp_TABLE_LinearSlideDownTable
-                0x0802a3b4      0x202 mas.o
- *fill*         0x0802a5b6        0x2 ff
- .rodata.mpp_TABLE_LinearSlideUpTable
-                0x0802a5b8      0x202 mas.o
- *fill*         0x0802a7ba        0x2 ff
  .rodata.IT_PitchTable
-                0x0802a7bc      0x1e0 mas_arm.o
+                0x0802a1b8      0x1e0 mas_arm.o
  .rodata.ST3_FREQTABLE
-                0x0802a99c       0x18 mas_arm.o
+                0x0802a398       0x18 mas_arm.o
  .rodata.note_table_mod
-                0x0802a9b4       0x6d mas_arm.o
- *fill*         0x0802aa21        0x3 ff
+                0x0802a3b0       0x6d mas_arm.o
+ *fill*         0x0802a41d        0x3 ff
  .rodata.note_table_oct
-                0x0802aa24       0x1e mas_arm.o
+                0x0802a420       0x1e mas_arm.o
+ .rodata.mpp_Process_Effect.str1.4
+                0x0802a43e        0x0 mas.o
+                                 0x3b (size before relaxing)
+ *fill*         0x0802a43e        0x2 ff
+ .rodata.mpp_Process_Effect
+                0x0802a440       0xbc mas.o
+ .rodata.mpp_TABLE_FineSineData
+                0x0802a4fc      0x100 mas.o
+ .rodata.mpp_TABLE_FineLinearSlideDownTable
+                0x0802a5fc       0x20 mas.o
+ .rodata.mpp_TABLE_FineLinearSlideUpTable
+                0x0802a61c       0x20 mas.o
+ .rodata.mpp_TABLE_LinearSlideDownTable
+                0x0802a63c      0x202 mas.o
+ *fill*         0x0802a83e        0x2 ff
+ .rodata.mpp_TABLE_LinearSlideUpTable
+                0x0802a840      0x202 mas.o
  *fill*         0x0802aa42        0x2 ff
  .rodata.mp_bpm_divisors.0
                 0x0802aa44       0x20 mixer.o
@@ -9778,8 +9778,8 @@ Linker script and memory map
 
 .eh_frame       0x0802aca4        0x4
  *(.eh_frame)
- .eh_frame      0x0802aca4        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
- .eh_frame      0x0802aca4        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+ .eh_frame      0x0802aca4        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .eh_frame      0x0802aca4        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
                 0x0802aca8                        . = ALIGN (0x4)
 
 .gcc_except_table
@@ -9800,14 +9800,14 @@ Linker script and memory map
                 0x030002fc                bn::hw::palettes::_lut_effect(bn::color const*, unsigned char const*, int, bn::color*)
  .iwram         0x03000358       0xa8 bn_hw_sprite_tiles.bn_iwram.o
                 0x03000358                bn::hw::sprite_tiles::_plot_hideous_tiles(int, unsigned int const*, int, unsigned int*)
- .iwram         0x03000400      0x360 mas.o
-                0x0300048c                mpp_Channel_NewNote
-                0x03000560                mppProcessTick
- .iwram         0x03000760      0x678 mas_arm.o
-                0x0300080c                mmAllocChannel
-                0x030008bc                mmReadPattern
-                0x03000a44                mmGetPeriod
-                0x03000ab0                mmUpdateChannel_T0
+ .iwram         0x03000400      0x678 mas_arm.o
+                0x030004ac                mmAllocChannel
+                0x0300055c                mmReadPattern
+                0x030006e4                mmGetPeriod
+                0x03000750                mmUpdateChannel_T0
+ .iwram         0x03000a78      0x360 mas.o
+                0x03000b04                mpp_Channel_NewNote
+                0x03000bd8                mppProcessTick
  .iwram         0x03000dd8       0x7c mixer.o
                 0x03000dd8                mmVBlank
  .iwram         0x03000e54       0x6c bn_hw_bg_blocks.o
@@ -9846,8 +9846,8 @@ Linker script and memory map
                 0x03001340      0x22c stdgba_div.o
                 0x03001340                __aeabi_idivmod
                 0x03001340                __aeabi_idiv
-                0x03001560                __aeabi_uidiv
                 0x03001560                __aeabi_uidivmod
+                0x03001560                __aeabi_uidiv
  .iwram._stdgba_lmul
                 0x0300156c       0x68 stdgba_lmul.o
                 0x0300156c                __aeabi_lmul
@@ -9857,23 +9857,23 @@ Linker script and memory map
  .iwram._stdgba_memcpy
                 0x030015d4      0x124 stdgba_memcpy.o
                 0x030015d4                __aeabi_memcpy
-                0x03001618                __aeabi_memcpy8
                 0x03001618                __aeabi_memcpy4
+                0x03001618                __aeabi_memcpy8
  .iwram.memcpy  0x030016f8       0x10 stdgba_memcpy.o
                 0x030016f8                memcpy
  .iwram._stdgba_memset
                 0x03001708       0xec stdgba_memset.o
                 0x03001708                __aeabi_memclr
-                0x03001710                __aeabi_memclr4
                 0x03001710                __aeabi_memclr8
-                0x03001718                __aeabi_memset8
+                0x03001710                __aeabi_memclr4
                 0x03001718                __aeabi_memset4
+                0x03001718                __aeabi_memset8
                 0x030017ac                __aeabi_memset
  .iwram.memset  0x030017f4       0x1c stdgba_memset.o
                 0x030017f4                memset
  .iwram         0x03001810      0x1ac lz77.o
-                0x03001810                swi_LZ77UnCompWrite16bit
                 0x03001810                swi_LZ77UnCompWrite8bit
+                0x03001810                swi_LZ77UnCompWrite16bit
  .iwram         0x030019bc       0xec running_length.o
                 0x030019bc                swi_RLUnCompReadNormalWrite8bit
                 0x03001a1c                swi_RLUnCompReadNormalWrite16bit
@@ -9892,9 +9892,9 @@ Linker script and memory map
  *(.gnu.linkonce.b*)
  *(.bss*)
  .bss.completed.1
-                0x030022f0        0x1 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+                0x030022f0        0x1 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  *fill*         0x030022f1        0x3 
- .bss.object.0  0x030022f4       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .bss.object.0  0x030022f4       0x18 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .bss._ZN2bn22hblank_effects_manager12_GLOBAL__N_1L13internal_dataE
                 0x0300230c       0xb0 bn_hblank_effects_manager.o
  .bss._ZN2bn2hw5audio12_GLOBAL__N_1L20maxmod_mixing_bufferE
@@ -9914,52 +9914,52 @@ Linker script and memory map
                 0x03002820       0x20 effect.o
  .bss.mm_sfx_mastervolume
                 0x03002840        0x4 effect.o
- .bss.mmCallback
-                0x03002844        0x4 mas.o
- .bss.mpp_clayer
-                0x03002848        0x1 mas.o
-                0x03002848                mpp_clayer
- .bss.mpp_nchannels
-                0x03002849        0x1 mas.o
-                0x03002849                mpp_nchannels
- *fill*         0x0300284a        0x2 
- .bss.mm_masterpitch
-                0x0300284c        0x4 mas.o
-                0x0300284c                mm_masterpitch
- .bss.mm_mastertempo
-                0x03002850        0x4 mas.o
- .bss.mpp_channels
-                0x03002854        0x4 mas.o
-                0x03002854                mpp_channels
- .bss.mpp_layerp
-                0x03002858        0x4 mas.o
-                0x03002858                mpp_layerp
- .bss.mpp_vars  0x0300285c       0x10 mas.o
-                0x0300285c                mpp_vars
- .bss.mmLayerSub
-                0x0300286c       0x38 mas.o
-                0x0300286c                mmLayerSub
- .bss.mmLayerMain
-                0x030028a4       0x38 mas.o
-                0x030028a4                mmLayerMain
- .bss.mm_schannels
-                0x030028dc       0xa0 mas.o
-                0x030028dc                mm_schannels
- .bss.mm_num_ach
-                0x0300297c        0x4 mas.o
-                0x0300297c                mm_num_ach
- .bss.mm_num_mch
-                0x03002980        0x4 mas.o
-                0x03002980                mm_num_mch
- .bss.mm_pchannels
-                0x03002984        0x4 mas.o
-                0x03002984                mm_pchannels
- .bss.mm_achannels
-                0x03002988        0x4 mas.o
-                0x03002988                mm_achannels
  .bss.mm_ch_mask
-                0x0300298c        0x4 mas_arm.o
-                0x0300298c                mm_ch_mask
+                0x03002844        0x4 mas_arm.o
+                0x03002844                mm_ch_mask
+ .bss.mmCallback
+                0x03002848        0x4 mas.o
+ .bss.mpp_clayer
+                0x0300284c        0x1 mas.o
+                0x0300284c                mpp_clayer
+ .bss.mpp_nchannels
+                0x0300284d        0x1 mas.o
+                0x0300284d                mpp_nchannels
+ *fill*         0x0300284e        0x2 
+ .bss.mm_masterpitch
+                0x03002850        0x4 mas.o
+                0x03002850                mm_masterpitch
+ .bss.mm_mastertempo
+                0x03002854        0x4 mas.o
+ .bss.mpp_channels
+                0x03002858        0x4 mas.o
+                0x03002858                mpp_channels
+ .bss.mpp_layerp
+                0x0300285c        0x4 mas.o
+                0x0300285c                mpp_layerp
+ .bss.mpp_vars  0x03002860       0x10 mas.o
+                0x03002860                mpp_vars
+ .bss.mmLayerSub
+                0x03002870       0x38 mas.o
+                0x03002870                mmLayerSub
+ .bss.mmLayerMain
+                0x030028a8       0x38 mas.o
+                0x030028a8                mmLayerMain
+ .bss.mm_schannels
+                0x030028e0       0xa0 mas.o
+                0x030028e0                mm_schannels
+ .bss.mm_num_ach
+                0x03002980        0x4 mas.o
+                0x03002980                mm_num_ach
+ .bss.mm_num_mch
+                0x03002984        0x4 mas.o
+                0x03002984                mm_num_mch
+ .bss.mm_pchannels
+                0x03002988        0x4 mas.o
+                0x03002988                mm_pchannels
+ .bss.mm_achannels
+                0x0300298c        0x4 mas.o
+                0x0300298c                mm_achannels
  .bss.mm_initialized
                 0x03002990        0x1 main_gba.o
  *fill*         0x03002991        0x3 
@@ -10018,7 +10018,7 @@ Linker script and memory map
                 0x0802cf98                        __preinit_lma = (__data_lma + SIZEOF (.data))
 
 .igot.plt       0x030022f0        0x0 load address 0x0802cf98
- .igot.plt      0x030022f0        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .igot.plt      0x030022f0        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
 
 .preinit_array  0x03002b60        0x0 load address 0x0802cf98
                 0x03002b60                        __preinit_array_start = ABSOLUTE (.)
@@ -10030,7 +10030,7 @@ Linker script and memory map
                 0x03002b60                        __init_array_start = ABSOLUTE (.)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x03002b60        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .init_array    0x03002b60        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .init_array    0x03002b64        0x4 bn_hblank_effects_manager.o
                 0x03002b68                        __init_array_end = ABSOLUTE (.)
                 0x0802cfa0                        __fini_lma = (__init_lma + SIZEOF (.init_array))
@@ -10039,7 +10039,7 @@ Linker script and memory map
                 0x03002b68                        __fini_array_start = ABSOLUTE (.)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
- .fini_array    0x03002b68        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .fini_array    0x03002b68        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
                 0x03002b6c                        __fini_array_end = ABSOLUTE (.)
                 0x0802cfa4                        __jcr_lma = (__fini_lma + SIZEOF (.fini_array))
 
@@ -10140,8 +10140,8 @@ Linker script and memory map
  .sbss          0x02002408       0x14 bn_memory_manager.o
  .sbss          0x0200241c      0xd50 bn_palettes_manager.o
  .sbss          0x0200316c      0x8c8 bn_sprite_affine_mats_manager.o
- .sbss          0x02003a34     0x1674 bn_sprite_tiles_manager.o
- .sbss          0x020050a8     0x2654 bn_sprites_manager.o
+ .sbss          0x02003a34     0x2654 bn_sprites_manager.o
+ .sbss          0x02006088     0x1674 bn_sprite_tiles_manager.o
  .sbss          0x020076fc      0xb04 bn_hw_audio.o
  .sbss          0x02008200        0xc bn_hw_dmg_audio.o
  .sbss          0x0200820c      0x130 bn_hw_link.o
@@ -10159,7 +10159,7 @@ Linker script and memory map
                 0x0802d08c                        __rom_end__ = (__pad_lma + SIZEOF (.pad))
 
 .rel.dyn        0x020083ec        0x0 load address 0x0802d08c
- .rel.iplt      0x020083ec        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .rel.iplt      0x020083ec        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
 
 .stab
  *(.stab)
@@ -10181,7 +10181,7 @@ Linker script and memory map
 
 .comment        0x00000000       0x18
  *(.comment)
- .comment       0x00000000       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+ .comment       0x00000000       0x18 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
                                  0x19 (size before relaxing)
  .comment       0x00000018        0x0 main.o
                                  0x19 (size before relaxing)
@@ -10217,13 +10217,13 @@ Linker script and memory map
                                  0x19 (size before relaxing)
  .comment       0x00000018        0x0 bn_sprite_affine_mats_manager.o
                                  0x19 (size before relaxing)
- .comment       0x00000018        0x0 bn_sprite_text_generator.o
-                                 0x19 (size before relaxing)
- .comment       0x00000018        0x0 bn_sprite_tiles_manager.o
-                                 0x19 (size before relaxing)
  .comment       0x00000018        0x0 bn_sprites_manager.bn_iwram.o
                                  0x19 (size before relaxing)
  .comment       0x00000018        0x0 bn_sprites_manager.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 bn_sprite_text_generator.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 bn_sprite_tiles_manager.o
                                  0x19 (size before relaxing)
  .comment       0x00000018        0x0 bn_sstream.o
                                  0x19 (size before relaxing)
@@ -10271,9 +10271,9 @@ Linker script and memory map
                                  0x19 (size before relaxing)
  .comment       0x00000018        0x0 effect.o
                                  0x19 (size before relaxing)
- .comment       0x00000018        0x0 mas.o
-                                 0x19 (size before relaxing)
  .comment       0x00000018        0x0 mas_arm.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 mas.o
                                  0x19 (size before relaxing)
  .comment       0x00000018        0x0 main_gba.o
                                  0x19 (size before relaxing)
@@ -10283,7 +10283,7 @@ Linker script and memory map
                                  0x19 (size before relaxing)
  .comment       0x00000018        0x0 advgm.o
                                  0x19 (size before relaxing)
- .comment       0x00000018        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+ .comment       0x00000018        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
                                  0x19 (size before relaxing)
 
 .debug
@@ -10335,13 +10335,13 @@ Linker script and memory map
  .debug_aranges
                 0x00005128      0x2c8 bn_sprite_affine_mats_manager.o
  .debug_aranges
-                0x000053f0      0x178 bn_sprite_text_generator.o
+                0x000053f0       0x30 bn_sprites_manager.bn_iwram.o
  .debug_aranges
-                0x00005568      0x320 bn_sprite_tiles_manager.o
+                0x00005420      0xa50 bn_sprites_manager.o
  .debug_aranges
-                0x00005888       0x30 bn_sprites_manager.bn_iwram.o
+                0x00005e70      0x178 bn_sprite_text_generator.o
  .debug_aranges
-                0x000058b8      0xa50 bn_sprites_manager.o
+                0x00005fe8      0x320 bn_sprite_tiles_manager.o
  .debug_aranges
                 0x00006308      0x138 bn_sstream.o
  .debug_aranges
@@ -10389,9 +10389,9 @@ Linker script and memory map
  .debug_aranges
                 0x00006d58       0x88 effect.o
  .debug_aranges
-                0x00006de0      0x138 mas.o
+                0x00006de0       0x48 mas_arm.o
  .debug_aranges
-                0x00006f18       0x48 mas_arm.o
+                0x00006e28      0x138 mas.o
  .debug_aranges
                 0x00006f60       0x48 main_gba.o
  .debug_aranges
@@ -10465,10 +10465,10 @@ Linker script and memory map
  .debug_info    0x001e5079     0x7288 bn_memory_manager.o
  .debug_info    0x001ec301    0x21012 bn_palettes_manager.o
  .debug_info    0x0020d313    0x18fc6 bn_sprite_affine_mats_manager.o
- .debug_info    0x002262d9    0x2783a bn_sprite_text_generator.o
- .debug_info    0x0024db13    0x1ab78 bn_sprite_tiles_manager.o
- .debug_info    0x0026868b     0xac8e bn_sprites_manager.bn_iwram.o
- .debug_info    0x00273319    0x42157 bn_sprites_manager.o
+ .debug_info    0x002262d9     0xac8e bn_sprites_manager.bn_iwram.o
+ .debug_info    0x00230f67    0x42157 bn_sprites_manager.o
+ .debug_info    0x002730be    0x2783a bn_sprite_text_generator.o
+ .debug_info    0x0029a8f8    0x1ab78 bn_sprite_tiles_manager.o
  .debug_info    0x002b5470     0xcded bn_sstream.o
  .debug_info    0x002c225d    0x176e1 bn_translation_unit.o
  .debug_info    0x002d993e     0xc03d bn_hw_audio.o
@@ -10492,8 +10492,8 @@ Linker script and memory map
  .debug_info    0x0030e979      0xe6d tte_main.o
  .debug_info    0x0030f7e6      0x241 interrupts_gba.o
  .debug_info    0x0030fa27     0x10a6 effect.o
- .debug_info    0x00310acd     0x5a58 mas.o
- .debug_info    0x00316525     0x1289 mas_arm.o
+ .debug_info    0x00310acd     0x1289 mas_arm.o
+ .debug_info    0x00311d56     0x5a58 mas.o
  .debug_info    0x003177ae      0xcdc main_gba.o
  .debug_info    0x0031848a      0x656 mixer.o
  .debug_info    0x00318ae0     0x21bb gbt_player.o
@@ -10539,10 +10539,10 @@ Linker script and memory map
  .debug_abbrev  0x0000d736      0xb5f bn_memory_manager.o
  .debug_abbrev  0x0000e295     0x1314 bn_palettes_manager.o
  .debug_abbrev  0x0000f5a9     0x12c4 bn_sprite_affine_mats_manager.o
- .debug_abbrev  0x0001086d     0x109d bn_sprite_text_generator.o
- .debug_abbrev  0x0001190a     0x1294 bn_sprite_tiles_manager.o
- .debug_abbrev  0x00012b9e      0xae6 bn_sprites_manager.bn_iwram.o
- .debug_abbrev  0x00013684     0x1404 bn_sprites_manager.o
+ .debug_abbrev  0x0001086d      0xae6 bn_sprites_manager.bn_iwram.o
+ .debug_abbrev  0x00011353     0x1404 bn_sprites_manager.o
+ .debug_abbrev  0x00012757     0x109d bn_sprite_text_generator.o
+ .debug_abbrev  0x000137f4     0x1294 bn_sprite_tiles_manager.o
  .debug_abbrev  0x00014a88      0xc63 bn_sstream.o
  .debug_abbrev  0x000156eb      0xffb bn_translation_unit.o
  .debug_abbrev  0x000166e6     0x1113 bn_hw_audio.o
@@ -10566,8 +10566,8 @@ Linker script and memory map
  .debug_abbrev  0x0001d757      0x500 tte_main.o
  .debug_abbrev  0x0001dc57      0x135 interrupts_gba.o
  .debug_abbrev  0x0001dd8c      0x3b4 effect.o
- .debug_abbrev  0x0001e140      0x5ba mas.o
- .debug_abbrev  0x0001e6fa      0x412 mas_arm.o
+ .debug_abbrev  0x0001e140      0x412 mas_arm.o
+ .debug_abbrev  0x0001e552      0x5ba mas.o
  .debug_abbrev  0x0001eb0c      0x300 main_gba.o
  .debug_abbrev  0x0001ee0c      0x243 mixer.o
  .debug_abbrev  0x0001f04f      0x430 gbt_player.o
@@ -10594,79 +10594,79 @@ Linker script and memory map
  .debug_abbrev  0x0001f854       0x14 running_length.o
  .debug_abbrev  0x0001f868       0x14 mixer_asm.o
 
-.debug_line     0x00000000    0xe5ec3
+.debug_line     0x00000000    0xe6c36
  *(.debug_line)
- .debug_line    0x00000000     0x1cb9 main.o
- .debug_line    0x00001cb9     0x1f80 bn_affine_bg_animate_actions.o
- .debug_line    0x00003c39     0x9378 bn_audio_manager.bn_noflto.o
- .debug_line    0x0000cfb1     0x1602 bn_best_fit_allocator.o
- .debug_line    0x0000e5b3    0x198d0 bn_bg_blocks_manager.o
- .debug_line    0x00027e83    0x2b18a bn_bgs_manager.o
- .debug_line    0x0005300d     0x148d bn_cameras_manager.o
- .debug_line    0x0005449a     0x2021 bn_core.o
- .debug_line    0x000564bb     0xa5f1 bn_display_manager.o
- .debug_line    0x00060aac     0x149e bn_gpio_manager.o
- .debug_line    0x00061f4a    0x2ae69 bn_hblank_effects_manager.o
- .debug_line    0x0008cdb3     0x1778 bn_hdma_manager.o
- .debug_line    0x0008e52b     0x182f bn_keypad_manager.o
- .debug_line    0x0008fd5a      0xe39 bn_link_manager.o
- .debug_line    0x00090b93     0x1b4b bn_memory_manager.o
- .debug_line    0x000926de     0xafc3 bn_palettes_manager.o
- .debug_line    0x0009d6a1     0x6170 bn_sprite_affine_mats_manager.o
- .debug_line    0x000a3811     0x8f11 bn_sprite_text_generator.o
- .debug_line    0x000ac722     0x747d bn_sprite_tiles_manager.o
- .debug_line    0x000b3b9f      0xf2a bn_sprites_manager.bn_iwram.o
- .debug_line    0x000b4ac9    0x15bec bn_sprites_manager.o
- .debug_line    0x000ca6b5     0x3525 bn_sstream.o
- .debug_line    0x000cdbda     0x3ccc bn_translation_unit.o
- .debug_line    0x000d18a6     0x1dc7 bn_hw_audio.o
- .debug_line    0x000d366d      0x633 bn_hw_common.bn_noflto.o
- .debug_line    0x000d3ca0      0x51f bn_hw_cstdlib.o
- .debug_line    0x000d41bf      0xc5e bn_hw_dmg_audio.o
- .debug_line    0x000d4e1d      0x49c bn_hw_game_pak.bn_ewram.o
- .debug_line    0x000d52b9      0x586 bn_hw_gpio.bn_noflto.o
- .debug_line    0x000d583f     0x2247 bn_hw_link.o
- .debug_line    0x000d7a86      0x699 bn_hw_palettes.bn_iwram.o
- .debug_line    0x000d811f      0xa8a bn_hw_palettes.o
- .debug_line    0x000d8ba9     0x1158 bn_hw_show.o
- .debug_line    0x000d9d01      0x3a6 bn_hw_sprite_tiles.bn_iwram.o
- .debug_line    0x000da0a7      0x2fa bn_hw_sram.bn_noflto.o
- .debug_line    0x000da3a1      0x324 bn_hw_system_font.o
- .debug_line    0x000da6c5      0xedb bn_hw_text.o
- .debug_line    0x000db5a0      0x943 tonc_color.o
- .debug_line    0x000dbee3      0x7c7 tonc_sbmp16.o
- .debug_line    0x000dc6aa      0x446 bmp16_drawg_b1cs.o
- .debug_line    0x000dcaf0      0x201 tte_init_bmp.o
- .debug_line    0x000dccf1      0xaf6 tte_main.o
- .debug_line    0x000dd7e7      0x2c5 interrupts_gba.o
- .debug_line    0x000ddaac      0x970 effect.o
- .debug_line    0x000de41c     0x3248 mas.o
- .debug_line    0x000e1664      0x996 mas_arm.o
- .debug_line    0x000e1ffa      0x51a main_gba.o
- .debug_line    0x000e2514      0x51e mixer.o
- .debug_line    0x000e2a32     0x1e9b gbt_player.o
- .debug_line    0x000e48cd      0x5d0 advgm.o
- .debug_line    0x000e4e9d       0x82 bn_hw_bg_blocks.o
- .debug_line    0x000e4f1f       0x6c bn_hw_core.o
- .debug_line    0x000e4f8b       0x9b bn_hw_hblank_effects.o
- .debug_line    0x000e5026       0x72 bn_hw_palettes_asm.o
- .debug_line    0x000e5098       0x92 clr_blend_fast.o
- .debug_line    0x000e512a       0x91 clr_fade_fast.o
- .debug_line    0x000e51bb       0xb5 tonc_bios.o
- .debug_line    0x000e5270       0xb0 tonc_memset.o
- .debug_line    0x000e5320       0xcd irq_handler.o
- .debug_line    0x000e53ed      0x1a7 posprintf.o
- .debug_line    0x000e5594       0x87 memcpy.o
- .debug_line    0x000e561b       0xa3 memmove.o
- .debug_line    0x000e56be       0x99 memset.o
- .debug_line    0x000e5757       0xb0 rmemcpy.o
- .debug_line    0x000e5807       0xfe stdgba_div.o
- .debug_line    0x000e5905       0x90 stdgba_lmul.o
- .debug_line    0x000e5995       0xd2 stdgba_memcpy.o
- .debug_line    0x000e5a67       0xc9 stdgba_memset.o
- .debug_line    0x000e5b30       0xe0 lz77.o
- .debug_line    0x000e5c10       0xb8 running_length.o
- .debug_line    0x000e5cc8      0x1fb mixer_asm.o
+ .debug_line    0x00000000     0x1ccd main.o
+ .debug_line    0x00001ccd     0x1fa0 bn_affine_bg_animate_actions.o
+ .debug_line    0x00003c6d     0x93b1 bn_audio_manager.bn_noflto.o
+ .debug_line    0x0000d01e     0x1622 bn_best_fit_allocator.o
+ .debug_line    0x0000e640    0x19933 bn_bg_blocks_manager.o
+ .debug_line    0x00027f73    0x2b224 bn_bgs_manager.o
+ .debug_line    0x00053197     0x14ad bn_cameras_manager.o
+ .debug_line    0x00054644     0x20a9 bn_core.o
+ .debug_line    0x000566ed     0xa65b bn_display_manager.o
+ .debug_line    0x00060d48     0x14e3 bn_gpio_manager.o
+ .debug_line    0x0006222b    0x2aecc bn_hblank_effects_manager.o
+ .debug_line    0x0008d0f7     0x180c bn_hdma_manager.o
+ .debug_line    0x0008e903     0x1860 bn_keypad_manager.o
+ .debug_line    0x00090163      0xef1 bn_link_manager.o
+ .debug_line    0x00091054     0x1bae bn_memory_manager.o
+ .debug_line    0x00092c02     0xb026 bn_palettes_manager.o
+ .debug_line    0x0009dc28     0x61da bn_sprite_affine_mats_manager.o
+ .debug_line    0x000a3e02      0xf94 bn_sprites_manager.bn_iwram.o
+ .debug_line    0x000a4d96    0x15c6e bn_sprites_manager.o
+ .debug_line    0x000baa04     0x8f8d bn_sprite_text_generator.o
+ .debug_line    0x000c3991     0x74e0 bn_sprite_tiles_manager.o
+ .debug_line    0x000cae71     0x3550 bn_sstream.o
+ .debug_line    0x000ce3c1     0x3d66 bn_translation_unit.o
+ .debug_line    0x000d2127     0x1e00 bn_hw_audio.o
+ .debug_line    0x000d3f27      0x651 bn_hw_common.bn_noflto.o
+ .debug_line    0x000d4578      0x53d bn_hw_cstdlib.o
+ .debug_line    0x000d4ab5      0xca9 bn_hw_dmg_audio.o
+ .debug_line    0x000d575e      0x4c7 bn_hw_game_pak.bn_ewram.o
+ .debug_line    0x000d5c25      0x5b3 bn_hw_gpio.bn_noflto.o
+ .debug_line    0x000d61d8     0x2317 bn_hw_link.o
+ .debug_line    0x000d84ef      0x6ca bn_hw_palettes.bn_iwram.o
+ .debug_line    0x000d8bb9      0xabb bn_hw_palettes.o
+ .debug_line    0x000d9674     0x11c0 bn_hw_show.o
+ .debug_line    0x000da834      0x3cb bn_hw_sprite_tiles.bn_iwram.o
+ .debug_line    0x000dabff      0x325 bn_hw_sram.bn_noflto.o
+ .debug_line    0x000daf24      0x342 bn_hw_system_font.o
+ .debug_line    0x000db266      0xf13 bn_hw_text.o
+ .debug_line    0x000dc179      0x953 tonc_color.o
+ .debug_line    0x000dcacc      0x7d7 tonc_sbmp16.o
+ .debug_line    0x000dd2a3      0x456 bmp16_drawg_b1cs.o
+ .debug_line    0x000dd6f9      0x211 tte_init_bmp.o
+ .debug_line    0x000dd90a      0xb08 tte_main.o
+ .debug_line    0x000de412      0x2d5 interrupts_gba.o
+ .debug_line    0x000de6e7      0x990 effect.o
+ .debug_line    0x000df077      0x9a2 mas_arm.o
+ .debug_line    0x000dfa19     0x3268 mas.o
+ .debug_line    0x000e2c81      0x53b main_gba.o
+ .debug_line    0x000e31bc      0x53d mixer.o
+ .debug_line    0x000e36f9     0x1eb2 gbt_player.o
+ .debug_line    0x000e55ab      0x5e7 advgm.o
+ .debug_line    0x000e5b92       0x88 bn_hw_bg_blocks.o
+ .debug_line    0x000e5c1a       0x72 bn_hw_core.o
+ .debug_line    0x000e5c8c       0xa1 bn_hw_hblank_effects.o
+ .debug_line    0x000e5d2d       0x78 bn_hw_palettes_asm.o
+ .debug_line    0x000e5da5       0x98 clr_blend_fast.o
+ .debug_line    0x000e5e3d       0x97 clr_fade_fast.o
+ .debug_line    0x000e5ed4       0xbb tonc_bios.o
+ .debug_line    0x000e5f8f       0xb6 tonc_memset.o
+ .debug_line    0x000e6045       0xd3 irq_handler.o
+ .debug_line    0x000e6118      0x1ad posprintf.o
+ .debug_line    0x000e62c5       0x8d memcpy.o
+ .debug_line    0x000e6352       0xa9 memmove.o
+ .debug_line    0x000e63fb       0x9f memset.o
+ .debug_line    0x000e649a       0xb6 rmemcpy.o
+ .debug_line    0x000e6550      0x104 stdgba_div.o
+ .debug_line    0x000e6654       0x96 stdgba_lmul.o
+ .debug_line    0x000e66ea       0xd8 stdgba_memcpy.o
+ .debug_line    0x000e67c2       0xcf stdgba_memset.o
+ .debug_line    0x000e6891       0xe6 lz77.o
+ .debug_line    0x000e6977       0xbe running_length.o
+ .debug_line    0x000e6a35      0x201 mixer_asm.o
 
 .debug_frame    0x00000000    0x16d4c
  *(.debug_frame)
@@ -10687,10 +10687,10 @@ Linker script and memory map
  .debug_frame   0x0000e768      0x604 bn_memory_manager.o
  .debug_frame   0x0000ed6c     0x14e8 bn_palettes_manager.o
  .debug_frame   0x00010254      0x988 bn_sprite_affine_mats_manager.o
- .debug_frame   0x00010bdc      0x620 bn_sprite_text_generator.o
- .debug_frame   0x000111fc      0xbb4 bn_sprite_tiles_manager.o
- .debug_frame   0x00011db0       0x90 bn_sprites_manager.bn_iwram.o
- .debug_frame   0x00011e40     0x23cc bn_sprites_manager.o
+ .debug_frame   0x00010bdc       0x90 bn_sprites_manager.bn_iwram.o
+ .debug_frame   0x00010c6c     0x23cc bn_sprites_manager.o
+ .debug_frame   0x00013038      0x620 bn_sprite_text_generator.o
+ .debug_frame   0x00013658      0xbb4 bn_sprite_tiles_manager.o
  .debug_frame   0x0001420c      0x3e0 bn_sstream.o
  .debug_frame   0x000145ec      0x974 bn_translation_unit.o
  .debug_frame   0x00014f60      0x3d4 bn_hw_audio.o
@@ -10714,208 +10714,208 @@ Linker script and memory map
  .debug_frame   0x00015f8c      0x198 tte_main.o
  .debug_frame   0x00016124       0x5c interrupts_gba.o
  .debug_frame   0x00016180      0x174 effect.o
- .debug_frame   0x000162f4      0x3a0 mas.o
- .debug_frame   0x00016694      0x10c mas_arm.o
+ .debug_frame   0x000162f4      0x10c mas_arm.o
+ .debug_frame   0x00016400      0x3a0 mas.o
  .debug_frame   0x000167a0       0xa0 main_gba.o
  .debug_frame   0x00016840       0xd0 mixer.o
  .debug_frame   0x00016910      0x354 gbt_player.o
  .debug_frame   0x00016c64       0xe8 advgm.o
 
-.debug_str      0x00000000    0xbfc1d
+.debug_str      0x00000000    0xbfdbb
  *(.debug_str)
- .debug_str     0x00000000    0xbfc1d main.o
-                               0xf6c1 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_affine_bg_animate_actions.o
-                               0xa1ea (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_audio_manager.bn_noflto.o
-                               0xcfb2 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_best_fit_allocator.o
-                               0x2b60 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_bg_blocks_manager.o
-                              0x1732c (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_bgs_manager.o
-                              0x2c4b1 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_cameras_manager.o
-                               0x3ffc (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_core.o
-                               0x5b04 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_display_manager.o
-                              0x13fed (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_gpio_manager.o
-                               0x3340 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hblank_effects_manager.o
-                              0x6aefd (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hdma_manager.o
-                               0x2eab (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_keypad_manager.o
-                               0x39d0 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_link_manager.o
-                               0x3e0b (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_memory_manager.o
-                               0x345c (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_palettes_manager.o
-                               0xcdeb (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_sprite_affine_mats_manager.o
-                              0x10b36 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_sprite_text_generator.o
-                              0x117f4 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_sprite_tiles_manager.o
-                               0x9592 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_sprites_manager.bn_iwram.o
-                               0xbf9a (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_sprites_manager.o
-                              0x19f02 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_sstream.o
-                               0x3f95 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_translation_unit.o
-                               0xd5ac (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_audio.o
-                               0x6e5f (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_common.bn_noflto.o
-                               0x158e (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_cstdlib.o
-                               0x14c5 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_dmg_audio.o
-                               0x2ea0 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_game_pak.bn_ewram.o
-                                0x5ad (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_gpio.bn_noflto.o
-                               0x13ba (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_link.o
-                               0x48f4 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_palettes.bn_iwram.o
-                                0xd52 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_palettes.o
-                               0x2eb0 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_show.o
-                               0x445e (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_sprite_tiles.bn_iwram.o
-                                0x59f (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_sram.bn_noflto.o
-                                0x574 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_system_font.o
-                                0x5c5 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_text.o
-                               0x2ebf (size before relaxing)
- .debug_str     0x000bfc1d        0x0 tonc_color.o
-                                0x305 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 tonc_sbmp16.o
-                                0x33e (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bmp16_drawg_b1cs.o
-                                0x37e (size before relaxing)
- .debug_str     0x000bfc1d        0x0 tte_init_bmp.o
-                                0x3ac (size before relaxing)
- .debug_str     0x000bfc1d        0x0 tte_main.o
-                                0x5cd (size before relaxing)
- .debug_str     0x000bfc1d        0x0 interrupts_gba.o
-                                0x326 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 effect.o
-                                0x695 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 mas.o
-                               0x1426 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 mas_arm.o
-                                0x8bf (size before relaxing)
- .debug_str     0x000bfc1d        0x0 main_gba.o
-                                0x90d (size before relaxing)
- .debug_str     0x000bfc1d        0x0 mixer.o
-                                0x531 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 gbt_player.o
-                                0xace (size before relaxing)
- .debug_str     0x000bfc1d        0x0 advgm.o
-                                0x3fb (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_bg_blocks.o
-                                 0x64 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_core.o
-                                 0x5f (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_hblank_effects.o
-                                 0x69 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 bn_hw_palettes_asm.o
+ .debug_str     0x00000000    0xbfdbb main.o
+                               0xf6bb (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_affine_bg_animate_actions.o
+                               0xa1ed (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_audio_manager.bn_noflto.o
+                               0xcfb5 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_best_fit_allocator.o
+                               0x2b63 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_bg_blocks_manager.o
+                              0x1732f (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_bgs_manager.o
+                              0x2c4b4 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_cameras_manager.o
+                               0x3fff (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_core.o
+                               0x5b07 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_display_manager.o
+                              0x13ff0 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_gpio_manager.o
+                               0x3343 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hblank_effects_manager.o
+                              0x6af00 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hdma_manager.o
+                               0x2eae (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_keypad_manager.o
+                               0x39d3 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_link_manager.o
+                               0x3e0e (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_memory_manager.o
+                               0x345f (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_palettes_manager.o
+                               0xcdee (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_sprite_affine_mats_manager.o
+                              0x10b39 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_sprites_manager.bn_iwram.o
+                               0xbf9d (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_sprites_manager.o
+                              0x19f05 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_sprite_text_generator.o
+                              0x117f7 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_sprite_tiles_manager.o
+                               0x9595 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_sstream.o
+                               0x3f98 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_translation_unit.o
+                               0xd5af (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_audio.o
+                               0x6e62 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_common.bn_noflto.o
+                               0x1591 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_cstdlib.o
+                               0x14c8 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_dmg_audio.o
+                               0x2ea3 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_game_pak.bn_ewram.o
+                                0x5b0 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_gpio.bn_noflto.o
+                               0x13bd (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_link.o
+                               0x48f7 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_palettes.bn_iwram.o
+                                0xd55 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_palettes.o
+                               0x2eb3 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_show.o
+                               0x4461 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_sprite_tiles.bn_iwram.o
+                                0x5a2 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_sram.bn_noflto.o
+                                0x577 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_system_font.o
+                                0x5c8 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_text.o
+                               0x2ec2 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 tonc_color.o
+                                0x308 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 tonc_sbmp16.o
+                                0x341 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bmp16_drawg_b1cs.o
+                                0x381 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 tte_init_bmp.o
+                                0x3af (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 tte_main.o
+                                0x5d0 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 interrupts_gba.o
+                                0x329 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 effect.o
+                                0x698 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 mas_arm.o
+                                0x8c2 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 mas.o
+                               0x1429 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 main_gba.o
+                                0x910 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 mixer.o
+                                0x534 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 gbt_player.o
+                                0xad1 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 advgm.o
+                                0x3fe (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_bg_blocks.o
                                  0x67 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 clr_blend_fast.o
-                                 0x84 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 clr_fade_fast.o
-                                 0x74 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 tonc_bios.o
-                                0x228 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 tonc_memset.o
-                                 0x84 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 irq_handler.o
-                                 0x72 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 posprintf.o
-                                 0x72 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 memcpy.o
+ .debug_str     0x000bfdbb        0x0 bn_hw_core.o
+                                 0x62 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_hblank_effects.o
                                  0x6c (size before relaxing)
- .debug_str     0x000bfc1d        0x0 memmove.o
-                                 0x6d (size before relaxing)
- .debug_str     0x000bfc1d        0x0 memset.o
-                                 0x6c (size before relaxing)
- .debug_str     0x000bfc1d        0x0 rmemcpy.o
-                                 0x6d (size before relaxing)
- .debug_str     0x000bfc1d        0x0 stdgba_div.o
-                                 0x91 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 stdgba_lmul.o
-                                 0xa5 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 stdgba_memcpy.o
-                                 0x82 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 stdgba_memset.o
-                                 0x82 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 lz77.o
-                                 0x74 (size before relaxing)
- .debug_str     0x000bfc1d        0x0 running_length.o
-                                 0x7e (size before relaxing)
- .debug_str     0x000bfc1d        0x0 mixer_asm.o
-                                 0x73 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 bn_hw_palettes_asm.o
+                                 0x6a (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 clr_blend_fast.o
+                                 0x87 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 clr_fade_fast.o
+                                 0x77 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 tonc_bios.o
+                                0x22b (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 tonc_memset.o
+                                 0x87 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 irq_handler.o
+                                 0x75 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 posprintf.o
+                                 0x75 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 memcpy.o
+                                 0x6f (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 memmove.o
+                                 0x70 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 memset.o
+                                 0x6f (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 rmemcpy.o
+                                 0x70 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 stdgba_div.o
+                                 0x94 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 stdgba_lmul.o
+                                 0xa8 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 stdgba_memcpy.o
+                                 0x85 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 stdgba_memset.o
+                                 0x85 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 lz77.o
+                                 0x77 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 running_length.o
+                                 0x81 (size before relaxing)
+ .debug_str     0x000bfdbb        0x0 mixer_asm.o
+                                 0x76 (size before relaxing)
 
-.debug_loc      0x00000000   0x1b9871
+.debug_loc      0x00000000   0x1b9873
  *(.debug_loc)
- .debug_loc     0x00000000     0x28d8 main.o
- .debug_loc     0x000028d8     0x29ad bn_affine_bg_animate_actions.o
- .debug_loc     0x00005285     0xd17e bn_audio_manager.bn_noflto.o
- .debug_loc     0x00012403     0x20cc bn_best_fit_allocator.o
- .debug_loc     0x000144cf    0x441f8 bn_bg_blocks_manager.o
- .debug_loc     0x000586c7    0x4b415 bn_bgs_manager.o
- .debug_loc     0x000a3adc     0x171e bn_cameras_manager.o
- .debug_loc     0x000a51fa     0x164c bn_core.o
- .debug_loc     0x000a6846    0x11a36 bn_display_manager.o
- .debug_loc     0x000b827c     0x211f bn_gpio_manager.o
- .debug_loc     0x000ba39b    0x59bf2 bn_hblank_effects_manager.o
- .debug_loc     0x00113f8d     0x19b6 bn_hdma_manager.o
- .debug_loc     0x00115943     0x110f bn_keypad_manager.o
- .debug_loc     0x00116a52      0xfbf bn_link_manager.o
- .debug_loc     0x00117a11     0x3276 bn_memory_manager.o
- .debug_loc     0x0011ac87    0x1646a bn_palettes_manager.o
- .debug_loc     0x001310f1     0xb407 bn_sprite_affine_mats_manager.o
- .debug_loc     0x0013c4f8    0x159bc bn_sprite_text_generator.o
- .debug_loc     0x00151eb4    0x11bf5 bn_sprite_tiles_manager.o
- .debug_loc     0x00163aa9      0xd81 bn_sprites_manager.bn_iwram.o
- .debug_loc     0x0016482a    0x2a035 bn_sprites_manager.o
- .debug_loc     0x0018e85f     0x9d5a bn_sstream.o
- .debug_loc     0x001985b9     0x615b bn_translation_unit.o
- .debug_loc     0x0019e714     0x2799 bn_hw_audio.o
- .debug_loc     0x001a0ead      0x327 bn_hw_common.bn_noflto.o
- .debug_loc     0x001a11d4      0x1d4 bn_hw_cstdlib.o
- .debug_loc     0x001a13a8      0x6f4 bn_hw_dmg_audio.o
- .debug_loc     0x001a1a9c       0xd6 bn_hw_game_pak.bn_ewram.o
- .debug_loc     0x001a1b72     0x22c3 bn_hw_link.o
- .debug_loc     0x001a3e35      0x386 bn_hw_palettes.bn_iwram.o
- .debug_loc     0x001a41bb     0x120b bn_hw_palettes.o
- .debug_loc     0x001a53c6     0x1713 bn_hw_show.o
- .debug_loc     0x001a6ad9      0x255 bn_hw_sprite_tiles.bn_iwram.o
- .debug_loc     0x001a6d2e       0x72 bn_hw_system_font.o
- .debug_loc     0x001a6da0      0xf98 bn_hw_text.o
- .debug_loc     0x001a7d38     0x1822 tonc_color.o
- .debug_loc     0x001a955a     0x11b2 tonc_sbmp16.o
- .debug_loc     0x001aa70c      0x663 bmp16_drawg_b1cs.o
- .debug_loc     0x001aad6f      0x1a8 tte_init_bmp.o
- .debug_loc     0x001aaf17      0xede tte_main.o
- .debug_loc     0x001abdf5       0x6b interrupts_gba.o
- .debug_loc     0x001abe60     0x11b0 effect.o
- .debug_loc     0x001ad010     0x8657 mas.o
- .debug_loc     0x001b5667     0x104d mas_arm.o
- .debug_loc     0x001b66b4      0x2c2 main_gba.o
- .debug_loc     0x001b6976      0x1eb mixer.o
- .debug_loc     0x001b6b61     0x2ad4 gbt_player.o
- .debug_loc     0x001b9635      0x23c advgm.o
+ .debug_loc     0x00000000     0x28da main.o
+ .debug_loc     0x000028da     0x29ad bn_affine_bg_animate_actions.o
+ .debug_loc     0x00005287     0xd17e bn_audio_manager.bn_noflto.o
+ .debug_loc     0x00012405     0x20cc bn_best_fit_allocator.o
+ .debug_loc     0x000144d1    0x441f8 bn_bg_blocks_manager.o
+ .debug_loc     0x000586c9    0x4b415 bn_bgs_manager.o
+ .debug_loc     0x000a3ade     0x171e bn_cameras_manager.o
+ .debug_loc     0x000a51fc     0x164c bn_core.o
+ .debug_loc     0x000a6848    0x11a36 bn_display_manager.o
+ .debug_loc     0x000b827e     0x211f bn_gpio_manager.o
+ .debug_loc     0x000ba39d    0x59bf2 bn_hblank_effects_manager.o
+ .debug_loc     0x00113f8f     0x19b6 bn_hdma_manager.o
+ .debug_loc     0x00115945     0x110f bn_keypad_manager.o
+ .debug_loc     0x00116a54      0xfbf bn_link_manager.o
+ .debug_loc     0x00117a13     0x3276 bn_memory_manager.o
+ .debug_loc     0x0011ac89    0x1646a bn_palettes_manager.o
+ .debug_loc     0x001310f3     0xb407 bn_sprite_affine_mats_manager.o
+ .debug_loc     0x0013c4fa      0xd81 bn_sprites_manager.bn_iwram.o
+ .debug_loc     0x0013d27b    0x2a035 bn_sprites_manager.o
+ .debug_loc     0x001672b0    0x159bc bn_sprite_text_generator.o
+ .debug_loc     0x0017cc6c    0x11bf5 bn_sprite_tiles_manager.o
+ .debug_loc     0x0018e861     0x9d5a bn_sstream.o
+ .debug_loc     0x001985bb     0x615b bn_translation_unit.o
+ .debug_loc     0x0019e716     0x2799 bn_hw_audio.o
+ .debug_loc     0x001a0eaf      0x327 bn_hw_common.bn_noflto.o
+ .debug_loc     0x001a11d6      0x1d4 bn_hw_cstdlib.o
+ .debug_loc     0x001a13aa      0x6f4 bn_hw_dmg_audio.o
+ .debug_loc     0x001a1a9e       0xd6 bn_hw_game_pak.bn_ewram.o
+ .debug_loc     0x001a1b74     0x22c3 bn_hw_link.o
+ .debug_loc     0x001a3e37      0x386 bn_hw_palettes.bn_iwram.o
+ .debug_loc     0x001a41bd     0x120b bn_hw_palettes.o
+ .debug_loc     0x001a53c8     0x1713 bn_hw_show.o
+ .debug_loc     0x001a6adb      0x255 bn_hw_sprite_tiles.bn_iwram.o
+ .debug_loc     0x001a6d30       0x72 bn_hw_system_font.o
+ .debug_loc     0x001a6da2      0xf98 bn_hw_text.o
+ .debug_loc     0x001a7d3a     0x1822 tonc_color.o
+ .debug_loc     0x001a955c     0x11b2 tonc_sbmp16.o
+ .debug_loc     0x001aa70e      0x663 bmp16_drawg_b1cs.o
+ .debug_loc     0x001aad71      0x1a8 tte_init_bmp.o
+ .debug_loc     0x001aaf19      0xede tte_main.o
+ .debug_loc     0x001abdf7       0x6b interrupts_gba.o
+ .debug_loc     0x001abe62     0x11b0 effect.o
+ .debug_loc     0x001ad012     0x104d mas_arm.o
+ .debug_loc     0x001ae05f     0x8657 mas.o
+ .debug_loc     0x001b66b6      0x2c2 main_gba.o
+ .debug_loc     0x001b6978      0x1eb mixer.o
+ .debug_loc     0x001b6b63     0x2ad4 gbt_player.o
+ .debug_loc     0x001b9637      0x23c advgm.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -10943,11 +10943,11 @@ Linker script and memory map
                 0x00000000       0x2c
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+                0x00000000       0x20 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
  .ARM.attributes
-                0x00000020       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
+                0x00000020       0x1c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
  .ARM.attributes
-                0x0000003c       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+                0x0000003c       0x2a /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
  .ARM.attributes
                 0x00000066       0x1a bn_audio_soundbank.bin.o
  .ARM.attributes
@@ -11011,13 +11011,13 @@ Linker script and memory map
  .ARM.attributes
                 0x00000456       0x26 bn_sprite_animate_actions.o
  .ARM.attributes
-                0x0000047c       0x26 bn_sprite_text_generator.o
+                0x0000047c       0x26 bn_sprites_manager.bn_iwram.o
  .ARM.attributes
-                0x000004a2       0x26 bn_sprite_tiles_manager.o
+                0x000004a2       0x26 bn_sprites_manager.o
  .ARM.attributes
-                0x000004c8       0x26 bn_sprites_manager.bn_iwram.o
+                0x000004c8       0x26 bn_sprite_text_generator.o
  .ARM.attributes
-                0x000004ee       0x26 bn_sprites_manager.o
+                0x000004ee       0x26 bn_sprite_tiles_manager.o
  .ARM.attributes
                 0x00000514       0x26 bn_sstream.o
  .ARM.attributes
@@ -11081,9 +11081,9 @@ Linker script and memory map
  .ARM.attributes
                 0x00000988       0x26 effect.o
  .ARM.attributes
-                0x000009ae       0x26 mas.o
+                0x000009ae       0x26 mas_arm.o
  .ARM.attributes
-                0x000009d4       0x26 mas_arm.o
+                0x000009d4       0x26 mas.o
  .ARM.attributes
                 0x000009fa       0x26 main_gba.o
  .ARM.attributes
@@ -11151,17 +11151,17 @@ Linker script and memory map
  .ARM.attributes
                 0x00000d6a       0x1a mixer_asm.o
  .ARM.attributes
-                0x00000d84       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a(_sync_none.o)
+                0x00000d84       0x1c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a(_sync_none.o)
  .ARM.attributes
-                0x00000da0       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+                0x00000da0       0x2a /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
  .ARM.attributes
-                0x00000dca       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
+                0x00000dca       0x1c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
 
 /DISCARD/
  *(.note.GNU-stack)
-LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
-LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
-LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crti.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtbegin.o
 LOAD bn_audio_soundbank.bin.o
 LOAD bacon_bn_gfx.o
 LOAD banana_bn_gfx.o
@@ -11193,10 +11193,10 @@ LOAD bn_profiler.o
 LOAD bn_regular_bg_animate_actions.o
 LOAD bn_sprite_affine_mats_manager.o
 LOAD bn_sprite_animate_actions.o
-LOAD bn_sprite_text_generator.o
-LOAD bn_sprite_tiles_manager.o
 LOAD bn_sprites_manager.bn_iwram.o
 LOAD bn_sprites_manager.o
+LOAD bn_sprite_text_generator.o
+LOAD bn_sprite_tiles_manager.o
 LOAD bn_sstream.o
 LOAD bn_translation_unit.o
 LOAD bn_hw_audio.o
@@ -11228,8 +11228,8 @@ LOAD interrupts_gba.o
 LOAD coroutine.o
 LOAD rtc.o
 LOAD effect.o
-LOAD mas.o
 LOAD mas_arm.o
+LOAD mas.o
 LOAD main_gba.o
 LOAD mixer.o
 LOAD gbt_player.o
@@ -11263,11 +11263,11 @@ LOAD sqrt32.o
 LOAD lz77.o
 LOAD running_length.o
 LOAD mixer_asm.o
-LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb\libgcc.a
-LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb\libstdc++.a
-LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
-LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
-OUTPUT(C:/Users/Osc/Desktop/MyGame/MyGame.elf elf32-littlearm)
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/libgcc.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/libstdc++.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtend.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/16.1.0/thumb/crtn.o
+OUTPUT(/home/osc/Desktop/MyGame/MyGame.elf elf32-littlearm)
 LOAD linker stubs
 
 .debug_ranges   0x00000000    0x677a8
@@ -11288,10 +11288,10 @@ LOAD linker stubs
  .debug_ranges  0x00044b50      0x5d8 bn_memory_manager.o
  .debug_ranges  0x00045128     0x3e78 bn_palettes_manager.o
  .debug_ranges  0x00048fa0     0x2968 bn_sprite_affine_mats_manager.o
- .debug_ranges  0x0004b908     0x66c8 bn_sprite_text_generator.o
- .debug_ranges  0x00051fd0     0x2e38 bn_sprite_tiles_manager.o
- .debug_ranges  0x00054e08      0x498 bn_sprites_manager.bn_iwram.o
- .debug_ranges  0x000552a0     0xb398 bn_sprites_manager.o
+ .debug_ranges  0x0004b908      0x498 bn_sprites_manager.bn_iwram.o
+ .debug_ranges  0x0004bda0     0xb398 bn_sprites_manager.o
+ .debug_ranges  0x00057138     0x66c8 bn_sprite_text_generator.o
+ .debug_ranges  0x0005d800     0x2e38 bn_sprite_tiles_manager.o
  .debug_ranges  0x00060638     0x1c70 bn_sstream.o
  .debug_ranges  0x000622a8     0x1008 bn_translation_unit.o
  .debug_ranges  0x000632b0      0x8b8 bn_hw_audio.o
@@ -11315,8 +11315,8 @@ LOAD linker stubs
  .debug_ranges  0x00065b78      0x108 tte_main.o
  .debug_ranges  0x00065c80       0x40 interrupts_gba.o
  .debug_ranges  0x00065cc0      0x1e8 effect.o
- .debug_ranges  0x00065ea8      0xce0 mas.o
- .debug_ranges  0x00066b88      0x230 mas_arm.o
+ .debug_ranges  0x00065ea8      0x230 mas_arm.o
+ .debug_ranges  0x000660d8      0xce0 mas.o
  .debug_ranges  0x00066db8       0x58 main_gba.o
  .debug_ranges  0x00066e10       0x60 mixer.o
  .debug_ranges  0x00066e70      0x768 gbt_player.o
