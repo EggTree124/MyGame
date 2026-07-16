@@ -78,11 +78,11 @@ SceneType death(){
 
 //Game core
 SceneType game_play(){
-    int half_size = 8;
     int score = 0;
     bn::fixed fatness = 1.0;
     bn::fixed speed = 2.0;
     bn::random rng;
+    
 
     //FONT AND STARTING TEXT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
@@ -111,7 +111,8 @@ SceneType game_play(){
     //GAME LOGIC
     while(true)
     {   
-        movement(sprite, half_size);
+        int dynamic_half_size = (8 * fatness).integer();
+        movement(sprite, dynamic_half_size, speed);
         if(bn::keypad::select_held()){
             return SceneType::MAIN_MENU;
         }
@@ -129,20 +130,25 @@ SceneType game_play(){
             bn::fixed_rect food(it->x(), it->y(), 16,16);
             if(it->y() > 80 + 32)
             {
-                it = active_sprites.erase(it); // Remove off-screen sprite safely
+                it = active_sprites.erase(it); 
             }else if(player.intersects(food)){
                 score++;
                 updateScore(text_gen, f_point, text_cont, score_text, score);
                 fatness += 0.05;
-                speed -= 0.05;
-                sprite.set_scale(fatness); // ◄ ADD THIS: Updates the physical size of the player
+                speed = bn::max(speed - 0.05, bn::fixed(0.5));
+                sprite.set_scale(fatness); 
                 it = active_sprites.erase(it);
             }
             else
             {
                 ++it; // Move to the next sprite
             }
-}
+        }
+        if(bn::keypad::a_held()){
+            speed = bn::min(speed + 0.1, bn::fixed(2.0));
+            fatness = bn::max(fatness - 0.01, bn::fixed(1.0));
+            sprite.set_scale(fatness);
+        }
         //UPDATE THE WHOLE GAME
         bn::core::update();
         
@@ -234,6 +240,8 @@ void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprite
             break;
         case 4:
             Sprites.push_back(bn::sprite_items::grape.create_sprite(rand_x, rand_y));
+            break;
+        default:
             break;
     }
 }
