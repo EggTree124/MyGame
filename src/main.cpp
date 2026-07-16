@@ -14,7 +14,8 @@
 #include "bn_sprite_font.h"
 #include "bn_sprite_items_common_fixed_8x16_font.h"
 #include "bn_vector.h"
-
+#include "bn_rect.h"
+#include "bn_fixed_rect.h"
 //SPRITES FOR FOODS: BACON, COW MEAT, FRIED, BANANA, GRAPE
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -31,7 +32,7 @@ void updateScore(
     bn::string<32> &score_text, 
     int score
 );
-void movement(bn::sprite_ptr &sprite, int &half_size);
+void movement(bn::sprite_ptr &sprite, int &half_size, bn::fixed &speed);
 void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprites);
 //Scenes for the game.
 enum class SceneType{
@@ -75,9 +76,9 @@ SceneType death(){
 SceneType game_play(){
     int half_size = 8;
     int score = 0;
-    float fatness = 1.0;
+    bn::fixed fatness = 1.0;
     bn::random rng;
-
+    bn::fixed speed = 2.0;
 
     //FONT AND STARTING TEXT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
@@ -107,7 +108,7 @@ SceneType game_play(){
     //GAME LOGIC
     while(true)
     {   
-        movement(sprite, half_size);
+        movement(sprite, half_size, speed);
         if(bn::keypad::select_held()){
             return SceneType::MAIN_MENU;
         }
@@ -127,7 +128,18 @@ SceneType game_play(){
         {
             // Move the food sprite down
             it->set_y(it->y() + 1);
-            if(it->y() > 80 + 32)
+            //Adding the rect
+            bn::fixed_rect player_rect(sprite.x(), sprite.y(), 16,16);
+            bn::fixed_rect food_rect(it->x(), it->y(), 16,16);
+
+            if(player_rect.intersects(food_rect)){
+                score++;
+                updateScore(text_gen, f_point, text_cont, score_text, score);
+                fatness += 0.05;
+                speed -= 0.05;
+                sprite.set_scale(fatness);
+                it = active_sprites.erase(it);
+            } else if(it->y() > 80 + 32)
             {
                 it = active_sprites.erase(it); // Remove off-screen sprite safely
             }
@@ -186,25 +198,25 @@ void updateScore(
     text_gen.generate_top_left(f_point, score_text, text_cont);
 }
 
-void movement(bn::sprite_ptr &sprite, int &half_size){
+void movement(bn::sprite_ptr &sprite, int &half_size, bn::fixed &speed){
      //Movement: Left, right, up, right. The half size is needed so that the sprite wont go off bound.
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
-            sprite.set_x(sprite.x() - 2);
+            sprite.set_x(sprite.x() - speed);
         } 
         if(bn::keypad::right_held() && sprite.x() < 120 - half_size){
-            sprite.set_x(sprite.x() + 2);   
+            sprite.set_x(sprite.x() + speed);   
         } 
         if(bn::keypad::up_held() && sprite.y() > -80 + half_size){
-            sprite.set_y(sprite.y()- 2);
+            sprite.set_y(sprite.y()- speed);
         }
         if(bn::keypad::down_held() && sprite.y() < 80 - half_size){
-            sprite.set_y(sprite.y()+ 2);
+            sprite.set_y(sprite.y()+ speed);
         }
 }
 
 void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprites){
     if(Sprites.full()){
-        Sprites.clear();
+        return;
     }
     bn::fixed rand_x = sprite_gen.get_int(240) - 120;
     bn::fixed rand_y = -80;

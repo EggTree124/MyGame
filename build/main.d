@@ -71,6 +71,12 @@ main.o: /home/osc/Desktop/MyGame/src/main.cpp \
  /home/osc/Projects/butano/butano/include/bn_sprite_font.h \
  /home/osc/Desktop/MyGame/build/bn_sprite_items_common_fixed_8x16_font.h \
  /home/osc/Projects/butano/butano/include/bn_vector.h \
+ /home/osc/Projects/butano/butano/include/bn_rect.h \
+ /home/osc/Projects/butano/butano/include/bn_fixed_rect.h \
+ /home/osc/Projects/butano/butano/include/bn_rect.h \
+ /home/osc/Projects/butano/butano/include/bn_fixed_size.h \
+ /home/osc/Projects/butano/butano/include/bn_fixed_size_fwd.h \
+ /home/osc/Projects/butano/butano/include/bn_fixed_rect_fwd.h \
  /home/osc/Desktop/MyGame/build/bn_sprite_items_bacon.h \
  /home/osc/Desktop/MyGame/build/bn_sprite_items_cow_meat.h \
  /home/osc/Desktop/MyGame/build/bn_sprite_items_fried_c.h \
@@ -148,6 +154,12 @@ main.o: /home/osc/Desktop/MyGame/src/main.cpp \
 /home/osc/Projects/butano/butano/include/bn_sprite_font.h:
 /home/osc/Desktop/MyGame/build/bn_sprite_items_common_fixed_8x16_font.h:
 /home/osc/Projects/butano/butano/include/bn_vector.h:
+/home/osc/Projects/butano/butano/include/bn_rect.h:
+/home/osc/Projects/butano/butano/include/bn_fixed_rect.h:
+/home/osc/Projects/butano/butano/include/bn_rect.h:
+/home/osc/Projects/butano/butano/include/bn_fixed_size.h:
+/home/osc/Projects/butano/butano/include/bn_fixed_size_fwd.h:
+/home/osc/Projects/butano/butano/include/bn_fixed_rect_fwd.h:
 /home/osc/Desktop/MyGame/build/bn_sprite_items_bacon.h:
 /home/osc/Desktop/MyGame/build/bn_sprite_items_cow_meat.h:
 /home/osc/Desktop/MyGame/build/bn_sprite_items_fried_c.h:
