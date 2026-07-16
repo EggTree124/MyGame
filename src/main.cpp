@@ -4,6 +4,8 @@
 #include "bn_sprite_items_circle.h"
 #include "bn_keypad.h"
 #include "bn_random.h"
+#include "bn_sound.h"
+#include "bn_sound_item.h"
 #include "bn_regular_bg_items_red.h"
 #include "bn_regular_bg_ptr.h"
 #include "bn_regular_bg_items_main_menu.h"
@@ -16,6 +18,7 @@
 #include "bn_vector.h"
 #include "bn_rect.h"
 #include "bn_fixed_rect.h"
+
 //SPRITES FOR FOODS: BACON, COW MEAT, FRIED, BANANA, GRAPE
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -34,6 +37,7 @@ void updateScore(
 );
 void movement(bn::sprite_ptr &sprite, int &half_size, bn::fixed &speed);
 void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprites);
+
 //Scenes for the game.
 enum class SceneType{
     MAIN_MENU,
@@ -77,16 +81,15 @@ SceneType game_play(){
     int half_size = 8;
     int score = 0;
     bn::fixed fatness = 1.0;
-    bn::random rng;
     bn::fixed speed = 2.0;
+    bn::random rng;
 
     //FONT AND STARTING TEXT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
     bn::sprite_text_generator text_gen(font); //this bullshit created sprites from the text
     bn::point points(0,0);
     bn::fixed_point f_point(points);
-    bn::vector<bn::sprite_ptr,32> text_cont;
-     //text container
+    bn::vector<bn::sprite_ptr,32> text_cont; //text container
     bn::string<32> score_text("Score: ");
     text_gen.generate_top_left(f_point,score_text,text_cont);
     //End of Starting Text
@@ -108,15 +111,9 @@ SceneType game_play(){
     //GAME LOGIC
     while(true)
     {   
-        movement(sprite, half_size, speed);
+        movement(sprite, half_size);
         if(bn::keypad::select_held()){
             return SceneType::MAIN_MENU;
-        }
-        //Score manipulation
-        if(bn::keypad::a_pressed()){
-            score++;
-            updateScore(text_gen, f_point,text_cont,score_text,score);
-            
         }
         //Timer.
         if(timerOff(second, 1)){
@@ -128,20 +125,18 @@ SceneType game_play(){
         {
             // Move the food sprite down
             it->set_y(it->y() + 1);
-            //Adding the rect
-            bn::fixed_rect player_rect(sprite.x(), sprite.y(), 16,16);
-            bn::fixed_rect food_rect(it->x(), it->y(), 16,16);
-
-            if(player_rect.intersects(food_rect)){
+            bn::fixed_rect player(sprite.x(), sprite.y(), 16,16);
+            bn::fixed_rect food(it->x(), it->y(), 16,16);
+            if(it->y() > 80 + 32)
+            {
+                it = active_sprites.erase(it); // Remove off-screen sprite safely
+            }else if(player.intersects(food)){
                 score++;
                 updateScore(text_gen, f_point, text_cont, score_text, score);
                 fatness += 0.05;
                 speed -= 0.05;
-                sprite.set_scale(fatness);
+                sprite.set_scale(fatness); // ◄ ADD THIS: Updates the physical size of the player
                 it = active_sprites.erase(it);
-            } else if(it->y() > 80 + 32)
-            {
-                it = active_sprites.erase(it); // Remove off-screen sprite safely
             }
             else
             {
@@ -207,10 +202,10 @@ void movement(bn::sprite_ptr &sprite, int &half_size, bn::fixed &speed){
             sprite.set_x(sprite.x() + speed);   
         } 
         if(bn::keypad::up_held() && sprite.y() > -80 + half_size){
-            sprite.set_y(sprite.y()- speed);
+            sprite.set_y(sprite.y()-speed);
         }
         if(bn::keypad::down_held() && sprite.y() < 80 - half_size){
-            sprite.set_y(sprite.y()+ speed);
+            sprite.set_y(sprite.y()+speed);
         }
 }
 
