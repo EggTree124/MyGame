@@ -18,9 +18,6 @@
 #include "bn_vector.h"
 #include "bn_rect.h"
 #include "bn_fixed_rect.h"
-#include "bn_music.h"
-#include "bn_music_item.h"
-#include "bn_music_items.h"
 //SPRITES FOR COLLECTIBLES
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -111,9 +108,6 @@ SceneType game_play(){
     bn::vector<bn::sprite_ptr, 6> active_sprites;
     bn::vector<bn::sprite_ptr,6> bombs;
     bn::random sprite_gen;
-
-    bn::music_items::gameplay.play();
-    bn::music::set_volume(0.7);
 
     //GAME LOGIC
     while(true)
