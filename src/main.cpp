@@ -19,7 +19,8 @@
 #include "bn_rect.h"
 #include "bn_fixed_rect.h"
 #include "bn_sound_items.h"
-
+#include "bn_music.h"
+#include "bn_music_item.h"
 //SPRITES FOR COLLECTIBLES
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
