@@ -19,12 +19,13 @@
 #include "bn_rect.h"
 #include "bn_fixed_rect.h"
 
-//SPRITES FOR FOODS: BACON, COW MEAT, FRIED, BANANA, GRAPE
+//SPRITES FOR COLLECTIBLES
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
 #include "bn_sprite_items_fried_c.h"
 #include "bn_sprite_items_banana.h"
 #include "bn_sprite_items_grape.h"
+#include "bn_sprite_items_bomb.h"
 
 //Functions for the game cores
 bool timerOff(int& frame, int second);
@@ -106,6 +107,7 @@ SceneType game_play(){
 
     //RNG for the sprites
     bn::vector<bn::sprite_ptr, 6> active_sprites;
+    bn::vector<bn::sprite_ptr,6> bombs;
     bn::random sprite_gen;
 
     //GAME LOGIC
@@ -117,10 +119,29 @@ SceneType game_play(){
             return SceneType::MAIN_MENU;
         }
         //Timer.
-        if(timerOff(second, 1)){
-            random_sprite(sprite_gen, active_sprites);
-        }
+        bn::random rng_collectible;
+        int collectible_choice = sprite_gen.get_unbiased_int(2);
 
+        switch(collectible_choice){
+            case 0:
+            {
+                if(timerOff(second, 1)){
+                    random_sprite(sprite_gen, active_sprites);
+                }
+                break;
+            }
+            case 1:{
+                if(timerOff(second, 1)){
+                    if(!bombs.full()){
+                        bn::fixed rand_x = sprite_gen.get_int(240) - 120;
+                        bn::fixed rand_y = -80;
+                        bombs.push_back(bn::sprite_items::bomb.create_sprite(rand_x,rand_y));
+                    }
+              }   
+                break;
+            }
+        }
+        
         auto it = active_sprites.begin();
         while(it != active_sprites.end())
         {
@@ -144,6 +165,25 @@ SceneType game_play(){
                 ++it; // Move to the next sprite
             }
         }
+
+        auto bombs_it = bombs.begin();
+        while(bombs_it != bombs.end())
+        {
+            // Move the food sprite down
+            bombs_it->set_y(bombs_it->y() + 1);
+            bn::fixed_rect player(sprite.x(), sprite.y(), 16, 16);
+            bn::fixed_rect bomb_rect(bombs_it->x(), bombs_it->y(), 16, 16);
+            if(bombs_it->y() > 80 + 32) {
+                bombs_it = bombs.erase(bombs_it);
+            }
+            else if(player.intersects(bomb_rect)) {
+                return SceneType::DEATH;
+            }
+            else {
+                ++bombs_it;
+            }
+        }
+
         if(bn::keypad::a_held()){
             speed = bn::min(speed + 0.1, bn::fixed(2.0));
             fatness = bn::max(fatness - 0.01, bn::fixed(1.0));
@@ -170,6 +210,8 @@ int main()
             case SceneType::GAME:
                 current_scene = game_play();
                 break;
+            case SceneType::DEATH:
+                current_scene = death();
             default:
                 break;
         }
