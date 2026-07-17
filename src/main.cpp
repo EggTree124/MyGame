@@ -18,9 +18,9 @@
 #include "bn_vector.h"
 #include "bn_rect.h"
 #include "bn_fixed_rect.h"
-#include "bn_sound_items.h"
 #include "bn_music.h"
 #include "bn_music_item.h"
+#include "bn_music_items.h"
 //SPRITES FOR COLLECTIBLES
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -112,10 +112,12 @@ SceneType game_play(){
     bn::vector<bn::sprite_ptr,6> bombs;
     bn::random sprite_gen;
 
+    bn::music_items::gameplay.play();
+    bn::music::set_volume(0.7);
+
     //GAME LOGIC
     while(true)
     {   
-        bn::sound::play(bn::sound_items::gameplay);
         int dynamic_half_size = (8 * fatness).integer();
         movement(sprite, dynamic_half_size, speed);
         if(bn::keypad::select_held()){
