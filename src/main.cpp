@@ -145,6 +145,8 @@ SceneType game_play(){
               }   
                 break;
             }
+            default:
+                break;
         }
         
         auto it = active_sprites.begin();
