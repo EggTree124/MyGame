@@ -18,6 +18,8 @@
 #include "bn_vector.h"
 #include "bn_rect.h"
 #include "bn_fixed_rect.h"
+#include "bn_music.h"
+#include "bn_music_items.h"
 //SPRITES FOR COLLECTIBLES
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -64,8 +66,11 @@ SceneType play_menu(){
 //Death Screen Mechanism
 SceneType death(){
     bn::regular_bg_ptr death = bn::regular_bg_items::ds.create_bg(0,0);
+    bn::music_items::death_menu.play();
     while(true){
+        
         if(bn::keypad::a_pressed()){
+            bn::music::stop();
             return SceneType::GAME;
         }
         if(bn::keypad::b_pressed()){
@@ -83,7 +88,7 @@ SceneType game_play(){
     bn::fixed speed = 2.0;
     bn::random rng;
     
-
+    bn::music_items::gameplay.play();
     //FONT AND STARTING TEXT
     bn::sprite_font font(bn::sprite_items::common_fixed_8x16_font);
     bn::sprite_text_generator text_gen(font); //this bullshit created sprites from the text
@@ -146,7 +151,8 @@ SceneType game_play(){
         {
             // Move the food sprite down
             it->set_y(it->y() + 1);
-            bn::fixed_rect player(sprite.x(), sprite.y(), 16,16);
+            bn::fixed player_dim = 16 * fatness;
+            bn::fixed_rect player(sprite.x(), sprite.y(), player_dim, player_dim);
             bn::fixed_rect food(it->x(), it->y(), 16,16);
             if(it->y() > 80 + 32)
             {
@@ -176,6 +182,7 @@ SceneType game_play(){
                 bombs_it = bombs.erase(bombs_it);
             }
             else if(player.intersects(bomb_rect)) {
+                bn::music::stop();
                 return SceneType::DEATH;
             }
             else {
@@ -263,7 +270,7 @@ void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprite
     bn::fixed rand_x = sprite_gen.get_int(240) - 120;
     bn::fixed rand_y = -80;
 
-    // Pick a random sprite out of 5 rm -rf build && make -j$(nproc)options
+    // Pick a random sprite out of 5
     int sprite_choice = sprite_gen.get_int(5);
     
     switch (sprite_choice) {
