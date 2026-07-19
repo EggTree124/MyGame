@@ -70,6 +70,7 @@ SceneType death(){
     while(true){
         
         if(bn::keypad::a_pressed()){
+            //YES this stops the music
             bn::music::stop();
             return SceneType::GAME;
         }
