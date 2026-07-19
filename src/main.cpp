@@ -20,6 +20,7 @@
 #include "bn_fixed_rect.h"
 #include "bn_music.h"
 #include "bn_music_items.h"
+
 //SPRITES FOR COLLECTIBLES
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -51,6 +52,7 @@ enum class SceneType{
 //Main Menu Mechanism
 SceneType play_menu(){
     bn::regular_bg_ptr main = bn::regular_bg_items::main_menu.create_bg(0,0);
+    bn::music_items::main_menu.play();
     while(true){
         if(bn::keypad::start_pressed()){
             return SceneType::GAME;
