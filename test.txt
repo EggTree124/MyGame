@@ -2,6 +2,6 @@ Credits:
 1. Munch audio https://pixabay.com/sound-effects/people-eating-sound-effect-36186/
 2. Butano
 3. Usenti
-4. Map: Green grass texture seamless pattern by Glitter_Klo
-5. OPENMPT
-6. https://freewavesamples.com/1980s-casio-piano-c5
+4. OPENMPT
+5. https://freewavesamples.com/1980s-casio-piano-c5
+6. https://www.piskelapp.com/p/create/sprite/
