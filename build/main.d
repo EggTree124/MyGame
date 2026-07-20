@@ -83,6 +83,7 @@ main.o: C:/Users/Osc/Desktop/MyGame/src/main.cpp \
  C:/Users/Osc/butano/butano/include/bn_music.h \
  C:/Users/Osc/Desktop/MyGame/build/bn_music_items.h \
  C:/Users/Osc/butano/butano/include/bn_music_item.h \
+ C:/Users/Osc/Desktop/MyGame/build/bn_sound_items.h \
  C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_bacon.h \
  C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_cow_meat.h \
  C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_fried_c.h \
@@ -173,6 +174,7 @@ C:/Users/Osc/butano/butano/include/bn_fixed_rect_fwd.h:
 C:/Users/Osc/butano/butano/include/bn_music.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_music_items.h:
 C:/Users/Osc/butano/butano/include/bn_music_item.h:
+C:/Users/Osc/Desktop/MyGame/build/bn_sound_items.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_bacon.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_cow_meat.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_sprite_items_fried_c.h:

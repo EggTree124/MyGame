@@ -20,7 +20,8 @@
 #include "bn_fixed_rect.h"
 #include "bn_music.h"
 #include "bn_music_items.h"
-
+#include "bn_sound.h"
+#include "bn_sound_items.h"
 //SPRITES FOR COLLECTIBLES
 #include "bn_sprite_items_bacon.h"
 #include "bn_sprite_items_cow_meat.h"
@@ -163,6 +164,7 @@ SceneType game_play(){
             {
                 it = active_sprites.erase(it); 
             }else if(player.intersects(food)){
+                bn::sound_items::munch.play();
                 score++;
                 updateScore(text_gen, f_point, text_cont, score_text, score);
                 fatness += 0.05;
