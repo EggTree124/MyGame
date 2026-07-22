@@ -60,6 +60,7 @@ main.o: C:/Users/Osc/Desktop/MyGame/src/main.cpp \
  C:/Users/Osc/butano/butano/include/bn_regular_bg_ptr.h \
  C:/Users/Osc/Desktop/MyGame/build/bn_regular_bg_items_main_menu.h \
  C:/Users/Osc/Desktop/MyGame/build/bn_regular_bg_items_ds.h \
+ C:/Users/Osc/Desktop/MyGame/build/bn_regular_bg_items_bloated.h \
  C:/Users/Osc/butano/butano/include/bn_string_view.h \
  C:/Users/Osc/butano/butano/include/bn_string.h \
  C:/Users/Osc/butano/butano/include/bn_sprite_text_generator.h \
@@ -151,6 +152,7 @@ C:/Users/Osc/butano/butano/include/bn_regular_bg_tiles_item.h:
 C:/Users/Osc/butano/butano/include/bn_regular_bg_ptr.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_regular_bg_items_main_menu.h:
 C:/Users/Osc/Desktop/MyGame/build/bn_regular_bg_items_ds.h:
+C:/Users/Osc/Desktop/MyGame/build/bn_regular_bg_items_bloated.h:
 C:/Users/Osc/butano/butano/include/bn_string_view.h:
 C:/Users/Osc/butano/butano/include/bn_string.h:
 C:/Users/Osc/butano/butano/include/bn_sprite_text_generator.h:

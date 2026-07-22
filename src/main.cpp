@@ -10,6 +10,7 @@
 #include "bn_regular_bg_ptr.h"
 #include "bn_regular_bg_items_main_menu.h"
 #include "bn_regular_bg_items_ds.h"
+#include "bn_regular_bg_items_bloated.h"
 #include "bn_string_view.h"
 #include "bn_string.h"
 #include "bn_sprite_text_generator.h"
@@ -46,7 +47,8 @@ void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprite
 enum class SceneType{
     MAIN_MENU,
     GAME,
-    DEATH
+    DEATH,
+    BLOATED
 };
 
 
@@ -85,6 +87,22 @@ SceneType death(){
 }
 //END OF Death Screen Mechanism
 
+SceneType bloated(){
+    bn::regular_bg_ptr death = bn::regular_bg_items::bloated.create_bg(0,0);
+    bn::music_items::death_menu.play();
+    while(true){
+        
+        if(bn::keypad::a_pressed()){
+            //YES this stops the music
+            bn::music::stop();
+            return SceneType::GAME;
+        }
+        if(bn::keypad::b_pressed()){
+            return SceneType::MAIN_MENU;
+        }
+        bn::core::update();
+    }
+}
 //Game core
 SceneType game_play(){
     int score = 0;
@@ -108,7 +126,7 @@ SceneType game_play(){
     //End of frame
 
     //Initialize Sprite
-    bn::sprite_ptr sprite = bn::sprite_items::circle.create_sprite(0,0);
+    bn::sprite_ptr sprite = bn::sprite_items::circle.create_sprite(0,65);
     sprite.set_scale(fatness);
     bn::regular_bg_ptr background_re = bn::regular_bg_items::red.create_bg(0,0);
     //End of sprite initialization
@@ -183,7 +201,8 @@ SceneType game_play(){
         {
             // Move the food sprite down
             bombs_it->set_y(bombs_it->y() + 1);
-            bn::fixed_rect player(sprite.x(), sprite.y(), 16, 16);
+            bn::fixed player_dim = 16 * fatness;
+            bn::fixed_rect player(sprite.x(), sprite.y(), player_dim, player_dim);
             bn::fixed_rect bomb_rect(bombs_it->x(), bombs_it->y(), 16, 16);
             if(bombs_it->y() > 80 + 32) {
                 bombs_it = bombs.erase(bombs_it);
@@ -201,6 +220,11 @@ SceneType game_play(){
             speed = bn::min(speed + 0.1, bn::fixed(2.0));
             fatness = bn::max(fatness - 0.01, bn::fixed(1.0));
             sprite.set_scale(fatness);
+        }
+
+        if(fatness >= 1.5){
+            bn::music::stop();
+            return SceneType::BLOATED;
         }
         //UPDATE THE WHOLE GAME
         bn::core::update();
@@ -225,6 +249,10 @@ int main()
                 break;
             case SceneType::DEATH:
                 current_scene = death();
+                break;
+            case SceneType::BLOATED:
+                current_scene = bloated();
+                break;
             default:
                 break;
         }
@@ -262,12 +290,6 @@ void movement(bn::sprite_ptr &sprite, int &half_size, bn::fixed &speed){
         if(bn::keypad::right_held() && sprite.x() < 120 - half_size){
             sprite.set_x(sprite.x() + speed);   
         } 
-        if(bn::keypad::up_held() && sprite.y() > -80 + half_size){
-            sprite.set_y(sprite.y()-speed);
-        }
-        if(bn::keypad::down_held() && sprite.y() < 80 - half_size){
-            sprite.set_y(sprite.y()+speed);
-        }
 }
 
 void random_sprite(bn::random &sprite_gen, bn::vector<bn::sprite_ptr, 6>& Sprites){
