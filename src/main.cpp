@@ -87,6 +87,7 @@ SceneType death(){
 }
 //END OF Death Screen Mechanism
 
+//Death by bloated mechanism
 SceneType bloated(){
     bn::regular_bg_ptr death = bn::regular_bg_items::bloated.create_bg(0,0);
     bn::music_items::death_menu.play();
@@ -103,6 +104,8 @@ SceneType bloated(){
         bn::core::update();
     }
 }
+//end of death by bloated mechanism
+
 //Game core
 SceneType game_play(){
     int score = 0;
@@ -170,6 +173,7 @@ SceneType game_play(){
                 break;
         }
         
+        //COLLECTIBLES ITERATOR
         auto it = active_sprites.begin();
         while(it != active_sprites.end())
         {
@@ -196,6 +200,7 @@ SceneType game_play(){
             }
         }
 
+        //BOMB ITERATOR
         auto bombs_it = bombs.begin();
         while(bombs_it != bombs.end())
         {
@@ -241,6 +246,7 @@ int main()
     SceneType current_scene = SceneType::MAIN_MENU;
     while(true){
         switch(current_scene){
+        //SCENES
             case SceneType::MAIN_MENU:
                 current_scene = play_menu();
                 break;
@@ -283,7 +289,7 @@ void updateScore(
 }
 
 void movement(bn::sprite_ptr &sprite, int &half_size, bn::fixed &speed){
-     //Movement: Left, right, up, right. The half size is needed so that the sprite wont go off bound.
+     //Movement: Left and right, thats it.. The half size is needed so that the sprite wont go off bound.
         if(bn::keypad::left_held() && sprite.x() > -120 + half_size){
             sprite.set_x(sprite.x() - speed);
         } 
