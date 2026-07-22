@@ -31,7 +31,7 @@
 #
 # All directories are specified relative to the project directory where the makefile is found.
 #---------------------------------------------------------------------------------------------------------------------
-TARGET      	:=  $(notdir $(CURDIR))
+TARGET      	:=  HungryBall
 BUILD       	:=  build
 
 # --- OS Detection ---
