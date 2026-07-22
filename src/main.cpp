@@ -75,7 +75,7 @@ SceneType death(){
     while(true){
         
         if(bn::keypad::a_pressed()){
-            //YES this stops the music
+            //YES, this stops the music
             bn::music::stop();
             return SceneType::GAME;
         }
@@ -147,8 +147,6 @@ SceneType game_play(){
         if(bn::keypad::select_held()){
             return SceneType::MAIN_MENU;
         }
-        //Timer.
-        bn::random rng_collectible;
         int collectible_choice = sprite_gen.get_unbiased_int(2);
 
         switch(collectible_choice){
