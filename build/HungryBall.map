@@ -10512,79 +10512,79 @@ Linker script and memory map
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000   0x31ef90
+.debug_info     0x00000000   0x31ef84
  *(.debug_info)
- .debug_info    0x00000000    0x14b7b main.o
- .debug_info    0x00014b7b     0xc859 bn_affine_bg_animate_actions.o
- .debug_info    0x000213d4    0x1c2d4 bn_audio_manager.bn_noflto.o
- .debug_info    0x0003d6a8     0x5ef5 bn_best_fit_allocator.o
- .debug_info    0x0004359d    0x4e69f bn_bg_blocks_manager.o
- .debug_info    0x00091c3c    0x736aa bn_bgs_manager.o
- .debug_info    0x001052e6     0x660a bn_cameras_manager.o
- .debug_info    0x0010b8f0     0x880d bn_core.o
- .debug_info    0x001140fd    0x2232c bn_display_manager.o
- .debug_info    0x00136429     0x6346 bn_gpio_manager.o
- .debug_info    0x0013c76f    0x9a547 bn_hblank_effects_manager.o
- .debug_info    0x001d6cb6     0x5cc2 bn_hdma_manager.o
- .debug_info    0x001dc978     0x613e bn_keypad_manager.o
- .debug_info    0x001e2ab6     0x5ef5 bn_link_manager.o
- .debug_info    0x001e89ab     0x7288 bn_memory_manager.o
- .debug_info    0x001efc33    0x21012 bn_palettes_manager.o
- .debug_info    0x00210c45    0x18fc6 bn_sprite_affine_mats_manager.o
- .debug_info    0x00229c0b    0x2783a bn_sprite_text_generator.o
- .debug_info    0x00251445    0x1ab78 bn_sprite_tiles_manager.o
- .debug_info    0x0026bfbd     0xac8e bn_sprites_manager.bn_iwram.o
- .debug_info    0x00276c4b    0x42157 bn_sprites_manager.o
- .debug_info    0x002b8da2     0xcded bn_sstream.o
- .debug_info    0x002c5b8f    0x176e1 bn_translation_unit.o
- .debug_info    0x002dd270     0xc03d bn_hw_audio.o
- .debug_info    0x002e92ad     0x1c88 bn_hw_common.bn_noflto.o
- .debug_info    0x002eaf35     0x19e0 bn_hw_cstdlib.o
- .debug_info    0x002ec915     0x3b6c bn_hw_dmg_audio.o
- .debug_info    0x002f0481      0x610 bn_hw_game_pak.bn_ewram.o
- .debug_info    0x002f0a91     0x252a bn_hw_gpio.bn_noflto.o
- .debug_info    0x002f2fbb     0x875d bn_hw_link.o
- .debug_info    0x002fb718     0x139f bn_hw_palettes.bn_iwram.o
- .debug_info    0x002fcab7     0x5667 bn_hw_palettes.o
- .debug_info    0x0030211e     0x78c3 bn_hw_show.o
- .debug_info    0x003099e1      0x79d bn_hw_sprite_tiles.bn_iwram.o
- .debug_info    0x0030a17e      0x55b bn_hw_sram.bn_noflto.o
- .debug_info    0x0030a6d9      0x751 bn_hw_system_font.o
- .debug_info    0x0030ae2a     0x5147 bn_hw_text.o
- .debug_info    0x0030ff71      0xc91 tonc_color.o
- .debug_info    0x00310c02      0x9f7 tonc_sbmp16.o
- .debug_info    0x003115f9      0x6d3 bmp16_drawg_b1cs.o
- .debug_info    0x00311ccc      0x5df tte_init_bmp.o
- .debug_info    0x003122ab      0xe6d tte_main.o
- .debug_info    0x00313118      0x241 interrupts_gba.o
- .debug_info    0x00313359     0x10a6 effect.o
- .debug_info    0x003143ff     0x5a58 mas.o
- .debug_info    0x00319e57     0x1289 mas_arm.o
- .debug_info    0x0031b0e0      0xcdc main_gba.o
- .debug_info    0x0031bdbc      0x656 mixer.o
- .debug_info    0x0031c412     0x21bb gbt_player.o
- .debug_info    0x0031e5cd      0x4b6 advgm.o
- .debug_info    0x0031ea83       0x23 bn_hw_bg_blocks.o
- .debug_info    0x0031eaa6       0x23 bn_hw_core.o
- .debug_info    0x0031eac9       0x24 bn_hw_hblank_effects.o
- .debug_info    0x0031eaed       0x23 bn_hw_palettes_asm.o
- .debug_info    0x0031eb10       0x30 clr_blend_fast.o
- .debug_info    0x0031eb40       0x23 clr_fade_fast.o
- .debug_info    0x0031eb63      0x1ca tonc_bios.o
- .debug_info    0x0031ed2d       0x3a tonc_memset.o
- .debug_info    0x0031ed67       0x24 irq_handler.o
- .debug_info    0x0031ed8b       0x24 posprintf.o
- .debug_info    0x0031edaf       0x22 memcpy.o
- .debug_info    0x0031edd1       0x22 memmove.o
- .debug_info    0x0031edf3       0x22 memset.o
- .debug_info    0x0031ee15       0x22 rmemcpy.o
- .debug_info    0x0031ee37       0x3d stdgba_div.o
- .debug_info    0x0031ee74       0x51 stdgba_lmul.o
- .debug_info    0x0031eec5       0x30 stdgba_memcpy.o
- .debug_info    0x0031eef5       0x2f stdgba_memset.o
- .debug_info    0x0031ef24       0x24 lz77.o
- .debug_info    0x0031ef48       0x24 running_length.o
- .debug_info    0x0031ef6c       0x24 mixer_asm.o
+ .debug_info    0x00000000    0x14b6f main.o
+ .debug_info    0x00014b6f     0xc859 bn_affine_bg_animate_actions.o
+ .debug_info    0x000213c8    0x1c2d4 bn_audio_manager.bn_noflto.o
+ .debug_info    0x0003d69c     0x5ef5 bn_best_fit_allocator.o
+ .debug_info    0x00043591    0x4e69f bn_bg_blocks_manager.o
+ .debug_info    0x00091c30    0x736aa bn_bgs_manager.o
+ .debug_info    0x001052da     0x660a bn_cameras_manager.o
+ .debug_info    0x0010b8e4     0x880d bn_core.o
+ .debug_info    0x001140f1    0x2232c bn_display_manager.o
+ .debug_info    0x0013641d     0x6346 bn_gpio_manager.o
+ .debug_info    0x0013c763    0x9a547 bn_hblank_effects_manager.o
+ .debug_info    0x001d6caa     0x5cc2 bn_hdma_manager.o
+ .debug_info    0x001dc96c     0x613e bn_keypad_manager.o
+ .debug_info    0x001e2aaa     0x5ef5 bn_link_manager.o
+ .debug_info    0x001e899f     0x7288 bn_memory_manager.o
+ .debug_info    0x001efc27    0x21012 bn_palettes_manager.o
+ .debug_info    0x00210c39    0x18fc6 bn_sprite_affine_mats_manager.o
+ .debug_info    0x00229bff    0x2783a bn_sprite_text_generator.o
+ .debug_info    0x00251439    0x1ab78 bn_sprite_tiles_manager.o
+ .debug_info    0x0026bfb1     0xac8e bn_sprites_manager.bn_iwram.o
+ .debug_info    0x00276c3f    0x42157 bn_sprites_manager.o
+ .debug_info    0x002b8d96     0xcded bn_sstream.o
+ .debug_info    0x002c5b83    0x176e1 bn_translation_unit.o
+ .debug_info    0x002dd264     0xc03d bn_hw_audio.o
+ .debug_info    0x002e92a1     0x1c88 bn_hw_common.bn_noflto.o
+ .debug_info    0x002eaf29     0x19e0 bn_hw_cstdlib.o
+ .debug_info    0x002ec909     0x3b6c bn_hw_dmg_audio.o
+ .debug_info    0x002f0475      0x610 bn_hw_game_pak.bn_ewram.o
+ .debug_info    0x002f0a85     0x252a bn_hw_gpio.bn_noflto.o
+ .debug_info    0x002f2faf     0x875d bn_hw_link.o
+ .debug_info    0x002fb70c     0x139f bn_hw_palettes.bn_iwram.o
+ .debug_info    0x002fcaab     0x5667 bn_hw_palettes.o
+ .debug_info    0x00302112     0x78c3 bn_hw_show.o
+ .debug_info    0x003099d5      0x79d bn_hw_sprite_tiles.bn_iwram.o
+ .debug_info    0x0030a172      0x55b bn_hw_sram.bn_noflto.o
+ .debug_info    0x0030a6cd      0x751 bn_hw_system_font.o
+ .debug_info    0x0030ae1e     0x5147 bn_hw_text.o
+ .debug_info    0x0030ff65      0xc91 tonc_color.o
+ .debug_info    0x00310bf6      0x9f7 tonc_sbmp16.o
+ .debug_info    0x003115ed      0x6d3 bmp16_drawg_b1cs.o
+ .debug_info    0x00311cc0      0x5df tte_init_bmp.o
+ .debug_info    0x0031229f      0xe6d tte_main.o
+ .debug_info    0x0031310c      0x241 interrupts_gba.o
+ .debug_info    0x0031334d     0x10a6 effect.o
+ .debug_info    0x003143f3     0x5a58 mas.o
+ .debug_info    0x00319e4b     0x1289 mas_arm.o
+ .debug_info    0x0031b0d4      0xcdc main_gba.o
+ .debug_info    0x0031bdb0      0x656 mixer.o
+ .debug_info    0x0031c406     0x21bb gbt_player.o
+ .debug_info    0x0031e5c1      0x4b6 advgm.o
+ .debug_info    0x0031ea77       0x23 bn_hw_bg_blocks.o
+ .debug_info    0x0031ea9a       0x23 bn_hw_core.o
+ .debug_info    0x0031eabd       0x24 bn_hw_hblank_effects.o
+ .debug_info    0x0031eae1       0x23 bn_hw_palettes_asm.o
+ .debug_info    0x0031eb04       0x30 clr_blend_fast.o
+ .debug_info    0x0031eb34       0x23 clr_fade_fast.o
+ .debug_info    0x0031eb57      0x1ca tonc_bios.o
+ .debug_info    0x0031ed21       0x3a tonc_memset.o
+ .debug_info    0x0031ed5b       0x24 irq_handler.o
+ .debug_info    0x0031ed7f       0x24 posprintf.o
+ .debug_info    0x0031eda3       0x22 memcpy.o
+ .debug_info    0x0031edc5       0x22 memmove.o
+ .debug_info    0x0031ede7       0x22 memset.o
+ .debug_info    0x0031ee09       0x22 rmemcpy.o
+ .debug_info    0x0031ee2b       0x3d stdgba_div.o
+ .debug_info    0x0031ee68       0x51 stdgba_lmul.o
+ .debug_info    0x0031eeb9       0x30 stdgba_memcpy.o
+ .debug_info    0x0031eee9       0x2f stdgba_memset.o
+ .debug_info    0x0031ef18       0x24 lz77.o
+ .debug_info    0x0031ef3c       0x24 running_length.o
+ .debug_info    0x0031ef60       0x24 mixer_asm.o
 
 .debug_abbrev   0x00000000    0x1f8f2
  *(.debug_abbrev)
@@ -10660,79 +10660,79 @@ Linker script and memory map
  .debug_abbrev  0x0001f8ca       0x14 running_length.o
  .debug_abbrev  0x0001f8de       0x14 mixer_asm.o
 
-.debug_line     0x00000000    0xe6d8a
+.debug_line     0x00000000    0xe6d85
  *(.debug_line)
- .debug_line    0x00000000     0x2b80 main.o
- .debug_line    0x00002b80     0x1f80 bn_affine_bg_animate_actions.o
- .debug_line    0x00004b00     0x9378 bn_audio_manager.bn_noflto.o
- .debug_line    0x0000de78     0x1602 bn_best_fit_allocator.o
- .debug_line    0x0000f47a    0x198d0 bn_bg_blocks_manager.o
- .debug_line    0x00028d4a    0x2b18a bn_bgs_manager.o
- .debug_line    0x00053ed4     0x148d bn_cameras_manager.o
- .debug_line    0x00055361     0x2021 bn_core.o
- .debug_line    0x00057382     0xa5f1 bn_display_manager.o
- .debug_line    0x00061973     0x149e bn_gpio_manager.o
- .debug_line    0x00062e11    0x2ae69 bn_hblank_effects_manager.o
- .debug_line    0x0008dc7a     0x1778 bn_hdma_manager.o
- .debug_line    0x0008f3f2     0x182f bn_keypad_manager.o
- .debug_line    0x00090c21      0xe39 bn_link_manager.o
- .debug_line    0x00091a5a     0x1b4b bn_memory_manager.o
- .debug_line    0x000935a5     0xafc3 bn_palettes_manager.o
- .debug_line    0x0009e568     0x6170 bn_sprite_affine_mats_manager.o
- .debug_line    0x000a46d8     0x8f11 bn_sprite_text_generator.o
- .debug_line    0x000ad5e9     0x747d bn_sprite_tiles_manager.o
- .debug_line    0x000b4a66      0xf2a bn_sprites_manager.bn_iwram.o
- .debug_line    0x000b5990    0x15bec bn_sprites_manager.o
- .debug_line    0x000cb57c     0x3525 bn_sstream.o
- .debug_line    0x000ceaa1     0x3ccc bn_translation_unit.o
- .debug_line    0x000d276d     0x1dc7 bn_hw_audio.o
- .debug_line    0x000d4534      0x633 bn_hw_common.bn_noflto.o
- .debug_line    0x000d4b67      0x51f bn_hw_cstdlib.o
- .debug_line    0x000d5086      0xc5e bn_hw_dmg_audio.o
- .debug_line    0x000d5ce4      0x49c bn_hw_game_pak.bn_ewram.o
- .debug_line    0x000d6180      0x586 bn_hw_gpio.bn_noflto.o
- .debug_line    0x000d6706     0x2247 bn_hw_link.o
- .debug_line    0x000d894d      0x699 bn_hw_palettes.bn_iwram.o
- .debug_line    0x000d8fe6      0xa8a bn_hw_palettes.o
- .debug_line    0x000d9a70     0x1158 bn_hw_show.o
- .debug_line    0x000dabc8      0x3a6 bn_hw_sprite_tiles.bn_iwram.o
- .debug_line    0x000daf6e      0x2fa bn_hw_sram.bn_noflto.o
- .debug_line    0x000db268      0x324 bn_hw_system_font.o
- .debug_line    0x000db58c      0xedb bn_hw_text.o
- .debug_line    0x000dc467      0x943 tonc_color.o
- .debug_line    0x000dcdaa      0x7c7 tonc_sbmp16.o
- .debug_line    0x000dd571      0x446 bmp16_drawg_b1cs.o
- .debug_line    0x000dd9b7      0x201 tte_init_bmp.o
- .debug_line    0x000ddbb8      0xaf6 tte_main.o
- .debug_line    0x000de6ae      0x2c5 interrupts_gba.o
- .debug_line    0x000de973      0x970 effect.o
- .debug_line    0x000df2e3     0x3248 mas.o
- .debug_line    0x000e252b      0x996 mas_arm.o
- .debug_line    0x000e2ec1      0x51a main_gba.o
- .debug_line    0x000e33db      0x51e mixer.o
- .debug_line    0x000e38f9     0x1e9b gbt_player.o
- .debug_line    0x000e5794      0x5d0 advgm.o
- .debug_line    0x000e5d64       0x82 bn_hw_bg_blocks.o
- .debug_line    0x000e5de6       0x6c bn_hw_core.o
- .debug_line    0x000e5e52       0x9b bn_hw_hblank_effects.o
- .debug_line    0x000e5eed       0x72 bn_hw_palettes_asm.o
- .debug_line    0x000e5f5f       0x92 clr_blend_fast.o
- .debug_line    0x000e5ff1       0x91 clr_fade_fast.o
- .debug_line    0x000e6082       0xb5 tonc_bios.o
- .debug_line    0x000e6137       0xb0 tonc_memset.o
- .debug_line    0x000e61e7       0xcd irq_handler.o
- .debug_line    0x000e62b4      0x1a7 posprintf.o
- .debug_line    0x000e645b       0x87 memcpy.o
- .debug_line    0x000e64e2       0xa3 memmove.o
- .debug_line    0x000e6585       0x99 memset.o
- .debug_line    0x000e661e       0xb0 rmemcpy.o
- .debug_line    0x000e66ce       0xfe stdgba_div.o
- .debug_line    0x000e67cc       0x90 stdgba_lmul.o
- .debug_line    0x000e685c       0xd2 stdgba_memcpy.o
- .debug_line    0x000e692e       0xc9 stdgba_memset.o
- .debug_line    0x000e69f7       0xe0 lz77.o
- .debug_line    0x000e6ad7       0xb8 running_length.o
- .debug_line    0x000e6b8f      0x1fb mixer_asm.o
+ .debug_line    0x00000000     0x2b7b main.o
+ .debug_line    0x00002b7b     0x1f80 bn_affine_bg_animate_actions.o
+ .debug_line    0x00004afb     0x9378 bn_audio_manager.bn_noflto.o
+ .debug_line    0x0000de73     0x1602 bn_best_fit_allocator.o
+ .debug_line    0x0000f475    0x198d0 bn_bg_blocks_manager.o
+ .debug_line    0x00028d45    0x2b18a bn_bgs_manager.o
+ .debug_line    0x00053ecf     0x148d bn_cameras_manager.o
+ .debug_line    0x0005535c     0x2021 bn_core.o
+ .debug_line    0x0005737d     0xa5f1 bn_display_manager.o
+ .debug_line    0x0006196e     0x149e bn_gpio_manager.o
+ .debug_line    0x00062e0c    0x2ae69 bn_hblank_effects_manager.o
+ .debug_line    0x0008dc75     0x1778 bn_hdma_manager.o
+ .debug_line    0x0008f3ed     0x182f bn_keypad_manager.o
+ .debug_line    0x00090c1c      0xe39 bn_link_manager.o
+ .debug_line    0x00091a55     0x1b4b bn_memory_manager.o
+ .debug_line    0x000935a0     0xafc3 bn_palettes_manager.o
+ .debug_line    0x0009e563     0x6170 bn_sprite_affine_mats_manager.o
+ .debug_line    0x000a46d3     0x8f11 bn_sprite_text_generator.o
+ .debug_line    0x000ad5e4     0x747d bn_sprite_tiles_manager.o
+ .debug_line    0x000b4a61      0xf2a bn_sprites_manager.bn_iwram.o
+ .debug_line    0x000b598b    0x15bec bn_sprites_manager.o
+ .debug_line    0x000cb577     0x3525 bn_sstream.o
+ .debug_line    0x000cea9c     0x3ccc bn_translation_unit.o
+ .debug_line    0x000d2768     0x1dc7 bn_hw_audio.o
+ .debug_line    0x000d452f      0x633 bn_hw_common.bn_noflto.o
+ .debug_line    0x000d4b62      0x51f bn_hw_cstdlib.o
+ .debug_line    0x000d5081      0xc5e bn_hw_dmg_audio.o
+ .debug_line    0x000d5cdf      0x49c bn_hw_game_pak.bn_ewram.o
+ .debug_line    0x000d617b      0x586 bn_hw_gpio.bn_noflto.o
+ .debug_line    0x000d6701     0x2247 bn_hw_link.o
+ .debug_line    0x000d8948      0x699 bn_hw_palettes.bn_iwram.o
+ .debug_line    0x000d8fe1      0xa8a bn_hw_palettes.o
+ .debug_line    0x000d9a6b     0x1158 bn_hw_show.o
+ .debug_line    0x000dabc3      0x3a6 bn_hw_sprite_tiles.bn_iwram.o
+ .debug_line    0x000daf69      0x2fa bn_hw_sram.bn_noflto.o
+ .debug_line    0x000db263      0x324 bn_hw_system_font.o
+ .debug_line    0x000db587      0xedb bn_hw_text.o
+ .debug_line    0x000dc462      0x943 tonc_color.o
+ .debug_line    0x000dcda5      0x7c7 tonc_sbmp16.o
+ .debug_line    0x000dd56c      0x446 bmp16_drawg_b1cs.o
+ .debug_line    0x000dd9b2      0x201 tte_init_bmp.o
+ .debug_line    0x000ddbb3      0xaf6 tte_main.o
+ .debug_line    0x000de6a9      0x2c5 interrupts_gba.o
+ .debug_line    0x000de96e      0x970 effect.o
+ .debug_line    0x000df2de     0x3248 mas.o
+ .debug_line    0x000e2526      0x996 mas_arm.o
+ .debug_line    0x000e2ebc      0x51a main_gba.o
+ .debug_line    0x000e33d6      0x51e mixer.o
+ .debug_line    0x000e38f4     0x1e9b gbt_player.o
+ .debug_line    0x000e578f      0x5d0 advgm.o
+ .debug_line    0x000e5d5f       0x82 bn_hw_bg_blocks.o
+ .debug_line    0x000e5de1       0x6c bn_hw_core.o
+ .debug_line    0x000e5e4d       0x9b bn_hw_hblank_effects.o
+ .debug_line    0x000e5ee8       0x72 bn_hw_palettes_asm.o
+ .debug_line    0x000e5f5a       0x92 clr_blend_fast.o
+ .debug_line    0x000e5fec       0x91 clr_fade_fast.o
+ .debug_line    0x000e607d       0xb5 tonc_bios.o
+ .debug_line    0x000e6132       0xb0 tonc_memset.o
+ .debug_line    0x000e61e2       0xcd irq_handler.o
+ .debug_line    0x000e62af      0x1a7 posprintf.o
+ .debug_line    0x000e6456       0x87 memcpy.o
+ .debug_line    0x000e64dd       0xa3 memmove.o
+ .debug_line    0x000e6580       0x99 memset.o
+ .debug_line    0x000e6619       0xb0 rmemcpy.o
+ .debug_line    0x000e66c9       0xfe stdgba_div.o
+ .debug_line    0x000e67c7       0x90 stdgba_lmul.o
+ .debug_line    0x000e6857       0xd2 stdgba_memcpy.o
+ .debug_line    0x000e6929       0xc9 stdgba_memset.o
+ .debug_line    0x000e69f2       0xe0 lz77.o
+ .debug_line    0x000e6ad2       0xb8 running_length.o
+ .debug_line    0x000e6b8a      0x1fb mixer_asm.o
 
 .debug_frame    0x00000000    0x16e2c
  *(.debug_frame)
@@ -10787,149 +10787,149 @@ Linker script and memory map
  .debug_frame   0x000169f0      0x354 gbt_player.o
  .debug_frame   0x00016d44       0xe8 advgm.o
 
-.debug_str      0x00000000    0xbfe98
+.debug_str      0x00000000    0xbfe88
  *(.debug_str)
- .debug_str     0x00000000    0xbfe98 main.o
-                              0x11343 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_affine_bg_animate_actions.o
+ .debug_str     0x00000000    0xbfe88 main.o
+                              0x11333 (size before relaxing)
+ .debug_str     0x000bfe88        0x0 bn_affine_bg_animate_actions.o
                                0xa1ea (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_audio_manager.bn_noflto.o
+ .debug_str     0x000bfe88        0x0 bn_audio_manager.bn_noflto.o
                                0xcfb2 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_best_fit_allocator.o
+ .debug_str     0x000bfe88        0x0 bn_best_fit_allocator.o
                                0x2b60 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_bg_blocks_manager.o
+ .debug_str     0x000bfe88        0x0 bn_bg_blocks_manager.o
                               0x1732c (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_bgs_manager.o
+ .debug_str     0x000bfe88        0x0 bn_bgs_manager.o
                               0x2c4b1 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_cameras_manager.o
+ .debug_str     0x000bfe88        0x0 bn_cameras_manager.o
                                0x3ffc (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_core.o
+ .debug_str     0x000bfe88        0x0 bn_core.o
                                0x5b04 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_display_manager.o
+ .debug_str     0x000bfe88        0x0 bn_display_manager.o
                               0x13fed (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_gpio_manager.o
+ .debug_str     0x000bfe88        0x0 bn_gpio_manager.o
                                0x3340 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hblank_effects_manager.o
+ .debug_str     0x000bfe88        0x0 bn_hblank_effects_manager.o
                               0x6aefd (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hdma_manager.o
+ .debug_str     0x000bfe88        0x0 bn_hdma_manager.o
                                0x2eab (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_keypad_manager.o
+ .debug_str     0x000bfe88        0x0 bn_keypad_manager.o
                                0x39d0 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_link_manager.o
+ .debug_str     0x000bfe88        0x0 bn_link_manager.o
                                0x3e0b (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_memory_manager.o
+ .debug_str     0x000bfe88        0x0 bn_memory_manager.o
                                0x345c (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_palettes_manager.o
+ .debug_str     0x000bfe88        0x0 bn_palettes_manager.o
                                0xcdeb (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_sprite_affine_mats_manager.o
+ .debug_str     0x000bfe88        0x0 bn_sprite_affine_mats_manager.o
                               0x10b36 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_sprite_text_generator.o
+ .debug_str     0x000bfe88        0x0 bn_sprite_text_generator.o
                               0x117f4 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_sprite_tiles_manager.o
+ .debug_str     0x000bfe88        0x0 bn_sprite_tiles_manager.o
                                0x9592 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_sprites_manager.bn_iwram.o
+ .debug_str     0x000bfe88        0x0 bn_sprites_manager.bn_iwram.o
                                0xbf9a (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_sprites_manager.o
+ .debug_str     0x000bfe88        0x0 bn_sprites_manager.o
                               0x19f02 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_sstream.o
+ .debug_str     0x000bfe88        0x0 bn_sstream.o
                                0x3f95 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_translation_unit.o
+ .debug_str     0x000bfe88        0x0 bn_translation_unit.o
                                0xd5ac (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_audio.o
+ .debug_str     0x000bfe88        0x0 bn_hw_audio.o
                                0x6e5f (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_common.bn_noflto.o
+ .debug_str     0x000bfe88        0x0 bn_hw_common.bn_noflto.o
                                0x158e (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_cstdlib.o
+ .debug_str     0x000bfe88        0x0 bn_hw_cstdlib.o
                                0x14c5 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_dmg_audio.o
+ .debug_str     0x000bfe88        0x0 bn_hw_dmg_audio.o
                                0x2ea0 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_game_pak.bn_ewram.o
+ .debug_str     0x000bfe88        0x0 bn_hw_game_pak.bn_ewram.o
                                 0x5ad (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_gpio.bn_noflto.o
+ .debug_str     0x000bfe88        0x0 bn_hw_gpio.bn_noflto.o
                                0x13ba (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_link.o
+ .debug_str     0x000bfe88        0x0 bn_hw_link.o
                                0x48f4 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_palettes.bn_iwram.o
+ .debug_str     0x000bfe88        0x0 bn_hw_palettes.bn_iwram.o
                                 0xd52 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_palettes.o
+ .debug_str     0x000bfe88        0x0 bn_hw_palettes.o
                                0x2eb0 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_show.o
+ .debug_str     0x000bfe88        0x0 bn_hw_show.o
                                0x445e (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_sprite_tiles.bn_iwram.o
+ .debug_str     0x000bfe88        0x0 bn_hw_sprite_tiles.bn_iwram.o
                                 0x59f (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_sram.bn_noflto.o
+ .debug_str     0x000bfe88        0x0 bn_hw_sram.bn_noflto.o
                                 0x574 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_system_font.o
+ .debug_str     0x000bfe88        0x0 bn_hw_system_font.o
                                 0x5c5 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_text.o
+ .debug_str     0x000bfe88        0x0 bn_hw_text.o
                                0x2ebf (size before relaxing)
- .debug_str     0x000bfe98        0x0 tonc_color.o
+ .debug_str     0x000bfe88        0x0 tonc_color.o
                                 0x305 (size before relaxing)
- .debug_str     0x000bfe98        0x0 tonc_sbmp16.o
+ .debug_str     0x000bfe88        0x0 tonc_sbmp16.o
                                 0x33e (size before relaxing)
- .debug_str     0x000bfe98        0x0 bmp16_drawg_b1cs.o
+ .debug_str     0x000bfe88        0x0 bmp16_drawg_b1cs.o
                                 0x37e (size before relaxing)
- .debug_str     0x000bfe98        0x0 tte_init_bmp.o
+ .debug_str     0x000bfe88        0x0 tte_init_bmp.o
                                 0x3ac (size before relaxing)
- .debug_str     0x000bfe98        0x0 tte_main.o
+ .debug_str     0x000bfe88        0x0 tte_main.o
                                 0x5cd (size before relaxing)
- .debug_str     0x000bfe98        0x0 interrupts_gba.o
+ .debug_str     0x000bfe88        0x0 interrupts_gba.o
                                 0x326 (size before relaxing)
- .debug_str     0x000bfe98        0x0 effect.o
+ .debug_str     0x000bfe88        0x0 effect.o
                                 0x695 (size before relaxing)
- .debug_str     0x000bfe98        0x0 mas.o
+ .debug_str     0x000bfe88        0x0 mas.o
                                0x1426 (size before relaxing)
- .debug_str     0x000bfe98        0x0 mas_arm.o
+ .debug_str     0x000bfe88        0x0 mas_arm.o
                                 0x8bf (size before relaxing)
- .debug_str     0x000bfe98        0x0 main_gba.o
+ .debug_str     0x000bfe88        0x0 main_gba.o
                                 0x90d (size before relaxing)
- .debug_str     0x000bfe98        0x0 mixer.o
+ .debug_str     0x000bfe88        0x0 mixer.o
                                 0x531 (size before relaxing)
- .debug_str     0x000bfe98        0x0 gbt_player.o
+ .debug_str     0x000bfe88        0x0 gbt_player.o
                                 0xace (size before relaxing)
- .debug_str     0x000bfe98        0x0 advgm.o
+ .debug_str     0x000bfe88        0x0 advgm.o
                                 0x3fb (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_bg_blocks.o
+ .debug_str     0x000bfe88        0x0 bn_hw_bg_blocks.o
                                  0x64 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_core.o
+ .debug_str     0x000bfe88        0x0 bn_hw_core.o
                                  0x5f (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_hblank_effects.o
+ .debug_str     0x000bfe88        0x0 bn_hw_hblank_effects.o
                                  0x69 (size before relaxing)
- .debug_str     0x000bfe98        0x0 bn_hw_palettes_asm.o
+ .debug_str     0x000bfe88        0x0 bn_hw_palettes_asm.o
                                  0x67 (size before relaxing)
- .debug_str     0x000bfe98        0x0 clr_blend_fast.o
+ .debug_str     0x000bfe88        0x0 clr_blend_fast.o
                                  0x84 (size before relaxing)
- .debug_str     0x000bfe98        0x0 clr_fade_fast.o
+ .debug_str     0x000bfe88        0x0 clr_fade_fast.o
                                  0x74 (size before relaxing)
- .debug_str     0x000bfe98        0x0 tonc_bios.o
+ .debug_str     0x000bfe88        0x0 tonc_bios.o
                                 0x228 (size before relaxing)
- .debug_str     0x000bfe98        0x0 tonc_memset.o
+ .debug_str     0x000bfe88        0x0 tonc_memset.o
                                  0x84 (size before relaxing)
- .debug_str     0x000bfe98        0x0 irq_handler.o
+ .debug_str     0x000bfe88        0x0 irq_handler.o
                                  0x72 (size before relaxing)
- .debug_str     0x000bfe98        0x0 posprintf.o
+ .debug_str     0x000bfe88        0x0 posprintf.o
                                  0x72 (size before relaxing)
- .debug_str     0x000bfe98        0x0 memcpy.o
+ .debug_str     0x000bfe88        0x0 memcpy.o
                                  0x6c (size before relaxing)
- .debug_str     0x000bfe98        0x0 memmove.o
+ .debug_str     0x000bfe88        0x0 memmove.o
                                  0x6d (size before relaxing)
- .debug_str     0x000bfe98        0x0 memset.o
+ .debug_str     0x000bfe88        0x0 memset.o
                                  0x6c (size before relaxing)
- .debug_str     0x000bfe98        0x0 rmemcpy.o
+ .debug_str     0x000bfe88        0x0 rmemcpy.o
                                  0x6d (size before relaxing)
- .debug_str     0x000bfe98        0x0 stdgba_div.o
+ .debug_str     0x000bfe88        0x0 stdgba_div.o
                                  0x91 (size before relaxing)
- .debug_str     0x000bfe98        0x0 stdgba_lmul.o
+ .debug_str     0x000bfe88        0x0 stdgba_lmul.o
                                  0xa5 (size before relaxing)
- .debug_str     0x000bfe98        0x0 stdgba_memcpy.o
+ .debug_str     0x000bfe88        0x0 stdgba_memcpy.o
                                  0x82 (size before relaxing)
- .debug_str     0x000bfe98        0x0 stdgba_memset.o
+ .debug_str     0x000bfe88        0x0 stdgba_memset.o
                                  0x82 (size before relaxing)
- .debug_str     0x000bfe98        0x0 lz77.o
+ .debug_str     0x000bfe88        0x0 lz77.o
                                  0x74 (size before relaxing)
- .debug_str     0x000bfe98        0x0 running_length.o
+ .debug_str     0x000bfe88        0x0 running_length.o
                                  0x7e (size before relaxing)
- .debug_str     0x000bfe98        0x0 mixer_asm.o
+ .debug_str     0x000bfe88        0x0 mixer_asm.o
                                  0x73 (size before relaxing)
 
 .debug_loc      0x00000000   0x1bb6a4
